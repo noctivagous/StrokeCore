@@ -1,0 +1,177 @@
+StrokeCore
+
+ The computer scientists involved in font typography accurately
+ captured the shapes of fonts in a compact file format, but they
+ did not store their strokes.  They stored their shape outlines.  
+ It is the same as making a brush stroke on a page, drawing an
+ outline around that stroke, and then storing that outline in a file
+ in the form of spline data points.  A different approach would store, 
+ like PencilKit, the path of the stroke as well as the shape, rotation 
+ and size of the nib as it travels the path.
+ 
+ A person who has done calligraphy and sign work and who also
+ knows about these computer graphics matters will recognize, 
+ especially with the arrival of PencilKit, that a more powerful
+ storage convention for fonts and vector paths would be details about 
+ strokes on the basis of them being strokes.  For example, a font
+ glyph would be made out of multiple PKStroke objects.  A vector
+ drawing figure would be as well.
+ 
+ A ductus is a reference sheet, a set of instructions for the
+ order of strokes and their proportions in calligraphy.  A font
+ could easily be stored in a file format that mirrors a ductus.  
+ 
+ A key benefit is that immediately a multitude of script fonts
+ will be possible to generate in a format that is native to,
+ and corresponds directly to, traditional calligraphy and sign work.  
+ In manual sign work there are stroke techniques to imitate type glyphs,
+ fonts like helvetica or arial.  So, not only calligraphy fonts 
+ could be rapidly produced from within such a file format 
+ but also other serif and sans-serif fonts, since
+ the Speedball C nib was used for sans-serif letterform.
+ The benefits don't stop at representing more efficiently
+ and naturally for the situation: a font file will be able to
+ double as a set of instructions for how to make those letterforms
+ manually.
+ 
+ We will be able to better make use of the machine for not only
+ font applications but also other art and design scenarios if
+ the basis of a font is stroke based.
+ 
+ --
+
+ StrokeCore will allow constructing objects based on strokes 
+ but includes construction resources.  StrokeFont is to be built on 
+ top of StrokeCore.  StrokeCore will allow making ornamental designs, 
+ for example, which is another reason for construction resources.
+ 
+ Apple's PencilKit vs. StrokeCore: StrokeCore is meant 
+ for design applications.
+ 
+ Apple's PencilKit was made for stylus device stroke input, capture,
+ and display.  StrokeCore references it since the same issues apply but its
+ purpose is different which is to make use of brush, broad tip, and other
+ implement strokes for design applications.
+ 
+ Spines such as bezier splines are simply low level data points
+ and not higher level, but PencilKit does bring it up to a higher
+ level of abstraction.  That higher level is more than convenience
+ for StrokeCore because it will allow the library itself to
+ mirror art and design processes.
+ 
+ The key matter is that strokes are often imitated with spline
+ paths and so the data descriptions needed are completely manual
+ and have no real world correspondence to art and design processes.
+ Put differently, for many display situations, there is no reason
+ that the working unit of data is better stroke shapes 
+ than traced outlines by splines.  Of course, at the end the 
+ stroke shapes will be made out of splines but that is
+ simply to accomodate how graphics technologies work. 
+ 
+ 
+                          StrokeCore
+                            │
+             ┌──────────────┴──────────────┐
+             │                             │
+        StrokeFont                  Other design applications
+             │                             │
+        Glyphs/scripts             Ornament
+        Font metrics               Sign painting
+        Character mapping          Diagrams
+        Encoding                   Pattern construction
+        
+        
+
+- Brush - variable tip surface, like
+a brush, allows for letterform.
+
+
+- Nib - fixed tip surface
+  broad tip
+  tip:  oval | rectangle | square
+  speedballNib (convenience function) : C, B, etc.
+  
+  Stroke:
+    - Azimuth
+    - angle at point
+    
+- Stroke:
+   LineSegment: Angle: length:
+   
+   ConstructionPoints
+    A convention for stroke construction,
+    allows returning to the same declared construction 
+    point for.
+    
+    TurtleGraphics + LengthPlusAngle Addition. turtlegraphics
+    allow depositing Construction objects (points, lines)
+    for future reference in the sequence.
+    
+    ConstructionGrid (future) - for ornamental grids
+    is made of ConstructionLines (linear or polar)
+    and ConstructionPoints for traditional construction
+    of ornamental designs.
+    
+    
+- StrokeBasedFont
+
+ The goal is that contained in each file are both the machine and hand 
+  instructions for making the stroke based script, since when
+  the script/font is stroke-based instead of spline-based the
+  data is easier to make and manage.  Since we can control
+  the nib type, orientation, and size over the course of
+  a single spline path, we transcend the current scenario where
+  strokes have to be carefully imitated and traced.  There are
+  techniques, because of sign painting, such as what is found
+  in the speedball textbooks, for making sans-serif fonts.
+  The benefit is that the font files can be actual instruction
+  files for how to lay down the script on paper with a brush,
+  broad tip, square, oval, etc.
+
+  In calligraphy, the ductus includes sequence of strokes used to 
+  form letters for a script.  It usually includes the nib ladder,
+  which establishes proportions for x-height, ascender, descender.
+  It also includes slant degrees.
+  
+  With modern computing especially, this looks to be a sound
+  basis for a font file format.  There are also patterns to be
+  found across scripts and common techniques such as the serif 
+  strokes that establish the glyph as serif, and these can
+  be recognized with built-in stroke objections.
+ 
+  Ductus - for our library, this should mirror actual ductuses for
+  calligraphy in stroke order, direction.  Font will be made
+  made from ductus, based off calligraphy techniques.  To begin
+  with, we would make this the requirement, that all fonts not
+  just produce correct final machine output but also proceed
+  from a ductus that could be utilized for real-world calligraphy
+  and sign painting.
+  
+    Ductus commands - available stroke move inventory
+    common to calligraphy. based off calligraphy 
+    techniques.
+
+  Nib Ladder / Nib-width Ladder - drawing a series of squares 
+  or stacked strokes with your broad-edge nib to visually establish 
+  how many nib widths tall your x-height, ascenders, and descenders 
+  should be. For example, in Italic you'd build a ladder of 5 squares 
+  for the x-height, 4 for the ascender space, and 4 for the 
+  descender space — giving you your guidelines in physical, 
+  repeatable units before you start ruling lines.
+    
+  If a font is based off ductus, then 
+
+   baseline
+   x-height
+   cap height
+   descender
+   ascender
+   
+  can be determined from the nib ladder and the proportion of
+  the font can be established
+  
+  
+  
+
+
+    
