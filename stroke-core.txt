@@ -43,11 +43,19 @@ StrokeCore
  
  A person who has done calligraphy and sign work and who also
  knows about these computer graphics matters will recognize, 
- especially with the arrival of PencilKit, that a more powerful
+ especially with the arrival of PencilKit and other programming libraries
+ that have the same needs, that a more powerful
  storage convention for fonts and vector paths would be details about 
  strokes on the basis of them being strokes.  For example, a font
- glyph would be made out of multiple PKStroke objects.  A vector
- drawing figure would be as well.
+ glyph would be made out of multiple PKStroke objects.  Many vector
+ drawing figures would be made out of this as well.
+ 
+ Consider the contrast between this and what exists today for font
+ construction.  As the person who makes the font draws it on screen,
+ since it is the outline of strokes that is being laid down with spline
+ points the process becomes very clumsy and uncomfortable, backwards even,
+ with the person needing to depict the path of a nib
+ based on the outline of the shape it produces.
  
  A ductus is a reference sheet, a set of instructions for the
  order of strokes and their proportions in calligraphy.  A font
