@@ -1,13 +1,45 @@
 StrokeCore
 
+ The path command included in PostScript, the basis of vector
+ graphics today, would be able to construct many sans-serif
+ fonts with one additional feature, the rotation
+ of the butt line cap edge.  This is how an "x" would be
+ made with just the spline path of the line segment
+ without tracing the outline of the two strokes.  
+ Currently in all bezier path commands, if 
+ you set the path to render a butt line cap on both ends of
+ the rendered path (after it is "stroked"), the two edges
+ on both ends have to be perpendicular to their
+ line segment.  They can't be rotated and so an "x" won't
+ be able to look typographic.  This is to say, they didn't actually
+ provide much in the way of features for the stroke command.
+ The "stroke" follows the tangent of the spline uniform stroke is, 
+ which is not what a real world stroke is.  That is how it
+ was laid down for the computers of the time, but adding to
+ the functionality of the stroke
+  
+ There are two features to start that would elevate vector graphics.
+ First, the setting  of the nib's shape and second the ability to change
+ the nib's size and rotation as it travels on the spline.  These two
+ features are available in PencilKit but its purpose was to accommodate
+ the input of a stylus device whereas what we are talking about is 
+ the incorporation of features that reflect actual strokes 
+ like these to make file descriptions more powerful.  It just happens
+ that because it is a stylus device it was essential that they considered 
+ strokes as part of the programming framework.  But these were
+ omitted or overlooked as part of PostScript.  Possibly they were
+ not included later.
+
  The computer scientists involved in font typography accurately
  captured the shapes of fonts in a compact file format, but they
- did not store their strokes.  They stored their shape outlines.  
+ did not store their strokes to make the fonts.  Font files don't
+ store the strokes that could make a font by hand. They store their 
+ stroke shape outlines and actually they store them fused final product.  
  It is the same as making a brush stroke on a page, drawing an
  outline around that stroke, and then storing that outline in a file
- in the form of spline data points.  A different approach would store, 
- like PencilKit, the path of the stroke as well as the shape, rotation 
- and size of the nib as it travels the path.
+ in the form of spline points.  A different approach would store, 
+ like PencilKit, the spline path of the stroke as well as the nib's 
+ shape, and rotation and size as it travels the path.
  
  A person who has done calligraphy and sign work and who also
  knows about these computer graphics matters will recognize, 
