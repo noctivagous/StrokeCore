@@ -1,0 +1,138 @@
+{
+ "H": {
+  "model": {
+   "page": "/home/hatch/workspace/strokecore/demo/overlays/pages/ic-3.png",
+   "bbox": [
+    69,
+    165,
+    425,
+    641
+   ],
+   "crop": [
+    43,
+    139,
+    451,
+    667
+   ],
+   "file": "ic3-H-model.png"
+  },
+  "ductus": {
+   "page": "/home/hatch/workspace/strokecore/demo/overlays/pages/ic-3.png",
+   "bbox": [
+    1114,
+    167,
+    1251,
+    269
+   ],
+   "crop": [
+    1088,
+    141,
+    1277,
+    295
+   ],
+   "file": "ic3-H-ductus.png"
+  }
+ },
+ "J": {
+  "model": {
+   "page": "/home/hatch/workspace/strokecore/demo/overlays/pages/ic-3.png",
+   "bbox": [
+    392,
+    165,
+    537,
+    641
+   ],
+   "crop": [
+    366,
+    139,
+    563,
+    667
+   ],
+   "file": "ic3-J-model.png"
+  },
+  "ductus": {
+   "page": "/home/hatch/workspace/strokecore/demo/overlays/pages/ic-3.png",
+   "bbox": [
+    840,
+    231,
+    1217,
+    630
+   ],
+   "crop": [
+    814,
+    205,
+    1243,
+    656
+   ],
+   "file": "ic3-J-ductus.png"
+  }
+ },
+ "K": {
+  "model": {
+   "page": "/home/hatch/workspace/strokecore/demo/overlays/pages/ic-3.png",
+   "bbox": [
+    107,
+    888,
+    542,
+    1361
+   ],
+   "crop": [
+    81,
+    862,
+    568,
+    1387
+   ],
+   "file": "ic3-K-model.png"
+  },
+  "ductus": {
+   "page": "/home/hatch/workspace/strokecore/demo/overlays/pages/ic-3.png",
+   "bbox": [
+    787,
+    571,
+    943,
+    639
+   ],
+   "crop": [
+    761,
+    545,
+    969,
+    665
+   ],
+   "file": "ic3-K-ductus.png"
+  }
+ },
+ "M": {
+  "model": {
+   "page": "/home/hatch/workspace/strokecore/demo/overlays/pages/ic-3.png",
+   "bbox": [
+    107,
+    1578,
+    611,
+    2056
+   ],
+   "crop": [
+    81,
+    1552,
+    637,
+    2082
+   ],
+   "file": "ic3-M-model.png"
+  },
+  "ductus": {
+   "page": "/home/hatch/workspace/strokecore/demo/overlays/pages/ic-3.png",
+   "bbox": [
+    1140,
+    623,
+    1216,
+    745
+   ],
+   "crop": [
+    1114,
+    597,
+    1242,
+    771
+   ],
+   "file": "ic3-M-ductus.png"
+  }
+ }
+}

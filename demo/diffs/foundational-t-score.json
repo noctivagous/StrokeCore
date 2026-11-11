@@ -1,0 +1,9 @@
+{
+ "glyph": "t",
+ "iou": 0.449,
+ "hisPx": 2937,
+ "minePx": 2224,
+ "missPx": 1338,
+ "excessPx": 625,
+ "exemplar": "fnd45R-t-model.png"
+}

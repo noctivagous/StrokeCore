@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>StrokeCore — the "x" test + brush physics</title>
+<style>
+  body { font-family: Georgia, 'Times New Roman', serif; margin: 2rem; color: #1a1a1a; background: #faf7f0; }
+  h1 { font-size: 1.5rem; margin-bottom: 0.2rem; }
+  p.sub { color: #555; margin-top: 0; max-width: 44rem; }
+  .row { display: flex; gap: 2rem; align-items: flex-start; flex-wrap: wrap; }
+  svg#stage { background: white; border: 1px solid #ccc; width: 520px; height: 520px; }
+  .panel { display: flex; flex-direction: column; gap: 0.7rem; min-width: 260px; }
+  label { display: flex; justify-content: space-between; gap: 1rem; font-size: 0.95rem; }
+  input[type="range"] { width: 150px; }
+  .btns { display: flex; gap: 0.5rem; }
+  button { font: inherit; padding: 0.3rem 0.8rem; cursor: pointer; }
+  #info { font-size: 0.9rem; color: #333; max-width: 520px; margin-top: 0.8rem; }
+  #ductusLabel { font-style: italic; color: #333; }
+</style>
+</head>
+<body>
+<h1>StrokeCore — the “x” test + brush physics</h1>
+<p class="sub">Spines and tools, no stored outlines — every letterform is baked from its strokes each time a
+   control moves. The x and H are rigid-nib work (Phase 1); the swell and the Roman A are brushes (Phase 2):
+   pressure swells the pointed brush, and the flat brush twists through the A's stems. Compare the red ghost
+   on the nib glyphs: the same spines through a conventional PostScript-style stroke.</p>
+<div class="row">
+  <div>
+    <svg id="stage" viewBox="-16 -116 132 132" xmlns="http://www.w3.org/2000/svg"></svg>
+    <div id="info"></div>
+  </div>
+  <div class="panel">
+    <div class="btns">
+      <button id="glyphX">Glyph: x</button>
+      <button id="glyphH">Glyph: H</button>
+      <button id="glyphSwell">Brush: swell</button>
+      <button id="glyphA">Brush: Roman A</button>
+    </div>
+    <label>Nib angle <span><input id="angle" type="range" min="-30" max="60" value="30" /> <span id="angleVal">30</span>°</span></label>
+    <label>Nib width <span><input id="width" type="range" min="8" max="30" value="22" /> <span id="widthVal">22</span></span></label>
+    <label>Nib thickness <span><input id="thick" type="range" min="2" max="10" value="4" /> <span id="thickVal">4</span></span></label>
+    <label><span id="brushParamLabel">Brush: peak pressure / twist</span> <span><input id="brushParam" type="range" min="0" max="100" value="100" /> <span id="brushParamVal">100</span></span></label>
+    <label>Show spines <input id="showSpine" type="checkbox" checked /></label>
+    <label>Show tip stamps <input id="showStamps" type="checkbox" /></label>
+    <label>PostScript comparison <input id="showPS" type="checkbox" checked /></label>
+    <div class="btns">
+      <button id="ductusPrev">← Stroke</button>
+      <button id="ductusNext">Stroke →</button>
+      <button id="ductusAll">Whole glyph</button>
+    </div>
+    <span id="ductusLabel"></span>
+  </div>
+</div>
+<script type="module" src="./strokecore.js"></script>
+</body>
+</html>

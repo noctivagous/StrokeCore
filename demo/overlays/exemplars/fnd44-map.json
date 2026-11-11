@@ -1,0 +1,326 @@
+{
+ "a": {
+  "model": {
+   "page": "/home/hatch/workspace/strokecore/demo/overlays/pages/fnd-2.png",
+   "bbox": [
+    993,
+    203,
+    1081,
+    299
+   ],
+   "crop": [
+    967,
+    177,
+    1107,
+    325
+   ],
+   "file": "fnd44-a-model.png"
+  },
+  "ductus": {
+   "page": "/home/hatch/workspace/strokecore/demo/overlays/pages/fnd-2.png",
+   "bbox": [
+    1437,
+    203,
+    1480,
+    297
+   ],
+   "crop": [
+    1411,
+    177,
+    1506,
+    323
+   ],
+   "file": "fnd44-a-ductus.png"
+  }
+ },
+ "b": {
+  "model": {
+   "page": "/home/hatch/workspace/strokecore/demo/overlays/pages/fnd-2.png",
+   "bbox": [
+    983,
+    367,
+    1079,
+    512
+   ],
+   "crop": [
+    957,
+    341,
+    1105,
+    538
+   ],
+   "file": "fnd44-b-model.png"
+  },
+  "ductus": {
+   "page": "/home/hatch/workspace/strokecore/demo/overlays/pages/fnd-2.png",
+   "bbox": [
+    1397,
+    269,
+    1486,
+    511
+   ],
+   "crop": [
+    1371,
+    243,
+    1512,
+    537
+   ],
+   "file": "fnd44-b-ductus.png"
+  }
+ },
+ "c": {
+  "model": {
+   "page": "/home/hatch/workspace/strokecore/demo/overlays/pages/fnd-2.png",
+   "bbox": [
+    991,
+    635,
+    1074,
+    734
+   ],
+   "crop": [
+    965,
+    609,
+    1100,
+    760
+   ],
+   "file": "fnd44-c-model.png"
+  },
+  "ductus": {
+   "page": "/home/hatch/workspace/strokecore/demo/overlays/pages/fnd-2.png",
+   "bbox": [
+    1400,
+    635,
+    1479,
+    728
+   ],
+   "crop": [
+    1374,
+    609,
+    1505,
+    754
+   ],
+   "file": "fnd44-c-ductus.png"
+  }
+ },
+ "d": {
+  "model": {
+   "page": "/home/hatch/workspace/strokecore/demo/overlays/pages/fnd-2.png",
+   "bbox": [
+    992,
+    792,
+    1105,
+    947
+   ],
+   "crop": [
+    966,
+    766,
+    1131,
+    973
+   ],
+   "file": "fnd44-d-model.png"
+  },
+  "ductus": {
+   "page": "/home/hatch/workspace/strokecore/demo/overlays/pages/fnd-2.png",
+   "bbox": [
+    1400,
+    814,
+    1508,
+    945
+   ],
+   "crop": [
+    1374,
+    788,
+    1534,
+    971
+   ],
+   "file": "fnd44-d-ductus.png"
+  }
+ },
+ "e": {
+  "model": {
+   "page": "/home/hatch/workspace/strokecore/demo/overlays/pages/fnd-2.png",
+   "bbox": [
+    991,
+    1067,
+    1077,
+    1162
+   ],
+   "crop": [
+    965,
+    1041,
+    1103,
+    1188
+   ],
+   "file": "fnd44-e-model.png"
+  },
+  "ductus": {
+   "page": "/home/hatch/workspace/strokecore/demo/overlays/pages/fnd-2.png",
+   "bbox": [
+    1396,
+    1067,
+    1480,
+    1159
+   ],
+   "crop": [
+    1370,
+    1041,
+    1506,
+    1185
+   ],
+   "file": "fnd44-e-ductus.png"
+  }
+ },
+ "f": {
+  "model": {
+   "page": "/home/hatch/workspace/strokecore/demo/overlays/pages/fnd-2.png",
+   "bbox": [
+    972,
+    1239,
+    1066,
+    1400
+   ],
+   "crop": [
+    946,
+    1213,
+    1092,
+    1426
+   ],
+   "file": "fnd44-f-model.png"
+  },
+  "ductus": {
+   "page": "/home/hatch/workspace/strokecore/demo/overlays/pages/fnd-2.png",
+   "bbox": [
+    1391,
+    1238,
+    1468,
+    1394
+   ],
+   "crop": [
+    1365,
+    1212,
+    1494,
+    1420
+   ],
+   "file": "fnd44-f-ductus.png"
+  }
+ },
+ "g": {
+  "model": {
+   "page": "/home/hatch/workspace/strokecore/demo/overlays/pages/fnd-2.png",
+   "bbox": [
+    984,
+    1494,
+    1098,
+    1653
+   ],
+   "crop": [
+    958,
+    1468,
+    1124,
+    1679
+   ],
+   "file": "fnd44-g-model.png"
+  },
+  "ductus": {
+   "page": "/home/hatch/workspace/strokecore/demo/overlays/pages/fnd-2.png",
+   "bbox": [
+    1407,
+    1497,
+    1490,
+    1619
+   ],
+   "crop": [
+    1381,
+    1471,
+    1516,
+    1645
+   ],
+   "file": "fnd44-g-ductus.png"
+  }
+ },
+ "h": {
+  "model": {
+   "page": "/home/hatch/workspace/strokecore/demo/overlays/pages/fnd-2.png",
+   "bbox": [
+    971,
+    1675,
+    1075,
+    1822
+   ],
+   "crop": [
+    945,
+    1649,
+    1101,
+    1848
+   ],
+   "file": "fnd44-h-model.png"
+  },
+  "ductus": {
+   "page": "/home/hatch/workspace/strokecore/demo/overlays/pages/fnd-2.png",
+   "bbox": [
+    1385,
+    1608,
+    1479,
+    1822
+   ],
+   "crop": [
+    1359,
+    1582,
+    1505,
+    1848
+   ],
+   "file": "fnd44-h-ductus.png"
+  }
+ },
+ "i": {
+  "model": {
+   "page": "/home/hatch/workspace/strokecore/demo/overlays/pages/fnd-2.png",
+   "bbox": [
+    967,
+    1891,
+    1018,
+    2028
+   ],
+   "crop": [
+    941,
+    1865,
+    1044,
+    2054
+   ],
+   "file": "fnd44-i-model.png"
+  },
+  "ductus": {
+   "page": "/home/hatch/workspace/strokecore/demo/overlays/pages/fnd-2.png",
+   "bbox": [
+    1381,
+    1895,
+    1407,
+    2070
+   ],
+   "crop": [
+    1355,
+    1869,
+    1433,
+    2096
+   ],
+   "file": "fnd44-i-ductus.png"
+  }
+ },
+ "j": {
+  "model": {
+   "page": "/home/hatch/workspace/strokecore/demo/overlays/pages/fnd-2.png",
+   "bbox": [
+    1051,
+    1887,
+    1089,
+    2066
+   ],
+   "crop": [
+    1025,
+    1861,
+    1115,
+    2092
+   ],
+   "file": "fnd44-j-model.png"
+  }
+ }
+}

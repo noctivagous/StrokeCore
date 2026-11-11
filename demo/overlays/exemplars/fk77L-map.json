@@ -1,0 +1,344 @@
+{
+ "k": {
+  "model": {
+   "page": "/home/hatch/workspace/strokecore/demo/overlays/pages/fk-2.png",
+   "bbox": [
+    136,
+    140,
+    223,
+    292
+   ],
+   "crop": [
+    110,
+    114,
+    249,
+    318
+   ],
+   "file": "fk77L-k-model.png"
+  },
+  "ductus": {
+   "page": "/home/hatch/workspace/strokecore/demo/overlays/pages/fk-2.png",
+   "bbox": [
+    517,
+    148,
+    593,
+    292
+   ],
+   "crop": [
+    491,
+    122,
+    619,
+    318
+   ],
+   "file": "fk77L-k-ductus.png"
+  }
+ },
+ "l": {
+  "model": {
+   "page": "/home/hatch/workspace/strokecore/demo/overlays/pages/fk-2.png",
+   "bbox": [
+    135,
+    358,
+    171,
+    505
+   ],
+   "crop": [
+    109,
+    332,
+    197,
+    531
+   ],
+   "file": "fk77L-l-model.png"
+  },
+  "ductus": {
+   "page": "/home/hatch/workspace/strokecore/demo/overlays/pages/fk-2.png",
+   "bbox": [
+    519,
+    350,
+    550,
+    503
+   ],
+   "crop": [
+    493,
+    324,
+    576,
+    529
+   ],
+   "file": "fk77L-l-ductus.png"
+  }
+ },
+ "m": {
+  "model": {
+   "page": "/home/hatch/workspace/strokecore/demo/overlays/pages/fk-2.png",
+   "bbox": [
+    132,
+    618,
+    256,
+    723
+   ],
+   "crop": [
+    106,
+    592,
+    282,
+    749
+   ],
+   "file": "fk77L-m-model.png"
+  },
+  "ductus": {
+   "page": "/home/hatch/workspace/strokecore/demo/overlays/pages/fk-2.png",
+   "bbox": [
+    512,
+    622,
+    627,
+    718
+   ],
+   "crop": [
+    486,
+    596,
+    653,
+    744
+   ],
+   "file": "fk77L-m-ductus.png"
+  }
+ },
+ "n": {
+  "model": {
+   "page": "/home/hatch/workspace/strokecore/demo/overlays/pages/fk-2.png",
+   "bbox": [
+    132,
+    833,
+    212,
+    941
+   ],
+   "crop": [
+    106,
+    807,
+    238,
+    967
+   ],
+   "file": "fk77L-n-model.png"
+  },
+  "ductus": {
+   "page": "/home/hatch/workspace/strokecore/demo/overlays/pages/fk-2.png",
+   "bbox": [
+    512,
+    837,
+    579,
+    934
+   ],
+   "crop": [
+    486,
+    811,
+    605,
+    960
+   ],
+   "file": "fk77L-n-ductus.png"
+  }
+ },
+ "o": {
+  "model": {
+   "page": "/home/hatch/workspace/strokecore/demo/overlays/pages/fk-2.png",
+   "bbox": [
+    135,
+    1045,
+    207,
+    1160
+   ],
+   "crop": [
+    109,
+    1019,
+    233,
+    1186
+   ],
+   "file": "fk77L-o-model.png"
+  },
+  "ductus": {
+   "page": "/home/hatch/workspace/strokecore/demo/overlays/pages/fk-2.png",
+   "bbox": [
+    515,
+    1053,
+    582,
+    1159
+   ],
+   "crop": [
+    489,
+    1027,
+    608,
+    1185
+   ],
+   "file": "fk77L-o-ductus.png"
+  }
+ },
+ "o2": {
+  "model": {
+   "page": "/home/hatch/workspace/strokecore/demo/overlays/pages/fk-2.png",
+   "bbox": [
+    220,
+    1042,
+    287,
+    1158
+   ],
+   "crop": [
+    194,
+    1016,
+    313,
+    1184
+   ],
+   "file": "fk77L-o2-model.png"
+  },
+  "ductus": {
+   "page": "/home/hatch/workspace/strokecore/demo/overlays/pages/fk-2.png",
+   "bbox": [
+    512,
+    1273,
+    582,
+    1442
+   ],
+   "crop": [
+    486,
+    1247,
+    608,
+    1468
+   ],
+   "file": "fk77L-o2-ductus.png"
+  }
+ },
+ "p": {
+  "model": {
+   "page": "/home/hatch/workspace/strokecore/demo/overlays/pages/fk-2.png",
+   "bbox": [
+    130,
+    1272,
+    204,
+    1442
+   ],
+   "crop": [
+    104,
+    1246,
+    230,
+    1468
+   ],
+   "file": "fk77L-p-model.png"
+  },
+  "ductus": {
+   "page": "/home/hatch/workspace/strokecore/demo/overlays/pages/fk-2.png",
+   "bbox": [
+    525,
+    1474,
+    593,
+    1618
+   ],
+   "crop": [
+    499,
+    1448,
+    619,
+    1644
+   ],
+   "file": "fk77L-p-ductus.png"
+  }
+ },
+ "q": {
+  "model": {
+   "page": "/home/hatch/workspace/strokecore/demo/overlays/pages/fk-2.png",
+   "bbox": [
+    143,
+    1469,
+    216,
+    1645
+   ],
+   "crop": [
+    117,
+    1443,
+    242,
+    1671
+   ],
+   "file": "fk77L-q-model.png"
+  },
+  "ductus": {
+   "page": "/home/hatch/workspace/strokecore/demo/overlays/pages/fk-2.png",
+   "bbox": [
+    523,
+    1689,
+    577,
+    1792
+   ],
+   "crop": [
+    497,
+    1663,
+    603,
+    1818
+   ],
+   "file": "fk77L-q-ductus.png"
+  }
+ },
+ "r": {
+  "model": {
+   "page": "/home/hatch/workspace/strokecore/demo/overlays/pages/fk-2.png",
+   "bbox": [
+    135,
+    1687,
+    198,
+    1794
+   ],
+   "crop": [
+    109,
+    1661,
+    224,
+    1820
+   ],
+   "file": "fk77L-r-model.png"
+  },
+  "ductus": {
+   "page": "/home/hatch/workspace/strokecore/demo/overlays/pages/fk-2.png",
+   "bbox": [
+    515,
+    1907,
+    583,
+    2004
+   ],
+   "crop": [
+    489,
+    1881,
+    609,
+    2030
+   ],
+   "file": "fk77L-r-ductus.png"
+  }
+ },
+ "r2": {
+  "model": {
+   "page": "/home/hatch/workspace/strokecore/demo/overlays/pages/fk-2.png",
+   "bbox": [
+    212,
+    1689,
+    242,
+    1791
+   ],
+   "crop": [
+    186,
+    1663,
+    268,
+    1817
+   ],
+   "file": "fk77L-r2-model.png"
+  }
+ },
+ "longs": {
+  "model": {
+   "page": "/home/hatch/workspace/strokecore/demo/overlays/pages/fk-2.png",
+   "bbox": [
+    128,
+    1900,
+    207,
+    2010
+   ],
+   "crop": [
+    102,
+    1874,
+    233,
+    2036
+   ],
+   "file": "fk77L-longs-model.png"
+  }
+ }
+}

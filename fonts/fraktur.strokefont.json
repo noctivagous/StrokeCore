@@ -1,0 +1,3267 @@
+{
+  "format": "strokefont",
+  "version": 1,
+  "name": "Fraktur",
+  "designer": "StrokeCore",
+  "sourceNote": "Minuscules after David Harris, The Art of Calligraphy, pp. 76-77. Square-cut nib at 40 degrees, ladder 5/2/2. Capitals not in the source; excluded.",
+  "unitsPerEm": 1000,
+  "referenceTool": "fraktur nib",
+  "ladder": {
+    "xHeight": 5,
+    "ascender": 2,
+    "descender": 2,
+    "capHeight": 8
+  },
+  "slant": 0,
+  "tools": [
+    {
+      "name": "fraktur nib",
+      "tip": {
+        "kind": "rect",
+        "width": 100,
+        "thickness": 20
+      },
+      "direction": "manner"
+    }
+  ],
+  "moves": [
+    "stem with its spiked entry",
+    "diamond foot",
+    "twist from 40 degrees to near vertical"
+  ],
+  "glyphs": {
+    "_minim": {
+      "name": "_minim",
+      "ductusKind": "native",
+      "strokes": [
+        {
+          "id": "_minim-1",
+          "tool": "fraktur nib",
+          "role": "stem",
+          "move": "stem with its spiked entry",
+          "angleDeg": 40,
+          "spine": {
+            "nodes": [
+              {
+                "x": 74,
+                "y": 516
+              },
+              {
+                "x": 110,
+                "y": 496
+              },
+              {
+                "x": 110,
+                "y": 6
+              }
+            ],
+            "segments": [
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 98,
+                  "y": 510
+                },
+                "c2": {
+                  "x": 110,
+                  "y": 502
+                }
+              },
+              {
+                "kind": "line"
+              }
+            ]
+          }
+        },
+        {
+          "id": "_minim-2",
+          "tool": "fraktur nib",
+          "role": "foot",
+          "move": "diamond foot",
+          "angleDeg": 40,
+          "spine": {
+            "nodes": [
+              {
+                "x": 108,
+                "y": 14
+              },
+              {
+                "x": 198,
+                "y": -16
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "_ascStem": {
+      "name": "_ascStem",
+      "ductusKind": "native",
+      "strokes": [
+        {
+          "id": "_ascStem-1",
+          "tool": "fraktur nib",
+          "role": "stem",
+          "move": "stem with its spiked entry",
+          "angleDeg": 40,
+          "spine": {
+            "nodes": [
+              {
+                "x": 74,
+                "y": 716
+              },
+              {
+                "x": 110,
+                "y": 696
+              },
+              {
+                "x": 110,
+                "y": 6
+              }
+            ],
+            "segments": [
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 98,
+                  "y": 710
+                },
+                "c2": {
+                  "x": 110,
+                  "y": 702
+                }
+              },
+              {
+                "kind": "line"
+              }
+            ]
+          }
+        },
+        {
+          "id": "_ascStem-2",
+          "tool": "fraktur nib",
+          "role": "foot",
+          "move": "diamond foot",
+          "angleDeg": 40,
+          "spine": {
+            "nodes": [
+              {
+                "x": 108,
+                "y": 14
+              },
+              {
+                "x": 198,
+                "y": -16
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "i": {
+      "name": "i",
+      "ductusKind": "native",
+      "codepoints": [
+        "i"
+      ],
+      "components": [
+        {
+          "glyph": "_minim"
+        }
+      ],
+      "strokes": [],
+      "advance": 240
+    },
+    "l": {
+      "name": "l",
+      "ductusKind": "native",
+      "codepoints": [
+        "l"
+      ],
+      "components": [
+        {
+          "glyph": "_ascStem"
+        }
+      ],
+      "strokes": [],
+      "advance": 240
+    },
+    "n": {
+      "name": "n",
+      "ductusKind": "native",
+      "codepoints": [
+        "n"
+      ],
+      "components": [
+        {
+          "glyph": "_minim"
+        },
+        {
+          "glyph": "_minim",
+          "dx": 195
+        }
+      ],
+      "strokes": [
+        {
+          "id": "n-1",
+          "tool": "fraktur nib",
+          "role": "arch",
+          "move": "fractured arch",
+          "angleDeg": 40,
+          "spine": {
+            "nodes": [
+              {
+                "x": 197,
+                "y": 428
+              },
+              {
+                "x": 245,
+                "y": 500
+              },
+              {
+                "x": 305,
+                "y": 492
+              }
+            ],
+            "segments": [
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 209,
+                  "y": 486
+                },
+                "c2": {
+                  "x": 227,
+                  "y": 500
+                }
+              },
+              {
+                "kind": "line"
+              }
+            ]
+          }
+        }
+      ],
+      "advance": 420
+    },
+    "m": {
+      "name": "m",
+      "ductusKind": "native",
+      "codepoints": [
+        "m"
+      ],
+      "components": [
+        {
+          "glyph": "_minim"
+        },
+        {
+          "glyph": "_minim",
+          "dx": 215
+        },
+        {
+          "glyph": "_minim",
+          "dx": 430
+        }
+      ],
+      "strokes": [
+        {
+          "id": "m-1",
+          "tool": "fraktur nib",
+          "role": "arch",
+          "move": "fractured arch",
+          "angleDeg": 40,
+          "spine": {
+            "nodes": [
+              {
+                "x": 217,
+                "y": 428
+              },
+              {
+                "x": 265,
+                "y": 500
+              },
+              {
+                "x": 325,
+                "y": 492
+              }
+            ],
+            "segments": [
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 229,
+                  "y": 486
+                },
+                "c2": {
+                  "x": 247,
+                  "y": 500
+                }
+              },
+              {
+                "kind": "line"
+              }
+            ]
+          }
+        },
+        {
+          "id": "m-2",
+          "tool": "fraktur nib",
+          "role": "arch",
+          "move": "fractured arch",
+          "angleDeg": 40,
+          "spine": {
+            "nodes": [
+              {
+                "x": 432,
+                "y": 428
+              },
+              {
+                "x": 480,
+                "y": 500
+              },
+              {
+                "x": 540,
+                "y": 492
+              }
+            ],
+            "segments": [
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 444,
+                  "y": 486
+                },
+                "c2": {
+                  "x": 462,
+                  "y": 500
+                }
+              },
+              {
+                "kind": "line"
+              }
+            ]
+          }
+        }
+      ],
+      "advance": 680
+    },
+    "h": {
+      "name": "h",
+      "ductusKind": "native",
+      "codepoints": [
+        "h"
+      ],
+      "components": [
+        {
+          "glyph": "_ascStem"
+        },
+        {
+          "glyph": "_minim",
+          "dx": 195
+        }
+      ],
+      "strokes": [
+        {
+          "id": "h-1",
+          "tool": "fraktur nib",
+          "role": "arch",
+          "move": "fractured arch",
+          "angleDeg": 40,
+          "spine": {
+            "nodes": [
+              {
+                "x": 197,
+                "y": 428
+              },
+              {
+                "x": 245,
+                "y": 500
+              },
+              {
+                "x": 305,
+                "y": 492
+              }
+            ],
+            "segments": [
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 209,
+                  "y": 486
+                },
+                "c2": {
+                  "x": 227,
+                  "y": 500
+                }
+              },
+              {
+                "kind": "line"
+              }
+            ]
+          }
+        }
+      ],
+      "advance": 420
+    },
+    "u": {
+      "name": "u",
+      "ductusKind": "native",
+      "codepoints": [
+        "u"
+      ],
+      "strokes": [
+        {
+          "id": "u-1",
+          "tool": "fraktur nib",
+          "role": "stem",
+          "move": "stem with its spiked entry",
+          "angleDeg": 40,
+          "spine": {
+            "nodes": [
+              {
+                "x": 74,
+                "y": 516
+              },
+              {
+                "x": 110,
+                "y": 496
+              },
+              {
+                "x": 110,
+                "y": 66
+              }
+            ],
+            "segments": [
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 98,
+                  "y": 510
+                },
+                "c2": {
+                  "x": 110,
+                  "y": 502
+                }
+              },
+              {
+                "kind": "line"
+              }
+            ]
+          }
+        },
+        {
+          "id": "u-2",
+          "tool": "fraktur nib",
+          "role": "bowl",
+          "move": "bottom curve",
+          "angleDeg": 40,
+          "spine": {
+            "nodes": [
+              {
+                "x": 110,
+                "y": 60
+              },
+              {
+                "x": 335,
+                "y": 52
+              }
+            ],
+            "segments": [
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 118,
+                  "y": -10
+                },
+                "c2": {
+                  "x": 295,
+                  "y": -8
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "u-3",
+          "tool": "fraktur nib",
+          "role": "stem",
+          "move": "stem with its spiked entry",
+          "angleDeg": 40,
+          "spine": {
+            "nodes": [
+              {
+                "x": 304,
+                "y": 516
+              },
+              {
+                "x": 340,
+                "y": 496
+              },
+              {
+                "x": 340,
+                "y": 58
+              }
+            ],
+            "segments": [
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 328,
+                  "y": 510
+                },
+                "c2": {
+                  "x": 340,
+                  "y": 502
+                }
+              },
+              {
+                "kind": "line"
+              }
+            ]
+          }
+        },
+        {
+          "id": "u-4",
+          "tool": "fraktur nib",
+          "role": "foot",
+          "move": "diamond foot",
+          "angleDeg": 40,
+          "spine": {
+            "nodes": [
+              {
+                "x": 338,
+                "y": 14
+              },
+              {
+                "x": 428,
+                "y": -16
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          }
+        }
+      ],
+      "advance": 460
+    },
+    "a": {
+      "name": "a",
+      "ductusKind": "native",
+      "codepoints": [
+        "a"
+      ],
+      "strokes": [
+        {
+          "id": "a-1",
+          "tool": "fraktur nib",
+          "role": "bowl",
+          "move": "left curve",
+          "angleDeg": 40,
+          "spine": {
+            "nodes": [
+              {
+                "x": 120,
+                "y": 500
+              },
+              {
+                "x": 62,
+                "y": 250
+              },
+              {
+                "x": 120,
+                "y": 0
+              }
+            ],
+            "segments": [
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 56,
+                  "y": 380
+                },
+                "c2": {
+                  "x": 56,
+                  "y": 120
+                }
+              },
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 68,
+                  "y": 60
+                },
+                "c2": {
+                  "x": 96,
+                  "y": 6
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "a-2",
+          "tool": "fraktur nib",
+          "role": "bowl",
+          "move": "top arc",
+          "angleDeg": 40,
+          "spine": {
+            "nodes": [
+              {
+                "x": 120,
+                "y": 500
+              },
+              {
+                "x": 320,
+                "y": 414
+              }
+            ],
+            "segments": [
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 200,
+                  "y": 514
+                },
+                "c2": {
+                  "x": 300,
+                  "y": 488
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "a-3",
+          "tool": "fraktur nib",
+          "role": "stem",
+          "move": "stem with its spiked entry",
+          "angleDeg": 40,
+          "spine": {
+            "nodes": [
+              {
+                "x": 294,
+                "y": 516
+              },
+              {
+                "x": 330,
+                "y": 496
+              },
+              {
+                "x": 330,
+                "y": 6
+              }
+            ],
+            "segments": [
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 318,
+                  "y": 510
+                },
+                "c2": {
+                  "x": 330,
+                  "y": 502
+                }
+              },
+              {
+                "kind": "line"
+              }
+            ]
+          }
+        },
+        {
+          "id": "a-4",
+          "tool": "fraktur nib",
+          "role": "foot",
+          "move": "diamond foot",
+          "angleDeg": 40,
+          "spine": {
+            "nodes": [
+              {
+                "x": 328,
+                "y": 14
+              },
+              {
+                "x": 418,
+                "y": -16
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          }
+        }
+      ],
+      "advance": 410,
+      "alternates": [
+        {
+          "name": "a (open form)",
+          "ductusKind": "native",
+          "strokes": [
+            {
+              "id": "s17",
+              "tool": "fraktur nib",
+              "role": "bowl",
+              "move": "left curve",
+              "angleDeg": 40,
+              "spine": {
+                "nodes": [
+                  {
+                    "x": 120,
+                    "y": 500
+                  },
+                  {
+                    "x": 62,
+                    "y": 250
+                  },
+                  {
+                    "x": 120,
+                    "y": 0
+                  }
+                ],
+                "segments": [
+                  {
+                    "kind": "cubic",
+                    "c1": {
+                      "x": 56,
+                      "y": 380
+                    },
+                    "c2": {
+                      "x": 56,
+                      "y": 120
+                    }
+                  },
+                  {
+                    "kind": "cubic",
+                    "c1": {
+                      "x": 68,
+                      "y": 60
+                    },
+                    "c2": {
+                      "x": 96,
+                      "y": 6
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "id": "s18",
+              "tool": "fraktur nib",
+              "role": "stem",
+              "move": "stem with its spiked entry",
+              "angleDeg": 40,
+              "spine": {
+                "nodes": [
+                  {
+                    "x": 294,
+                    "y": 436
+                  },
+                  {
+                    "x": 330,
+                    "y": 416
+                  },
+                  {
+                    "x": 330,
+                    "y": 6
+                  }
+                ],
+                "segments": [
+                  {
+                    "kind": "cubic",
+                    "c1": {
+                      "x": 318,
+                      "y": 430
+                    },
+                    "c2": {
+                      "x": 330,
+                      "y": 422
+                    }
+                  },
+                  {
+                    "kind": "line"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "b": {
+      "name": "b",
+      "ductusKind": "native",
+      "codepoints": [
+        "b"
+      ],
+      "components": [
+        {
+          "glyph": "_ascStem"
+        }
+      ],
+      "strokes": [
+        {
+          "id": "b-1",
+          "tool": "fraktur nib",
+          "role": "bowl",
+          "move": "top arc",
+          "angleDeg": 40,
+          "spine": {
+            "nodes": [
+              {
+                "x": 112,
+                "y": 486
+              },
+              {
+                "x": 350,
+                "y": 404
+              }
+            ],
+            "segments": [
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 210,
+                  "y": 514
+                },
+                "c2": {
+                  "x": 330,
+                  "y": 488
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "b-2",
+          "tool": "fraktur nib",
+          "role": "bowl",
+          "move": "right curve and bottom arc",
+          "angleDeg": 40,
+          "spine": {
+            "nodes": [
+              {
+                "x": 350,
+                "y": 404
+              },
+              {
+                "x": 355,
+                "y": 110
+              },
+              {
+                "x": 116,
+                "y": 2
+              }
+            ],
+            "segments": [
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 360,
+                  "y": 260
+                },
+                "c2": {
+                  "x": 360,
+                  "y": 180
+                }
+              },
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 330,
+                  "y": 40
+                },
+                "c2": {
+                  "x": 180,
+                  "y": 2
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "advance": 410
+    },
+    "p": {
+      "name": "p",
+      "ductusKind": "native",
+      "codepoints": [
+        "p"
+      ],
+      "strokes": [
+        {
+          "id": "p-1",
+          "tool": "fraktur nib",
+          "role": "stem",
+          "move": "stem with its spiked entry",
+          "angleDeg": 40,
+          "spine": {
+            "nodes": [
+              {
+                "x": 74,
+                "y": 516
+              },
+              {
+                "x": 110,
+                "y": 496
+              },
+              {
+                "x": 110,
+                "y": -190
+              }
+            ],
+            "segments": [
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 98,
+                  "y": 510
+                },
+                "c2": {
+                  "x": 110,
+                  "y": 502
+                }
+              },
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "points": [
+            {
+              "node": 0,
+              "twistDeg": 0
+            },
+            {
+              "node": 2,
+              "twistDeg": 48
+            }
+          ]
+        },
+        {
+          "id": "p-2",
+          "tool": "fraktur nib",
+          "role": "bowl",
+          "move": "top arc",
+          "angleDeg": 40,
+          "spine": {
+            "nodes": [
+              {
+                "x": 112,
+                "y": 486
+              },
+              {
+                "x": 350,
+                "y": 404
+              }
+            ],
+            "segments": [
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 210,
+                  "y": 514
+                },
+                "c2": {
+                  "x": 330,
+                  "y": 488
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "p-3",
+          "tool": "fraktur nib",
+          "role": "bowl",
+          "move": "right curve and bottom arc",
+          "angleDeg": 40,
+          "spine": {
+            "nodes": [
+              {
+                "x": 350,
+                "y": 404
+              },
+              {
+                "x": 355,
+                "y": 110
+              },
+              {
+                "x": 116,
+                "y": 2
+              }
+            ],
+            "segments": [
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 360,
+                  "y": 260
+                },
+                "c2": {
+                  "x": 360,
+                  "y": 180
+                }
+              },
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 330,
+                  "y": 40
+                },
+                "c2": {
+                  "x": 180,
+                  "y": 2
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "advance": 410
+    },
+    "d": {
+      "name": "d",
+      "ductusKind": "native",
+      "codepoints": [
+        "d"
+      ],
+      "strokes": [
+        {
+          "id": "d-1",
+          "tool": "fraktur nib",
+          "role": "bowl",
+          "move": "left curve",
+          "angleDeg": 40,
+          "spine": {
+            "nodes": [
+              {
+                "x": 118,
+                "y": 500
+              },
+              {
+                "x": 64,
+                "y": 250
+              },
+              {
+                "x": 118,
+                "y": 0
+              }
+            ],
+            "segments": [
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 58,
+                  "y": 380
+                },
+                "c2": {
+                  "x": 58,
+                  "y": 120
+                }
+              },
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 70,
+                  "y": 60
+                },
+                "c2": {
+                  "x": 96,
+                  "y": 6
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "d-2",
+          "tool": "fraktur nib",
+          "role": "bowl",
+          "move": "top arc",
+          "angleDeg": 40,
+          "spine": {
+            "nodes": [
+              {
+                "x": 118,
+                "y": 500
+              },
+              {
+                "x": 320,
+                "y": 420
+              }
+            ],
+            "segments": [
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 190,
+                  "y": 514
+                },
+                "c2": {
+                  "x": 300,
+                  "y": 488
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "d-3",
+          "tool": "fraktur nib",
+          "role": "bowl",
+          "move": "bottom arc",
+          "angleDeg": 40,
+          "spine": {
+            "nodes": [
+              {
+                "x": 320,
+                "y": 96
+              },
+              {
+                "x": 118,
+                "y": 0
+              }
+            ],
+            "segments": [
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 310,
+                  "y": 30
+                },
+                "c2": {
+                  "x": 200,
+                  "y": -6
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "d-4",
+          "tool": "fraktur nib",
+          "role": "stem",
+          "move": "ascender curling back to the right",
+          "angleDeg": 40,
+          "spine": {
+            "nodes": [
+              {
+                "x": 330,
+                "y": 420
+              },
+              {
+                "x": 322,
+                "y": 690
+              },
+              {
+                "x": 354,
+                "y": 700
+              }
+            ],
+            "segments": [
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 328,
+                  "y": 540
+                },
+                "c2": {
+                  "x": 320,
+                  "y": 630
+                }
+              },
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 330,
+                  "y": 690
+                },
+                "c2": {
+                  "x": 342,
+                  "y": 698
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "d-5",
+          "tool": "fraktur nib",
+          "role": "foot",
+          "move": "diamond foot",
+          "angleDeg": 40,
+          "spine": {
+            "nodes": [
+              {
+                "x": 328,
+                "y": 14
+              },
+              {
+                "x": 418,
+                "y": -16
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          }
+        }
+      ],
+      "advance": 410
+    },
+    "q": {
+      "name": "q",
+      "ductusKind": "native",
+      "codepoints": [
+        "q"
+      ],
+      "strokes": [
+        {
+          "id": "q-1",
+          "tool": "fraktur nib",
+          "role": "bowl",
+          "move": "left curve",
+          "angleDeg": 40,
+          "spine": {
+            "nodes": [
+              {
+                "x": 118,
+                "y": 500
+              },
+              {
+                "x": 64,
+                "y": 250
+              },
+              {
+                "x": 118,
+                "y": 0
+              }
+            ],
+            "segments": [
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 58,
+                  "y": 380
+                },
+                "c2": {
+                  "x": 58,
+                  "y": 120
+                }
+              },
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 70,
+                  "y": 60
+                },
+                "c2": {
+                  "x": 96,
+                  "y": 6
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "q-2",
+          "tool": "fraktur nib",
+          "role": "bowl",
+          "move": "top arc",
+          "angleDeg": 40,
+          "spine": {
+            "nodes": [
+              {
+                "x": 118,
+                "y": 500
+              },
+              {
+                "x": 320,
+                "y": 420
+              }
+            ],
+            "segments": [
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 190,
+                  "y": 514
+                },
+                "c2": {
+                  "x": 300,
+                  "y": 488
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "q-3",
+          "tool": "fraktur nib",
+          "role": "bowl",
+          "move": "bottom arc",
+          "angleDeg": 40,
+          "spine": {
+            "nodes": [
+              {
+                "x": 320,
+                "y": 96
+              },
+              {
+                "x": 118,
+                "y": 0
+              }
+            ],
+            "segments": [
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 310,
+                  "y": 30
+                },
+                "c2": {
+                  "x": 200,
+                  "y": -6
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "q-4",
+          "tool": "fraktur nib",
+          "role": "stem",
+          "move": "stem twisting gradually to near vertical",
+          "angleDeg": 40,
+          "spine": {
+            "nodes": [
+              {
+                "x": 296,
+                "y": 486
+              },
+              {
+                "x": 336,
+                "y": 464
+              },
+              {
+                "x": 336,
+                "y": -184
+              }
+            ],
+            "segments": [
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 324,
+                  "y": 484
+                },
+                "c2": {
+                  "x": 336,
+                  "y": 474
+                }
+              },
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "points": [
+            {
+              "node": 0,
+              "twistDeg": 0
+            },
+            {
+              "node": 2,
+              "twistDeg": 48
+            }
+          ]
+        }
+      ],
+      "advance": 410
+    },
+    "c": {
+      "name": "c",
+      "ductusKind": "native",
+      "codepoints": [
+        "c"
+      ],
+      "strokes": [
+        {
+          "id": "c-1",
+          "tool": "fraktur nib",
+          "role": "bowl",
+          "move": "curve of the c",
+          "angleDeg": 40,
+          "spine": {
+            "nodes": [
+              {
+                "x": 300,
+                "y": 452
+              },
+              {
+                "x": 70,
+                "y": 250
+              },
+              {
+                "x": 300,
+                "y": 36
+              }
+            ],
+            "segments": [
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 110,
+                  "y": 420
+                },
+                "c2": {
+                  "x": 58,
+                  "y": 340
+                }
+              },
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 90,
+                  "y": 90
+                },
+                "c2": {
+                  "x": 190,
+                  "y": 30
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "c-2",
+          "tool": "fraktur nib",
+          "role": "spike",
+          "move": "top spike",
+          "angleDeg": 40,
+          "spine": {
+            "nodes": [
+              {
+                "x": 240,
+                "y": 502
+              },
+              {
+                "x": 300,
+                "y": 452
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          }
+        }
+      ],
+      "advance": 370
+    },
+    "e": {
+      "name": "e",
+      "ductusKind": "native",
+      "codepoints": [
+        "e"
+      ],
+      "strokes": [
+        {
+          "id": "e-1",
+          "tool": "fraktur nib",
+          "role": "bowl",
+          "move": "top arc",
+          "angleDeg": 40,
+          "spine": {
+            "nodes": [
+              {
+                "x": 265,
+                "y": 448
+              },
+              {
+                "x": 84,
+                "y": 380
+              }
+            ],
+            "segments": [
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 232,
+                  "y": 502
+                },
+                "c2": {
+                  "x": 130,
+                  "y": 492
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "e-2",
+          "tool": "fraktur nib",
+          "role": "bar",
+          "move": "bar of the e",
+          "angleDeg": 40,
+          "spine": {
+            "nodes": [
+              {
+                "x": 80,
+                "y": 296
+              },
+              {
+                "x": 262,
+                "y": 296
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e-3",
+          "tool": "fraktur nib",
+          "role": "bowl",
+          "move": "bottom curve",
+          "angleDeg": 40,
+          "spine": {
+            "nodes": [
+              {
+                "x": 84,
+                "y": 380
+              },
+              {
+                "x": 86,
+                "y": 120
+              },
+              {
+                "x": 265,
+                "y": 34
+              }
+            ],
+            "segments": [
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 76,
+                  "y": 260
+                },
+                "c2": {
+                  "x": 76,
+                  "y": 190
+                }
+              },
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 120,
+                  "y": 50
+                },
+                "c2": {
+                  "x": 180,
+                  "y": 28
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "advance": 340
+    },
+    "o": {
+      "name": "o",
+      "ductusKind": "native",
+      "codepoints": [
+        "o"
+      ],
+      "strokes": [
+        {
+          "id": "o-1",
+          "tool": "fraktur nib",
+          "role": "bowl",
+          "move": "left stroke",
+          "angleDeg": 40,
+          "spine": {
+            "nodes": [
+              {
+                "x": 120,
+                "y": 500
+              },
+              {
+                "x": 64,
+                "y": 250
+              },
+              {
+                "x": 120,
+                "y": 0
+              }
+            ],
+            "segments": [
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 58,
+                  "y": 380
+                },
+                "c2": {
+                  "x": 58,
+                  "y": 120
+                }
+              },
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 70,
+                  "y": 60
+                },
+                "c2": {
+                  "x": 96,
+                  "y": 6
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "o-2",
+          "tool": "fraktur nib",
+          "role": "bowl",
+          "move": "top join",
+          "angleDeg": 40,
+          "spine": {
+            "nodes": [
+              {
+                "x": 120,
+                "y": 500
+              },
+              {
+                "x": 320,
+                "y": 440
+              }
+            ],
+            "segments": [
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 190,
+                  "y": 512
+                },
+                "c2": {
+                  "x": 290,
+                  "y": 494
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "o-3",
+          "tool": "fraktur nib",
+          "role": "stem",
+          "move": "right stroke",
+          "angleDeg": 40,
+          "spine": {
+            "nodes": [
+              {
+                "x": 320,
+                "y": 440
+              },
+              {
+                "x": 324,
+                "y": 120
+              },
+              {
+                "x": 122,
+                "y": 2
+              }
+            ],
+            "segments": [
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 330,
+                  "y": 280
+                },
+                "c2": {
+                  "x": 330,
+                  "y": 200
+                }
+              },
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 290,
+                  "y": 50
+                },
+                "c2": {
+                  "x": 170,
+                  "y": 6
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "advance": 400
+    },
+    "f": {
+      "name": "f",
+      "ductusKind": "native",
+      "codepoints": [
+        "f"
+      ],
+      "strokes": [
+        {
+          "id": "f-1",
+          "tool": "fraktur nib",
+          "role": "stem",
+          "move": "top hook",
+          "angleDeg": 40,
+          "spine": {
+            "nodes": [
+              {
+                "x": 112,
+                "y": 690
+              },
+              {
+                "x": 330,
+                "y": 652
+              }
+            ],
+            "segments": [
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 160,
+                  "y": 716
+                },
+                "c2": {
+                  "x": 300,
+                  "y": 700
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "f-2",
+          "tool": "fraktur nib",
+          "role": "stem",
+          "move": "long stem: twist from 40 degrees to near vertical for the descender",
+          "angleDeg": 40,
+          "spine": {
+            "nodes": [
+              {
+                "x": 112,
+                "y": 690
+              },
+              {
+                "x": 110,
+                "y": 200
+              },
+              {
+                "x": 104,
+                "y": -192
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "points": [
+            {
+              "node": 0,
+              "twistDeg": 0
+            },
+            {
+              "node": 2,
+              "twistDeg": 50
+            }
+          ]
+        },
+        {
+          "id": "f-3",
+          "tool": "fraktur nib",
+          "role": "bar",
+          "move": "cross stroke",
+          "angleDeg": 40,
+          "spine": {
+            "nodes": [
+              {
+                "x": 66,
+                "y": 420
+              },
+              {
+                "x": 290,
+                "y": 420
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          }
+        }
+      ],
+      "advance": 340
+    },
+    "g": {
+      "name": "g",
+      "ductusKind": "native",
+      "codepoints": [
+        "g"
+      ],
+      "strokes": [
+        {
+          "id": "g-1",
+          "tool": "fraktur nib",
+          "role": "bowl",
+          "move": "left curve",
+          "angleDeg": 40,
+          "spine": {
+            "nodes": [
+              {
+                "x": 120,
+                "y": 500
+              },
+              {
+                "x": 62,
+                "y": 330
+              },
+              {
+                "x": 120,
+                "y": 168
+              }
+            ],
+            "segments": [
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 56,
+                  "y": 420
+                },
+                "c2": {
+                  "x": 56,
+                  "y": 260
+                }
+              },
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 68,
+                  "y": 220
+                },
+                "c2": {
+                  "x": 96,
+                  "y": 174
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "g-2",
+          "tool": "fraktur nib",
+          "role": "bowl",
+          "move": "top arc",
+          "angleDeg": 40,
+          "spine": {
+            "nodes": [
+              {
+                "x": 120,
+                "y": 500
+              },
+              {
+                "x": 350,
+                "y": 414
+              }
+            ],
+            "segments": [
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 210,
+                  "y": 514
+                },
+                "c2": {
+                  "x": 330,
+                  "y": 488
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "g-3",
+          "tool": "fraktur nib",
+          "role": "stem",
+          "move": "stem with its spiked entry",
+          "angleDeg": 40,
+          "spine": {
+            "nodes": [
+              {
+                "x": 294,
+                "y": 516
+              },
+              {
+                "x": 330,
+                "y": 496
+              },
+              {
+                "x": 330,
+                "y": 182
+              }
+            ],
+            "segments": [
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 318,
+                  "y": 510
+                },
+                "c2": {
+                  "x": 330,
+                  "y": 502
+                }
+              },
+              {
+                "kind": "line"
+              }
+            ]
+          }
+        },
+        {
+          "id": "g-4",
+          "tool": "fraktur nib",
+          "role": "bar",
+          "move": "crossbar of the g",
+          "angleDeg": 40,
+          "spine": {
+            "nodes": [
+              {
+                "x": 58,
+                "y": 300
+              },
+              {
+                "x": 330,
+                "y": 300
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          }
+        },
+        {
+          "id": "g-5",
+          "tool": "fraktur nib",
+          "role": "tail",
+          "move": "descender sweep of the g",
+          "angleDeg": 40,
+          "spine": {
+            "nodes": [
+              {
+                "x": 330,
+                "y": 176
+              },
+              {
+                "x": 320,
+                "y": -110
+              },
+              {
+                "x": 230,
+                "y": -190
+              },
+              {
+                "x": 150,
+                "y": -120
+              }
+            ],
+            "segments": [
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 326,
+                  "y": 20
+                },
+                "c2": {
+                  "x": 322,
+                  "y": -60
+                }
+              },
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 290,
+                  "y": -196
+                },
+                "c2": {
+                  "x": 190,
+                  "y": -186
+                }
+              },
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 140,
+                  "y": -160
+                },
+                "c2": {
+                  "x": 138,
+                  "y": -140
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "advance": 410
+    },
+    "j": {
+      "name": "j",
+      "ductusKind": "native",
+      "codepoints": [
+        "j"
+      ],
+      "strokes": [
+        {
+          "id": "j-1",
+          "tool": "fraktur nib",
+          "role": "stem",
+          "move": "stem descending, hooking left",
+          "angleDeg": 40,
+          "spine": {
+            "nodes": [
+              {
+                "x": 130,
+                "y": 500
+              },
+              {
+                "x": 126,
+                "y": 120
+              },
+              {
+                "x": 80,
+                "y": -176
+              }
+            ],
+            "segments": [
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 122,
+                  "y": 506
+                },
+                "c2": {
+                  "x": 128,
+                  "y": 380
+                }
+              },
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 118,
+                  "y": -40
+                },
+                "c2": {
+                  "x": 98,
+                  "y": -140
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "j-2",
+          "tool": "fraktur nib",
+          "role": "dot",
+          "move": "the dot, a small spike",
+          "angleDeg": 40,
+          "spine": {
+            "nodes": [
+              {
+                "x": 160,
+                "y": 560
+              },
+              {
+                "x": 186,
+                "y": 512
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          }
+        }
+      ],
+      "advance": 190
+    },
+    "k": {
+      "name": "k",
+      "ductusKind": "native",
+      "codepoints": [
+        "k"
+      ],
+      "components": [
+        {
+          "glyph": "_ascStem"
+        }
+      ],
+      "strokes": [
+        {
+          "id": "k-1",
+          "tool": "fraktur nib",
+          "role": "arm",
+          "move": "arm",
+          "angleDeg": 40,
+          "spine": {
+            "nodes": [
+              {
+                "x": 150,
+                "y": 268
+              },
+              {
+                "x": 360,
+                "y": 492
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          }
+        },
+        {
+          "id": "k-2",
+          "tool": "fraktur nib",
+          "role": "leg",
+          "move": "leg",
+          "angleDeg": 40,
+          "spine": {
+            "nodes": [
+              {
+                "x": 158,
+                "y": 250
+              },
+              {
+                "x": 375,
+                "y": 6
+              },
+              {
+                "x": 420,
+                "y": 10
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 380,
+                  "y": 16
+                },
+                "c2": {
+                  "x": 396,
+                  "y": 10
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "advance": 450
+    },
+    "r": {
+      "name": "r",
+      "ductusKind": "native",
+      "codepoints": [
+        "r"
+      ],
+      "components": [
+        {
+          "glyph": "_minim"
+        }
+      ],
+      "strokes": [
+        {
+          "id": "r-1",
+          "tool": "fraktur nib",
+          "role": "arch",
+          "move": "shoulder of the r",
+          "angleDeg": 40,
+          "spine": {
+            "nodes": [
+              {
+                "x": 112,
+                "y": 428
+              },
+              {
+                "x": 230,
+                "y": 502
+              },
+              {
+                "x": 290,
+                "y": 428
+              }
+            ],
+            "segments": [
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 170,
+                  "y": 494
+                },
+                "c2": {
+                  "x": 205,
+                  "y": 502
+                }
+              },
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 272,
+                  "y": 488
+                },
+                "c2": {
+                  "x": 286,
+                  "y": 460
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "r-2",
+          "tool": "fraktur nib",
+          "role": "arm",
+          "move": "small arm flick",
+          "angleDeg": 40,
+          "spine": {
+            "nodes": [
+              {
+                "x": 290,
+                "y": 428
+              },
+              {
+                "x": 330,
+                "y": 380
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          }
+        }
+      ],
+      "advance": 360
+    },
+    "s": {
+      "name": "s",
+      "ductusKind": "native",
+      "codepoints": [
+        "s"
+      ],
+      "strokes": [
+        {
+          "id": "s-1",
+          "tool": "fraktur nib",
+          "role": "spine",
+          "move": "top curve of the round s",
+          "angleDeg": 40,
+          "spine": {
+            "nodes": [
+              {
+                "x": 262,
+                "y": 446
+              },
+              {
+                "x": 92,
+                "y": 348
+              }
+            ],
+            "segments": [
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 205,
+                  "y": 502
+                },
+                "c2": {
+                  "x": 92,
+                  "y": 472
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "s-2",
+          "tool": "fraktur nib",
+          "role": "spine",
+          "move": "diagonal curve",
+          "angleDeg": 40,
+          "spine": {
+            "nodes": [
+              {
+                "x": 92,
+                "y": 348
+              },
+              {
+                "x": 268,
+                "y": 66
+              }
+            ],
+            "segments": [
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 86,
+                  "y": 190
+                },
+                "c2": {
+                  "x": 262,
+                  "y": 150
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "s-3",
+          "tool": "fraktur nib",
+          "role": "spine",
+          "move": "bottom flick",
+          "angleDeg": 40,
+          "spine": {
+            "nodes": [
+              {
+                "x": 268,
+                "y": 66
+              },
+              {
+                "x": 122,
+                "y": 26
+              }
+            ],
+            "segments": [
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 246,
+                  "y": 6
+                },
+                "c2": {
+                  "x": 170,
+                  "y": -4
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "advance": 360
+    },
+    "longs": {
+      "name": "longs",
+      "ductusKind": "native",
+      "codepoints": [
+        "ſ"
+      ],
+      "strokes": [
+        {
+          "id": "longs-1",
+          "tool": "fraktur nib",
+          "role": "stem",
+          "move": "the long s, one rising stroke",
+          "angleDeg": 40,
+          "spine": {
+            "nodes": [
+              {
+                "x": 96,
+                "y": 636
+              },
+              {
+                "x": 114,
+                "y": 320
+              },
+              {
+                "x": 106,
+                "y": 4
+              }
+            ],
+            "segments": [
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 86,
+                  "y": 640
+                },
+                "c2": {
+                  "x": 104,
+                  "y": 520
+                }
+              },
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 112,
+                  "y": 180
+                },
+                "c2": {
+                  "x": 108,
+                  "y": 60
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "longs-2",
+          "tool": "fraktur nib",
+          "role": "arm",
+          "move": "shoulder of the long s",
+          "angleDeg": 40,
+          "spine": {
+            "nodes": [
+              {
+                "x": 110,
+                "y": 352
+              },
+              {
+                "x": 160,
+                "y": 338
+              },
+              {
+                "x": 210,
+                "y": 306
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              }
+            ]
+          }
+        },
+        {
+          "id": "longs-3",
+          "tool": "fraktur nib",
+          "role": "foot",
+          "move": "diamond foot",
+          "angleDeg": 40,
+          "spine": {
+            "nodes": [
+              {
+                "x": 104,
+                "y": 14
+              },
+              {
+                "x": 194,
+                "y": -16
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          }
+        }
+      ],
+      "advance": 260
+    },
+    "t": {
+      "name": "t",
+      "ductusKind": "native",
+      "codepoints": [
+        "t"
+      ],
+      "strokes": [
+        {
+          "id": "t-1",
+          "tool": "fraktur nib",
+          "role": "stem",
+          "move": "begin the t with an upward stroke",
+          "angleDeg": 40,
+          "spine": {
+            "nodes": [
+              {
+                "x": 86,
+                "y": 452
+              },
+              {
+                "x": 110,
+                "y": 502
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          }
+        },
+        {
+          "id": "t-2",
+          "tool": "fraktur nib",
+          "role": "stem",
+          "move": "stem with its spiked entry",
+          "angleDeg": 40,
+          "spine": {
+            "nodes": [
+              {
+                "x": 74,
+                "y": 576
+              },
+              {
+                "x": 110,
+                "y": 556
+              },
+              {
+                "x": 110,
+                "y": 6
+              }
+            ],
+            "segments": [
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 98,
+                  "y": 570
+                },
+                "c2": {
+                  "x": 110,
+                  "y": 562
+                }
+              },
+              {
+                "kind": "line"
+              }
+            ]
+          }
+        },
+        {
+          "id": "t-3",
+          "tool": "fraktur nib",
+          "role": "foot",
+          "move": "diamond foot",
+          "angleDeg": 40,
+          "spine": {
+            "nodes": [
+              {
+                "x": 108,
+                "y": 14
+              },
+              {
+                "x": 198,
+                "y": -16
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          }
+        },
+        {
+          "id": "t-4",
+          "tool": "fraktur nib",
+          "role": "bar",
+          "move": "crossbar",
+          "angleDeg": 40,
+          "spine": {
+            "nodes": [
+              {
+                "x": 44,
+                "y": 322
+              },
+              {
+                "x": 232,
+                "y": 322
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          }
+        }
+      ],
+      "advance": 280
+    },
+    "v": {
+      "name": "v",
+      "ductusKind": "native",
+      "codepoints": [
+        "v"
+      ],
+      "strokes": [
+        {
+          "id": "v-1",
+          "tool": "fraktur nib",
+          "role": "stem",
+          "move": "stem with its spiked entry",
+          "angleDeg": 40,
+          "spine": {
+            "nodes": [
+              {
+                "x": 74,
+                "y": 516
+              },
+              {
+                "x": 110,
+                "y": 496
+              },
+              {
+                "x": 110,
+                "y": 46
+              }
+            ],
+            "segments": [
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 98,
+                  "y": 510
+                },
+                "c2": {
+                  "x": 110,
+                  "y": 502
+                }
+              },
+              {
+                "kind": "line"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v-2",
+          "tool": "fraktur nib",
+          "role": "stem",
+          "move": "curve sweeping up to the right",
+          "angleDeg": 40,
+          "spine": {
+            "nodes": [
+              {
+                "x": 110,
+                "y": 40
+              },
+              {
+                "x": 190,
+                "y": -6
+              },
+              {
+                "x": 370,
+                "y": 486
+              }
+            ],
+            "segments": [
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 140,
+                  "y": 6
+                },
+                "c2": {
+                  "x": 170,
+                  "y": -4
+                }
+              },
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 260,
+                  "y": 160
+                },
+                "c2": {
+                  "x": 330,
+                  "y": 340
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "advance": 430
+    },
+    "w": {
+      "name": "w",
+      "ductusKind": "native",
+      "codepoints": [
+        "w"
+      ],
+      "components": [
+        {
+          "glyph": "_minim"
+        }
+      ],
+      "strokes": [
+        {
+          "id": "w-1",
+          "tool": "fraktur nib",
+          "role": "bowl",
+          "move": "bottom curve of the conjoined u",
+          "angleDeg": 40,
+          "spine": {
+            "nodes": [
+              {
+                "x": 110,
+                "y": 60
+              },
+              {
+                "x": 300,
+                "y": 52
+              }
+            ],
+            "segments": [
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 118,
+                  "y": -10
+                },
+                "c2": {
+                  "x": 260,
+                  "y": -8
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "w-2",
+          "tool": "fraktur nib",
+          "role": "stem",
+          "move": "stem with its spiked entry",
+          "angleDeg": 40,
+          "spine": {
+            "nodes": [
+              {
+                "x": 269,
+                "y": 516
+              },
+              {
+                "x": 305,
+                "y": 496
+              },
+              {
+                "x": 305,
+                "y": 46
+              }
+            ],
+            "segments": [
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 293,
+                  "y": 510
+                },
+                "c2": {
+                  "x": 305,
+                  "y": 502
+                }
+              },
+              {
+                "kind": "line"
+              }
+            ]
+          }
+        },
+        {
+          "id": "w-3",
+          "tool": "fraktur nib",
+          "role": "stem",
+          "move": "the v's rising curve",
+          "angleDeg": 40,
+          "spine": {
+            "nodes": [
+              {
+                "x": 305,
+                "y": 40
+              },
+              {
+                "x": 380,
+                "y": -6
+              },
+              {
+                "x": 520,
+                "y": 486
+              }
+            ],
+            "segments": [
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 340,
+                  "y": 6
+                },
+                "c2": {
+                  "x": 365,
+                  "y": -4
+                }
+              },
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 430,
+                  "y": 160
+                },
+                "c2": {
+                  "x": 490,
+                  "y": 340
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "advance": 680
+    },
+    "x": {
+      "name": "x",
+      "ductusKind": "native",
+      "codepoints": [
+        "x"
+      ],
+      "components": [
+        {
+          "glyph": "_minim"
+        }
+      ],
+      "strokes": [
+        {
+          "id": "x-1",
+          "tool": "fraktur nib",
+          "role": "tail",
+          "move": "hairline tail, drawn with the corner of the nib",
+          "angleDeg": 40,
+          "spine": {
+            "nodes": [
+              {
+                "x": 116,
+                "y": 250
+              },
+              {
+                "x": 280,
+                "y": 20
+              },
+              {
+                "x": 330,
+                "y": -28
+              }
+            ],
+            "segments": [
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 190,
+                  "y": 160
+                },
+                "c2": {
+                  "x": 240,
+                  "y": 70
+                }
+              },
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 290,
+                  "y": -6
+                },
+                "c2": {
+                  "x": 308,
+                  "y": -20
+                }
+              }
+            ]
+          },
+          "points": [
+            {
+              "node": 0,
+              "widthFactor": 0.28
+            },
+            {
+              "node": 1,
+              "widthFactor": 0.28
+            },
+            {
+              "node": 2,
+              "widthFactor": 0.28
+            }
+          ]
+        }
+      ],
+      "advance": 370
+    },
+    "y": {
+      "name": "y",
+      "ductusKind": "native",
+      "codepoints": [
+        "y"
+      ],
+      "strokes": [
+        {
+          "id": "y-1",
+          "tool": "fraktur nib",
+          "role": "stem",
+          "move": "stem with its spiked entry",
+          "angleDeg": 40,
+          "spine": {
+            "nodes": [
+              {
+                "x": 74,
+                "y": 516
+              },
+              {
+                "x": 110,
+                "y": 496
+              },
+              {
+                "x": 110,
+                "y": 36
+              }
+            ],
+            "segments": [
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 98,
+                  "y": 510
+                },
+                "c2": {
+                  "x": 110,
+                  "y": 502
+                }
+              },
+              {
+                "kind": "line"
+              }
+            ]
+          }
+        },
+        {
+          "id": "y-2",
+          "tool": "fraktur nib",
+          "role": "tail",
+          "move": "hairline tail with the corner of the nib",
+          "angleDeg": 40,
+          "spine": {
+            "nodes": [
+              {
+                "x": 110,
+                "y": 30
+              },
+              {
+                "x": 150,
+                "y": -60
+              },
+              {
+                "x": 66,
+                "y": -186
+              }
+            ],
+            "segments": [
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 136,
+                  "y": -16
+                },
+                "c2": {
+                  "x": 148,
+                  "y": -36
+                }
+              },
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 110,
+                  "y": -140
+                },
+                "c2": {
+                  "x": 88,
+                  "y": -172
+                }
+              }
+            ]
+          },
+          "points": [
+            {
+              "node": 0,
+              "widthFactor": 0.3
+            },
+            {
+              "node": 1,
+              "widthFactor": 0.3
+            },
+            {
+              "node": 2,
+              "widthFactor": 0.3
+            }
+          ]
+        },
+        {
+          "id": "y-3",
+          "tool": "fraktur nib",
+          "role": "stem",
+          "move": "right stroke",
+          "angleDeg": 40,
+          "spine": {
+            "nodes": [
+              {
+                "x": 360,
+                "y": 486
+              },
+              {
+                "x": 300,
+                "y": 200
+              },
+              {
+                "x": 116,
+                "y": 36
+              }
+            ],
+            "segments": [
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 318,
+                  "y": 340
+                },
+                "c2": {
+                  "x": 308,
+                  "y": 260
+                }
+              },
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 220,
+                  "y": 110
+                },
+                "c2": {
+                  "x": 150,
+                  "y": 60
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "advance": 420
+    },
+    "z": {
+      "name": "z",
+      "ductusKind": "native",
+      "codepoints": [
+        "z"
+      ],
+      "strokes": [
+        {
+          "id": "z-1",
+          "tool": "fraktur nib",
+          "role": "arm",
+          "move": "top curve",
+          "angleDeg": 40,
+          "spine": {
+            "nodes": [
+              {
+                "x": 84,
+                "y": 430
+              },
+              {
+                "x": 272,
+                "y": 452
+              }
+            ],
+            "segments": [
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 115,
+                  "y": 502
+                },
+                "c2": {
+                  "x": 245,
+                  "y": 508
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "z-2",
+          "tool": "fraktur nib",
+          "role": "stem",
+          "move": "diagonal curve",
+          "angleDeg": 40,
+          "spine": {
+            "nodes": [
+              {
+                "x": 272,
+                "y": 452
+              },
+              {
+                "x": 160,
+                "y": 250
+              },
+              {
+                "x": 262,
+                "y": 60
+              }
+            ],
+            "segments": [
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 228,
+                  "y": 360
+                },
+                "c2": {
+                  "x": 180,
+                  "y": 300
+                }
+              },
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 205,
+                  "y": 160
+                },
+                "c2": {
+                  "x": 240,
+                  "y": 100
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "z-3",
+          "tool": "fraktur nib",
+          "role": "tail",
+          "move": "tail sweeping below the line",
+          "angleDeg": 40,
+          "spine": {
+            "nodes": [
+              {
+                "x": 262,
+                "y": 60
+              },
+              {
+                "x": 205,
+                "y": -140
+              },
+              {
+                "x": 105,
+                "y": -120
+              }
+            ],
+            "segments": [
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 240,
+                  "y": -40
+                },
+                "c2": {
+                  "x": 222,
+                  "y": -100
+                }
+              },
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 160,
+                  "y": -156
+                },
+                "c2": {
+                  "x": 124,
+                  "y": -140
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "advance": 350
+    }
+  },
+  "encoding": {
+    "i": "i",
+    "l": "l",
+    "n": "n",
+    "m": "m",
+    "h": "h",
+    "u": "u",
+    "a": "a",
+    "b": "b",
+    "p": "p",
+    "d": "d",
+    "q": "q",
+    "c": "c",
+    "e": "e",
+    "o": "o",
+    "f": "f",
+    "g": "g",
+    "j": "j",
+    "k": "k",
+    "r": "r",
+    "s": "s",
+    "ſ": "longs",
+    "t": "t",
+    "v": "v",
+    "w": "w",
+    "x": "x",
+    "y": "y",
+    "z": "z"
+  },
+  "bearings": {
+    "defaultLeft": 18,
+    "defaultRight": 18
+  }
+}

@@ -1,0 +1,182 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>StrokeCore diff environment — foundational</title>
+<style>
+  body { font-family: sans-serif; margin: 24px; color: #222; }
+  h1 { font-size: 20px; } p.key span { padding: 1px 7px; border-radius: 3px; color: #fff; }
+  .grid { display: flex; flex-wrap: wrap; gap: 18px; }
+  figure { margin: 0; width: 300px; }
+  figure img { max-width: 300px; display: block; margin-bottom: 6px; image-rendering: pixelated; border: 1px solid #ddd; }
+  figcaption { font-size: 13px; } figcaption span { color: #777; }
+</style>
+<h1>foundational — glyph vs Harris, worst first</h1>
+<p class="key">Diff key: <span style="background:#464646">overlap</span>
+<span style="background:#dc143c">Harris only — my misses</span>
+<span style="background:#1e5adc">mine only — my excess</span></p>
+<p>Alignment: ink bbox to ink bbox: uniform scale from ink height, ink bottoms aligned (baseline-anchored; descender line for descenders). Side-by-side: Harris (left) beside mine (right), equal height.
+How to read a diff: docs/DIFFENV.md.</p>
+<div class="grid">
+<figure>
+  <img src="foundational-&amp;.png" alt="diff &amp;">
+  <img src="foundational-&amp;-side.png" alt="Harris beside mine &amp;">
+  <figcaption><b>&amp;</b> IoU 0.320 · miss 3229 · excess 3760<br>
+  <span>his 6523px · mine 7054px</span></figcaption>
+</figure>
+<figure>
+  <img src="foundational-y.png" alt="diff y">
+  <img src="foundational-y-side.png" alt="Harris beside mine y">
+  <figcaption><b>y</b> IoU 0.327 · miss 2978 · excess 2172<br>
+  <span>his 5478px · mine 4672px</span></figcaption>
+</figure>
+<figure>
+  <img src="foundational-q.png" alt="diff q">
+  <img src="foundational-q-side.png" alt="Harris beside mine q">
+  <figcaption><b>q</b> IoU 0.362 · miss 2394 · excess 2387<br>
+  <span>his 5108px · mine 5101px</span></figcaption>
+</figure>
+<figure>
+  <img src="foundational-g.png" alt="diff g">
+  <img src="foundational-g-side.png" alt="Harris beside mine g">
+  <figcaption><b>g</b> IoU 0.364 · miss 3609 · excess 2619<br>
+  <span>his 7167px · mine 6177px</span></figcaption>
+</figure>
+<figure>
+  <img src="foundational-d.png" alt="diff d">
+  <img src="foundational-d-side.png" alt="Harris beside mine d">
+  <figcaption><b>d</b> IoU 0.377 · miss 3575 · excess 2310<br>
+  <span>his 7135px · mine 5870px</span></figcaption>
+</figure>
+<figure>
+  <img src="foundational-k.png" alt="diff k">
+  <img src="foundational-k-side.png" alt="Harris beside mine k">
+  <figcaption><b>k</b> IoU 0.381 · miss 2169 · excess 1723<br>
+  <span>his 4567px · mine 4121px</span></figcaption>
+</figure>
+<figure>
+  <img src="foundational-v.png" alt="diff v">
+  <img src="foundational-v-side.png" alt="Harris beside mine v">
+  <figcaption><b>v</b> IoU 0.422 · miss 1781 · excess 1095<br>
+  <span>his 3880px · mine 3194px</span></figcaption>
+</figure>
+<figure>
+  <img src="foundational-x.png" alt="diff x">
+  <img src="foundational-x-side.png" alt="Harris beside mine x">
+  <figcaption><b>x</b> IoU 0.443 · miss 1932 · excess 1475<br>
+  <span>his 4638px · mine 4181px</span></figcaption>
+</figure>
+<figure>
+  <img src="foundational-t.png" alt="diff t">
+  <img src="foundational-t-side.png" alt="Harris beside mine t">
+  <figcaption><b>t</b> IoU 0.449 · miss 1338 · excess 625<br>
+  <span>his 2937px · mine 2224px</span></figcaption>
+</figure>
+<figure>
+  <img src="foundational-o.png" alt="diff o">
+  <img src="foundational-o-side.png" alt="Harris beside mine o">
+  <figcaption><b>o</b> IoU 0.452 · miss 1030 · excess 1386<br>
+  <span>his 3024px · mine 3380px</span></figcaption>
+</figure>
+<figure>
+  <img src="foundational-w.png" alt="diff w">
+  <img src="foundational-w-side.png" alt="Harris beside mine w">
+  <figcaption><b>w</b> IoU 0.491 · miss 2205 · excess 1911<br>
+  <span>his 6172px · mine 5878px</span></figcaption>
+</figure>
+<figure>
+  <img src="foundational-s.png" alt="diff s">
+  <img src="foundational-s-side.png" alt="Harris beside mine s">
+  <figcaption><b>s</b> IoU 0.512 · miss 1490 · excess 696<br>
+  <span>his 3786px · mine 2992px</span></figcaption>
+</figure>
+<figure>
+  <img src="foundational-a.png" alt="diff a">
+  <img src="foundational-a-side.png" alt="Harris beside mine a">
+  <figcaption><b>a</b> IoU 0.540 · miss 763 · excess 1973<br>
+  <span>his 3970px · mine 5180px</span></figcaption>
+</figure>
+<figure>
+  <img src="foundational-r.png" alt="diff r">
+  <img src="foundational-r-side.png" alt="Harris beside mine r">
+  <figcaption><b>r</b> IoU 0.542 · miss 603 · excess 912<br>
+  <span>his 2397px · mine 2706px</span></figcaption>
+</figure>
+<figure>
+  <img src="foundational-h.png" alt="diff h">
+  <img src="foundational-h-side.png" alt="Harris beside mine h">
+  <figcaption><b>h</b> IoU 0.554 · miss 2249 · excess 1098<br>
+  <span>his 6408px · mine 5257px</span></figcaption>
+</figure>
+<figure>
+  <img src="foundational-f.png" alt="diff f">
+  <img src="foundational-f-side.png" alt="Harris beside mine f">
+  <figcaption><b>f</b> IoU 0.567 · miss 1214 · excess 1411<br>
+  <span>his 4658px · mine 4855px</span></figcaption>
+</figure>
+<figure>
+  <img src="foundational-j.png" alt="diff j">
+  <img src="foundational-j-side.png" alt="Harris beside mine j">
+  <figcaption><b>j</b> IoU 0.590 · miss 1168 · excess 538<br>
+  <span>his 3623px · mine 2993px</span></figcaption>
+</figure>
+<figure>
+  <img src="foundational-z.png" alt="diff z">
+  <img src="foundational-z-side.png" alt="Harris beside mine z">
+  <figcaption><b>z</b> IoU 0.612 · miss 877 · excess 838<br>
+  <span>his 3577px · mine 3538px</span></figcaption>
+</figure>
+<figure>
+  <img src="foundational-b.png" alt="diff b">
+  <img src="foundational-b-side.png" alt="Harris beside mine b">
+  <figcaption><b>b</b> IoU 0.623 · miss 1492 · excess 989<br>
+  <span>his 5589px · mine 5086px</span></figcaption>
+</figure>
+<figure>
+  <img src="foundational-n.png" alt="diff n">
+  <img src="foundational-n-side.png" alt="Harris beside mine n">
+  <figcaption><b>n</b> IoU 0.640 · miss 798 · excess 1057<br>
+  <span>his 4097px · mine 4356px</span></figcaption>
+</figure>
+<figure>
+  <img src="foundational-m.png" alt="diff m">
+  <img src="foundational-m-side.png" alt="Harris beside mine m">
+  <figcaption><b>m</b> IoU 0.642 · miss 1272 · excess 1621<br>
+  <span>his 6460px · mine 6809px</span></figcaption>
+</figure>
+<figure>
+  <img src="foundational-i.png" alt="diff i">
+  <img src="foundational-i-side.png" alt="Harris beside mine i">
+  <figcaption><b>i</b> IoU 0.650 · miss 727 · excess 533<br>
+  <span>his 3070px · mine 2876px</span></figcaption>
+</figure>
+<figure>
+  <img src="foundational-u.png" alt="diff u">
+  <img src="foundational-u-side.png" alt="Harris beside mine u">
+  <figcaption><b>u</b> IoU 0.656 · miss 1148 · excess 776<br>
+  <span>his 4817px · mine 4445px</span></figcaption>
+</figure>
+<figure>
+  <img src="foundational-l.png" alt="diff l">
+  <img src="foundational-l-side.png" alt="Harris beside mine l">
+  <figcaption><b>l</b> IoU 0.671 · miss 810 · excess 362<br>
+  <span>his 3199px · mine 2751px</span></figcaption>
+</figure>
+<figure>
+  <img src="foundational-e.png" alt="diff e">
+  <img src="foundational-e-side.png" alt="Harris beside mine e">
+  <figcaption><b>e</b> IoU 0.681 · miss 613 · excess 1139<br>
+  <span>his 4360px · mine 4886px</span></figcaption>
+</figure>
+<figure>
+  <img src="foundational-p.png" alt="diff p">
+  <img src="foundational-p-side.png" alt="Harris beside mine p">
+  <figcaption><b>p</b> IoU 0.699 · miss 1093 · excess 680<br>
+  <span>his 5216px · mine 4803px</span></figcaption>
+</figure>
+<figure>
+  <img src="foundational-c.png" alt="diff c">
+  <img src="foundational-c-side.png" alt="Harris beside mine c">
+  <figcaption><b>c</b> IoU 0.719 · miss 429 · excess 711<br>
+  <span>his 3343px · mine 3625px</span></figcaption>
+</figure>
+</div>
+

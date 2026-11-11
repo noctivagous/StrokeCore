@@ -1,0 +1,228 @@
+{
+ "k": {
+  "model": {
+   "page": "/tmp/fnd/pg-3.png",
+   "bbox": [
+    926,
+    621,
+    981,
+    700
+   ],
+   "crop": [
+    900,
+    595,
+    1007,
+    726
+   ],
+   "file": "fnd45-k-model.png"
+  },
+  "ductus": {
+   "page": "/tmp/fnd/pg-3.png",
+   "bbox": [
+    1190,
+    167,
+    1350,
+    275
+   ],
+   "crop": [
+    1164,
+    141,
+    1376,
+    301
+   ],
+   "file": "fnd45-k-ductus.png"
+  }
+ },
+ "l": {
+  "model": {
+   "page": "/tmp/fnd/pg-3.png",
+   "bbox": [
+    927,
+    832,
+    1037,
+    888
+   ],
+   "crop": [
+    901,
+    806,
+    1063,
+    914
+   ],
+   "file": "fnd45-l-model.png"
+  },
+  "ductus": {
+   "page": "/tmp/fnd/pg-3.png",
+   "bbox": [
+    1190,
+    394,
+    1403,
+    488
+   ],
+   "crop": [
+    1164,
+    368,
+    1429,
+    514
+   ],
+   "file": "fnd45-l-ductus.png"
+  }
+ },
+ "m": {
+  "model": {
+   "page": "/tmp/fnd/pg-3.png",
+   "bbox": [
+    929,
+    1275,
+    994,
+    1347
+   ],
+   "crop": [
+    903,
+    1249,
+    1020,
+    1373
+   ],
+   "file": "fnd45-m-model.png"
+  },
+  "ductus": {
+   "page": "/tmp/fnd/pg-3.png",
+   "bbox": [
+    1190,
+    612,
+    1392,
+    705
+   ],
+   "crop": [
+    1164,
+    586,
+    1418,
+    731
+   ],
+   "file": "fnd45-m-ductus.png"
+  }
+ },
+ "n": {
+  "model": {
+   "page": "/tmp/fnd/pg-3.png",
+   "bbox": [
+    926,
+    1990,
+    987,
+    2045
+   ],
+   "crop": [
+    900,
+    1964,
+    1013,
+    2071
+   ],
+   "file": "fnd45-n-model.png"
+  },
+  "ductus": {
+   "page": "/tmp/fnd/pg-3.png",
+   "bbox": [
+    1190,
+    824,
+    1446,
+    917
+   ],
+   "crop": [
+    1164,
+    798,
+    1472,
+    943
+   ],
+   "file": "fnd45-n-ductus.png"
+  }
+ },
+ "o": {
+  "ductus": {
+   "page": "/tmp/fnd/pg-3.png",
+   "bbox": [
+    1193,
+    1038,
+    1413,
+    1136
+   ],
+   "crop": [
+    1167,
+    1012,
+    1439,
+    1162
+   ],
+   "file": "fnd45-o-ductus.png"
+  }
+ },
+ "p": {
+  "ductus": {
+   "page": "/tmp/fnd/pg-3.png",
+   "bbox": [
+    1190,
+    1258,
+    1409,
+    1393
+   ],
+   "crop": [
+    1164,
+    1232,
+    1435,
+    1419
+   ],
+   "file": "fnd45-p-ductus.png"
+  }
+ },
+ "q": {
+  "ductus": {
+   "page": "/tmp/fnd/pg-3.png",
+   "bbox": [
+    1190,
+    1467,
+    1395,
+    1566
+   ],
+   "crop": [
+    1164,
+    1441,
+    1421,
+    1592
+   ],
+   "file": "fnd45-q-ductus.png"
+  }
+ },
+ "r": {
+  "ductus": {
+   "page": "/tmp/fnd/pg-3.png",
+   "bbox": [
+    1197,
+    1639,
+    1439,
+    1796
+   ],
+   "crop": [
+    1171,
+    1613,
+    1465,
+    1822
+   ],
+   "file": "fnd45-r-ductus.png"
+  }
+ },
+ "s": {
+  "ductus": {
+   "page": "/tmp/fnd/pg-3.png",
+   "bbox": [
+    1190,
+    1908,
+    1401,
+    2048
+   ],
+   "crop": [
+    1164,
+    1882,
+    1427,
+    2074
+   ],
+   "file": "fnd45-s-ductus.png"
+  }
+ }
+}

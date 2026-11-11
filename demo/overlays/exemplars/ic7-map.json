@@ -1,0 +1,104 @@
+{
+ "X": {
+  "model": {
+   "page": "/home/hatch/workspace/strokecore/demo/overlays/pages/ic-7.png",
+   "bbox": [
+    93,
+    171,
+    474,
+    637
+   ],
+   "crop": [
+    67,
+    145,
+    500,
+    663
+   ],
+   "file": "ic7-X-model.png"
+  },
+  "ductus": {
+   "page": "/home/hatch/workspace/strokecore/demo/overlays/pages/ic-7.png",
+   "bbox": [
+    1037,
+    172,
+    1157,
+    203
+   ],
+   "crop": [
+    1011,
+    146,
+    1183,
+    229
+   ],
+   "file": "ic7-X-ductus.png"
+  }
+ },
+ "Y": {
+  "model": {
+   "page": "/home/hatch/workspace/strokecore/demo/overlays/pages/ic-7.png",
+   "bbox": [
+    93,
+    894,
+    511,
+    1359
+   ],
+   "crop": [
+    67,
+    868,
+    537,
+    1385
+   ],
+   "file": "ic7-Y-model.png"
+  },
+  "ductus": {
+   "page": "/home/hatch/workspace/strokecore/demo/overlays/pages/ic-7.png",
+   "bbox": [
+    791,
+    178,
+    1103,
+    596
+   ],
+   "crop": [
+    765,
+    152,
+    1129,
+    622
+   ],
+   "file": "ic7-Y-ductus.png"
+  }
+ },
+ "Z": {
+  "model": {
+   "page": "/home/hatch/workspace/strokecore/demo/overlays/pages/ic-7.png",
+   "bbox": [
+    83,
+    1580,
+    444,
+    2050
+   ],
+   "crop": [
+    57,
+    1554,
+    470,
+    2076
+   ],
+   "file": "ic7-Z-model.png"
+  },
+  "ductus": {
+   "page": "/home/hatch/workspace/strokecore/demo/overlays/pages/ic-7.png",
+   "bbox": [
+    1048,
+    597,
+    1173,
+    637
+   ],
+   "crop": [
+    1022,
+    571,
+    1199,
+    663
+   ],
+   "file": "ic7-Z-ductus.png"
+  }
+ }
+}

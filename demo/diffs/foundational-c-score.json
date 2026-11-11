@@ -1,0 +1,9 @@
+{
+ "glyph": "c",
+ "iou": 0.719,
+ "hisPx": 3343,
+ "minePx": 3625,
+ "missPx": 429,
+ "excessPx": 711,
+ "exemplar": "fnd44-c-model.png"
+}

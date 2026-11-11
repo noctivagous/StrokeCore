@@ -1,0 +1,2642 @@
+{
+  "format": "strokefont",
+  "version": 1,
+  "name": "Imperial Capitals",
+  "designer": "StrokeCore",
+  "sourceNote": "Brush-drawn Trajan capitals after David Harris, The Art of Calligraphy, pp. 113-119 (Catich's tradition). Flat brush, cap height 8 brush widths.",
+  "unitsPerEm": 1000,
+  "referenceTool": "imperial brush",
+  "ladder": {
+    "xHeight": 5,
+    "ascender": 2,
+    "descender": 2,
+    "capHeight": 8
+  },
+  "slant": 0,
+  "tools": [
+    {
+      "name": "imperial brush",
+      "tip": {
+        "kind": "flatBrush",
+        "width": 90,
+        "thickness": 20
+      },
+      "direction": "any"
+    }
+  ],
+  "moves": [
+    "pull the stem down",
+    "twist the brush from 30 to 90 degrees",
+    "turn the brush over and twist from 150 to 90 degrees"
+  ],
+  "glyphs": {
+    "_capStem": {
+      "name": "_capStem",
+      "ductusKind": "native",
+      "strokes": [
+        {
+          "id": "_capStem-1",
+          "tool": "imperial brush",
+          "role": "stem",
+          "move": "pull the stem down",
+          "angleDeg": 0,
+          "spine": {
+            "nodes": [
+              {
+                "x": 110,
+                "y": 720
+              },
+              {
+                "x": 110,
+                "y": 0
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          }
+        },
+        {
+          "id": "_capStem-2",
+          "tool": "imperial brush",
+          "role": "serif",
+          "move": "top serif",
+          "angleDeg": 0,
+          "spine": {
+            "nodes": [
+              {
+                "x": 58,
+                "y": 710
+              },
+              {
+                "x": 162,
+                "y": 709
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "points": [
+            {
+              "node": 0,
+              "twistDeg": 30
+            },
+            {
+              "node": 1,
+              "twistDeg": 0
+            }
+          ]
+        },
+        {
+          "id": "_capStem-3",
+          "tool": "imperial brush",
+          "role": "serif",
+          "move": "foot serif",
+          "angleDeg": 0,
+          "spine": {
+            "nodes": [
+              {
+                "x": 58,
+                "y": 10
+              },
+              {
+                "x": 162,
+                "y": 11
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "points": [
+            {
+              "node": 0,
+              "twistDeg": -30
+            },
+            {
+              "node": 1,
+              "twistDeg": 0
+            }
+          ]
+        }
+      ]
+    },
+    "_eArms": {
+      "name": "_eArms",
+      "ductusKind": "native",
+      "strokes": [
+        {
+          "id": "_eArms-1",
+          "tool": "imperial brush",
+          "role": "arm",
+          "move": "top arm: twist the brush from 30 to 90 degrees to create the top serif",
+          "angleDeg": 0,
+          "spine": {
+            "nodes": [
+              {
+                "x": 110,
+                "y": 706
+              },
+              {
+                "x": 432,
+                "y": 706
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "points": [
+            {
+              "node": 0,
+              "twistDeg": 30
+            },
+            {
+              "node": 1,
+              "twistDeg": 90
+            }
+          ]
+        },
+        {
+          "id": "_eArms-2",
+          "tool": "imperial brush",
+          "role": "arm",
+          "move": "middle arm",
+          "angleDeg": 0,
+          "spine": {
+            "nodes": [
+              {
+                "x": 110,
+                "y": 366
+              },
+              {
+                "x": 372,
+                "y": 366
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "_cArc": {
+      "name": "_cArc",
+      "ductusKind": "native",
+      "strokes": [
+        {
+          "id": "_cArc-1",
+          "tool": "imperial brush",
+          "role": "bowl",
+          "move": "main arc of the C",
+          "angleDeg": 0,
+          "spine": {
+            "nodes": [
+              {
+                "x": 470,
+                "y": 650
+              },
+              {
+                "x": 76,
+                "y": 372
+              },
+              {
+                "x": 316,
+                "y": 2
+              }
+            ],
+            "segments": [
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 320,
+                  "y": 736
+                },
+                "c2": {
+                  "x": -64,
+                  "y": 640
+                }
+              },
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": -64,
+                  "y": 168
+                },
+                "c2": {
+                  "x": 150,
+                  "y": 26
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "_pBowl": {
+      "name": "_pBowl",
+      "ductusKind": "native",
+      "strokes": [
+        {
+          "id": "_pBowl-1",
+          "tool": "imperial brush",
+          "role": "bowl",
+          "move": "top arc of the bowl",
+          "angleDeg": 0,
+          "spine": {
+            "nodes": [
+              {
+                "x": 112,
+                "y": 708
+              },
+              {
+                "x": 452,
+                "y": 540
+              }
+            ],
+            "segments": [
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 260,
+                  "y": 724
+                },
+                "c2": {
+                  "x": 448,
+                  "y": 668
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "_pBowl-2",
+          "tool": "imperial brush",
+          "role": "bowl",
+          "move": "bowl curving back to the stem",
+          "angleDeg": 0,
+          "spine": {
+            "nodes": [
+              {
+                "x": 452,
+                "y": 540
+              },
+              {
+                "x": 114,
+                "y": 336
+              }
+            ],
+            "segments": [
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 448,
+                  "y": 408
+                },
+                "c2": {
+                  "x": 300,
+                  "y": 344
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "I": {
+      "name": "I",
+      "ductusKind": "native",
+      "codepoints": [
+        "I"
+      ],
+      "components": [
+        {
+          "glyph": "_capStem"
+        }
+      ],
+      "strokes": [],
+      "advance": 220
+    },
+    "E": {
+      "name": "E",
+      "ductusKind": "native",
+      "codepoints": [
+        "E"
+      ],
+      "components": [
+        {
+          "glyph": "_capStem"
+        },
+        {
+          "glyph": "_eArms"
+        }
+      ],
+      "strokes": [
+        {
+          "id": "E-1",
+          "tool": "imperial brush",
+          "role": "arm",
+          "move": "foot: turn the brush over and twist from 150 to 90 degrees",
+          "angleDeg": 0,
+          "spine": {
+            "nodes": [
+              {
+                "x": 110,
+                "y": 14
+              },
+              {
+                "x": 446,
+                "y": 14
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "points": [
+            {
+              "node": 0,
+              "twistDeg": 150
+            },
+            {
+              "node": 1,
+              "twistDeg": 90
+            }
+          ]
+        }
+      ],
+      "advance": 520
+    },
+    "F": {
+      "name": "F",
+      "ductusKind": "native",
+      "codepoints": [
+        "F"
+      ],
+      "components": [
+        {
+          "glyph": "_capStem"
+        },
+        {
+          "glyph": "_eArms"
+        }
+      ],
+      "strokes": [],
+      "advance": 500
+    },
+    "L": {
+      "name": "L",
+      "ductusKind": "native",
+      "codepoints": [
+        "L"
+      ],
+      "components": [
+        {
+          "glyph": "_capStem"
+        }
+      ],
+      "strokes": [
+        {
+          "id": "L-1",
+          "tool": "imperial brush",
+          "role": "arm",
+          "move": "foot of the L (the E's foot, longer): turn the brush over and twist from 150 to 90 degrees",
+          "angleDeg": 0,
+          "spine": {
+            "nodes": [
+              {
+                "x": 110,
+                "y": 14
+              },
+              {
+                "x": 590,
+                "y": 14
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "points": [
+            {
+              "node": 0,
+              "twistDeg": 150
+            },
+            {
+              "node": 1,
+              "twistDeg": 90
+            }
+          ]
+        }
+      ],
+      "advance": 660
+    },
+    "H": {
+      "name": "H",
+      "ductusKind": "native",
+      "codepoints": [
+        "H"
+      ],
+      "components": [
+        {
+          "glyph": "_capStem"
+        },
+        {
+          "glyph": "_capStem",
+          "dx": 408
+        }
+      ],
+      "strokes": [
+        {
+          "id": "H-1",
+          "tool": "imperial brush",
+          "role": "bar",
+          "move": "crossbar drawn at 30 degrees, joining two I's",
+          "angleDeg": 30,
+          "spine": {
+            "nodes": [
+              {
+                "x": 110,
+                "y": 366
+              },
+              {
+                "x": 540,
+                "y": 366
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          }
+        }
+      ],
+      "advance": 700
+    },
+    "P": {
+      "name": "P",
+      "ductusKind": "native",
+      "codepoints": [
+        "P"
+      ],
+      "components": [
+        {
+          "glyph": "_capStem"
+        },
+        {
+          "glyph": "_pBowl"
+        }
+      ],
+      "strokes": [],
+      "advance": 540
+    },
+    "R": {
+      "name": "R",
+      "ductusKind": "native",
+      "codepoints": [
+        "R"
+      ],
+      "components": [
+        {
+          "glyph": "_capStem"
+        },
+        {
+          "glyph": "_pBowl"
+        }
+      ],
+      "strokes": [
+        {
+          "id": "R-1",
+          "tool": "imperial brush",
+          "role": "leg",
+          "move": "tail of the R: flatten the brush to the horizontal before edging off",
+          "angleDeg": 0,
+          "spine": {
+            "nodes": [
+              {
+                "x": 298,
+                "y": 340
+              },
+              {
+                "x": 560,
+                "y": 84
+              },
+              {
+                "x": 716,
+                "y": 2
+              }
+            ],
+            "segments": [
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 470,
+                  "y": 220
+                },
+                "c2": {
+                  "x": 540,
+                  "y": 130
+                }
+              },
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 620,
+                  "y": 36
+                },
+                "c2": {
+                  "x": 672,
+                  "y": 6
+                }
+              }
+            ]
+          },
+          "points": [
+            {
+              "node": 0,
+              "twistDeg": 0
+            },
+            {
+              "node": 2,
+              "twistDeg": 85
+            }
+          ]
+        }
+      ],
+      "advance": 790
+    },
+    "C": {
+      "name": "C",
+      "ductusKind": "native",
+      "codepoints": [
+        "C"
+      ],
+      "components": [
+        {
+          "glyph": "_cArc"
+        }
+      ],
+      "strokes": [
+        {
+          "id": "C-1",
+          "tool": "imperial brush",
+          "role": "serif",
+          "move": "top serif: twist the brush from 30 to 90 degrees",
+          "angleDeg": 0,
+          "spine": {
+            "nodes": [
+              {
+                "x": 470,
+                "y": 650
+              },
+              {
+                "x": 566,
+                "y": 672
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "points": [
+            {
+              "node": 0,
+              "twistDeg": 30
+            },
+            {
+              "node": 1,
+              "twistDeg": 90
+            }
+          ]
+        },
+        {
+          "id": "C-2",
+          "tool": "imperial brush",
+          "role": "serif",
+          "move": "bottom serif: turn the brush over and twist from 150 degrees",
+          "angleDeg": 0,
+          "spine": {
+            "nodes": [
+              {
+                "x": 316,
+                "y": 4
+              },
+              {
+                "x": 470,
+                "y": 40
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "points": [
+            {
+              "node": 0,
+              "twistDeg": 150
+            },
+            {
+              "node": 1,
+              "twistDeg": 90
+            }
+          ]
+        }
+      ],
+      "advance": 690
+    },
+    "G": {
+      "name": "G",
+      "ductusKind": "native",
+      "codepoints": [
+        "G"
+      ],
+      "components": [
+        {
+          "glyph": "_cArc"
+        }
+      ],
+      "strokes": [
+        {
+          "id": "G-1",
+          "tool": "imperial brush",
+          "role": "serif",
+          "move": "top serif, as the C",
+          "angleDeg": 0,
+          "spine": {
+            "nodes": [
+              {
+                "x": 470,
+                "y": 650
+              },
+              {
+                "x": 566,
+                "y": 672
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "points": [
+            {
+              "node": 0,
+              "twistDeg": 30
+            },
+            {
+              "node": 1,
+              "twistDeg": 90
+            }
+          ]
+        },
+        {
+          "id": "G-2",
+          "tool": "imperial brush",
+          "role": "serif",
+          "move": "top serif of the stem: pull horizontally, then twist 30 to 90",
+          "angleDeg": 0,
+          "spine": {
+            "nodes": [
+              {
+                "x": 490,
+                "y": 330
+              },
+              {
+                "x": 590,
+                "y": 330
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "points": [
+            {
+              "node": 0,
+              "twistDeg": 30
+            },
+            {
+              "node": 1,
+              "twistDeg": 90
+            }
+          ]
+        },
+        {
+          "id": "G-3",
+          "tool": "imperial brush",
+          "role": "stem",
+          "move": "pull the stem down",
+          "angleDeg": 0,
+          "spine": {
+            "nodes": [
+              {
+                "x": 540,
+                "y": 330
+              },
+              {
+                "x": 540,
+                "y": 16
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          }
+        }
+      ],
+      "advance": 720
+    },
+    "O": {
+      "name": "O",
+      "ductusKind": "native",
+      "codepoints": [
+        "O"
+      ],
+      "strokes": [
+        {
+          "id": "O-1",
+          "tool": "imperial brush",
+          "role": "bowl",
+          "move": "left arc of the O",
+          "angleDeg": 0,
+          "spine": {
+            "nodes": [
+              {
+                "x": 330,
+                "y": 720
+              },
+              {
+                "x": 330,
+                "y": 0
+              }
+            ],
+            "segments": [
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 10,
+                  "y": 688
+                },
+                "c2": {
+                  "x": 10,
+                  "y": 32
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "O-2",
+          "tool": "imperial brush",
+          "role": "bowl",
+          "move": "right arc of the O",
+          "angleDeg": 0,
+          "spine": {
+            "nodes": [
+              {
+                "x": 330,
+                "y": 0
+              },
+              {
+                "x": 330,
+                "y": 720
+              }
+            ],
+            "segments": [
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 650,
+                  "y": 32
+                },
+                "c2": {
+                  "x": 650,
+                  "y": 688
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "advance": 790
+    },
+    "Q": {
+      "name": "Q",
+      "ductusKind": "native",
+      "codepoints": [
+        "Q"
+      ],
+      "components": [
+        {
+          "glyph": "O"
+        }
+      ],
+      "strokes": [
+        {
+          "id": "Q-1",
+          "tool": "imperial brush",
+          "role": "tail",
+          "move": "tail of the Q: sweeps well below the baseline, breaking the bilinear form; slightly turn the brush to horizontal before edging off",
+          "angleDeg": 20,
+          "spine": {
+            "nodes": [
+              {
+                "x": 520,
+                "y": 150
+              },
+              {
+                "x": 1500,
+                "y": -260
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "points": [
+            {
+              "node": 0,
+              "twistDeg": 0
+            },
+            {
+              "node": 1,
+              "twistDeg": 70
+            }
+          ]
+        }
+      ],
+      "advance": 1560
+    },
+    "D": {
+      "name": "D",
+      "ductusKind": "native",
+      "codepoints": [
+        "D"
+      ],
+      "components": [
+        {
+          "glyph": "_capStem"
+        }
+      ],
+      "strokes": [
+        {
+          "id": "D-1",
+          "tool": "imperial brush",
+          "role": "bowl",
+          "move": "pull to the right before commencing the arc",
+          "angleDeg": 0,
+          "spine": {
+            "nodes": [
+              {
+                "x": 112,
+                "y": 710
+              },
+              {
+                "x": 700,
+                "y": 668
+              },
+              {
+                "x": 708,
+                "y": 352
+              },
+              {
+                "x": 114,
+                "y": 6
+              }
+            ],
+            "segments": [
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 240,
+                  "y": 716
+                },
+                "c2": {
+                  "x": 660,
+                  "y": 700
+                }
+              },
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 740,
+                  "y": 540
+                },
+                "c2": {
+                  "x": 740,
+                  "y": 200
+                }
+              },
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 680,
+                  "y": 60
+                },
+                "c2": {
+                  "x": 260,
+                  "y": 4
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "advance": 800
+    },
+    "B": {
+      "name": "B",
+      "ductusKind": "native",
+      "codepoints": [
+        "B"
+      ],
+      "components": [
+        {
+          "glyph": "_capStem"
+        }
+      ],
+      "strokes": [
+        {
+          "id": "B-1",
+          "tool": "imperial brush",
+          "role": "bowl",
+          "move": "upper bowl",
+          "angleDeg": 0,
+          "spine": {
+            "nodes": [
+              {
+                "x": 112,
+                "y": 708
+              },
+              {
+                "x": 330,
+                "y": 692
+              },
+              {
+                "x": 392,
+                "y": 548
+              }
+            ],
+            "segments": [
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 230,
+                  "y": 716
+                },
+                "c2": {
+                  "x": 340,
+                  "y": 668
+                }
+              },
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 380,
+                  "y": 620
+                },
+                "c2": {
+                  "x": 392,
+                  "y": 580
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "B-2",
+          "tool": "imperial brush",
+          "role": "bowl",
+          "move": "joining stroke, always above the stem's centre",
+          "angleDeg": 0,
+          "spine": {
+            "nodes": [
+              {
+                "x": 392,
+                "y": 548
+              },
+              {
+                "x": 114,
+                "y": 384
+              }
+            ],
+            "segments": [
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 380,
+                  "y": 452
+                },
+                "c2": {
+                  "x": 280,
+                  "y": 392
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "B-3",
+          "tool": "imperial brush",
+          "role": "bowl",
+          "move": "lower bowl, one sweep, with the fillet at the stem's foot",
+          "angleDeg": 0,
+          "spine": {
+            "nodes": [
+              {
+                "x": 114,
+                "y": 384
+              },
+              {
+                "x": 368,
+                "y": 372
+              },
+              {
+                "x": 436,
+                "y": 176
+              },
+              {
+                "x": 114,
+                "y": 8
+              }
+            ],
+            "segments": [
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 280,
+                  "y": 388
+                },
+                "c2": {
+                  "x": 380,
+                  "y": 340
+                }
+              },
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 448,
+                  "y": 260
+                },
+                "c2": {
+                  "x": 420,
+                  "y": 110
+                }
+              },
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 380,
+                  "y": 30
+                },
+                "c2": {
+                  "x": 240,
+                  "y": 2
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "advance": 560
+    },
+    "A": {
+      "name": "A",
+      "ductusKind": "native",
+      "codepoints": [
+        "A"
+      ],
+      "strokes": [
+        {
+          "id": "A-1",
+          "tool": "imperial brush",
+          "role": "serif",
+          "move": "draw the apex first",
+          "angleDeg": 25,
+          "spine": {
+            "nodes": [
+              {
+                "x": 330,
+                "y": 726
+              },
+              {
+                "x": 358,
+                "y": 726
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          }
+        },
+        {
+          "id": "A-2",
+          "tool": "imperial brush",
+          "role": "stem",
+          "move": "right leg down (the thick leg)",
+          "angleDeg": 25,
+          "spine": {
+            "nodes": [
+              {
+                "x": 344,
+                "y": 718
+              },
+              {
+                "x": 648,
+                "y": 4
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          }
+        },
+        {
+          "id": "A-3",
+          "tool": "imperial brush",
+          "role": "stem",
+          "move": "left leg (always thinner than the right)",
+          "angleDeg": 25,
+          "spine": {
+            "nodes": [
+              {
+                "x": 40,
+                "y": 4
+              },
+              {
+                "x": 344,
+                "y": 718
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          }
+        },
+        {
+          "id": "A-4",
+          "tool": "imperial brush",
+          "role": "serif",
+          "move": "right foot serif: edge off with the tip of the brush",
+          "angleDeg": 0,
+          "spine": {
+            "nodes": [
+              {
+                "x": 596,
+                "y": 8
+              },
+              {
+                "x": 668,
+                "y": 8
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "points": [
+            {
+              "node": 0,
+              "twistDeg": 0
+            },
+            {
+              "node": 1,
+              "twistDeg": -35
+            }
+          ]
+        },
+        {
+          "id": "A-5",
+          "tool": "imperial brush",
+          "role": "bar",
+          "move": "crossbar (lower in modern work)",
+          "angleDeg": 25,
+          "spine": {
+            "nodes": [
+              {
+                "x": 190,
+                "y": 214
+              },
+              {
+                "x": 498,
+                "y": 214
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          }
+        },
+        {
+          "id": "A-6",
+          "tool": "imperial brush",
+          "role": "serif",
+          "move": "left foot serif",
+          "angleDeg": 0,
+          "spine": {
+            "nodes": [
+              {
+                "x": 20,
+                "y": 8
+              },
+              {
+                "x": 88,
+                "y": 8
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "points": [
+            {
+              "node": 0,
+              "twistDeg": 0
+            },
+            {
+              "node": 1,
+              "twistDeg": 35
+            }
+          ]
+        }
+      ],
+      "advance": 710
+    },
+    "M": {
+      "name": "M",
+      "ductusKind": "native",
+      "codepoints": [
+        "M"
+      ],
+      "strokes": [
+        {
+          "id": "M-1",
+          "tool": "imperial brush",
+          "role": "serif",
+          "move": "the apex must be drawn first",
+          "angleDeg": 0,
+          "spine": {
+            "nodes": [
+              {
+                "x": 390,
+                "y": 726
+              },
+              {
+                "x": 418,
+                "y": 726
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          }
+        },
+        {
+          "id": "M-2",
+          "tool": "imperial brush",
+          "role": "stem",
+          "move": "pull the stem down",
+          "angleDeg": 0,
+          "spine": {
+            "nodes": [
+              {
+                "x": 68,
+                "y": 720
+              },
+              {
+                "x": 68,
+                "y": 0
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          }
+        },
+        {
+          "id": "M-3",
+          "tool": "imperial brush",
+          "role": "stem",
+          "move": "first inner diagonal (thick)",
+          "angleDeg": 12,
+          "spine": {
+            "nodes": [
+              {
+                "x": 70,
+                "y": 712
+              },
+              {
+                "x": 404,
+                "y": 66
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          }
+        },
+        {
+          "id": "M-4",
+          "tool": "imperial brush",
+          "role": "stem",
+          "move": "second inner diagonal (thin)",
+          "angleDeg": 12,
+          "spine": {
+            "nodes": [
+              {
+                "x": 404,
+                "y": 66
+              },
+              {
+                "x": 738,
+                "y": 712
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          }
+        },
+        {
+          "id": "M-5",
+          "tool": "imperial brush",
+          "role": "stem",
+          "move": "pull the stem down",
+          "angleDeg": 0,
+          "spine": {
+            "nodes": [
+              {
+                "x": 740,
+                "y": 720
+              },
+              {
+                "x": 740,
+                "y": 0
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          }
+        },
+        {
+          "id": "M-6",
+          "tool": "imperial brush",
+          "role": "serif",
+          "move": "right foot: edging off",
+          "angleDeg": 0,
+          "spine": {
+            "nodes": [
+              {
+                "x": 712,
+                "y": 8
+              },
+              {
+                "x": 786,
+                "y": 8
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "points": [
+            {
+              "node": 0,
+              "twistDeg": 0
+            },
+            {
+              "node": 1,
+              "twistDeg": -35
+            }
+          ]
+        }
+      ],
+      "advance": 860
+    },
+    "N": {
+      "name": "N",
+      "ductusKind": "native",
+      "codepoints": [
+        "N"
+      ],
+      "strokes": [
+        {
+          "id": "N-1",
+          "tool": "imperial brush",
+          "role": "serif",
+          "move": "draw the apex of the letter first",
+          "angleDeg": 0,
+          "spine": {
+            "nodes": [
+              {
+                "x": 52,
+                "y": 726
+              },
+              {
+                "x": 84,
+                "y": 726
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          }
+        },
+        {
+          "id": "N-2",
+          "tool": "imperial brush",
+          "role": "stem",
+          "move": "pull the stem down",
+          "angleDeg": 0,
+          "spine": {
+            "nodes": [
+              {
+                "x": 68,
+                "y": 720
+              },
+              {
+                "x": 68,
+                "y": 0
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          }
+        },
+        {
+          "id": "N-3",
+          "tool": "imperial brush",
+          "role": "stem",
+          "move": "the diagonal is the thickest of the three strokes",
+          "angleDeg": 15,
+          "spine": {
+            "nodes": [
+              {
+                "x": 92,
+                "y": 700
+              },
+              {
+                "x": 700,
+                "y": 34
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          }
+        },
+        {
+          "id": "N-4",
+          "tool": "imperial brush",
+          "role": "stem",
+          "move": "pull the stem down",
+          "angleDeg": 0,
+          "spine": {
+            "nodes": [
+              {
+                "x": 724,
+                "y": 720
+              },
+              {
+                "x": 724,
+                "y": 0
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "points": [
+            {
+              "node": 0,
+              "twistDeg": 0
+            },
+            {
+              "node": 1,
+              "twistDeg": -12
+            }
+          ]
+        }
+      ],
+      "advance": 790
+    },
+    "K": {
+      "name": "K",
+      "ductusKind": "native",
+      "codepoints": [
+        "K"
+      ],
+      "components": [
+        {
+          "glyph": "_capStem"
+        }
+      ],
+      "strokes": [
+        {
+          "id": "K-1",
+          "tool": "imperial brush",
+          "role": "arm",
+          "move": "arm, like the right fork of the V",
+          "angleDeg": 18,
+          "spine": {
+            "nodes": [
+              {
+                "x": 208,
+                "y": 302
+              },
+              {
+                "x": 540,
+                "y": 688
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          }
+        },
+        {
+          "id": "K-2",
+          "tool": "imperial brush",
+          "role": "leg",
+          "move": "leg: turn the brush to the horizontal before edging off",
+          "angleDeg": 18,
+          "spine": {
+            "nodes": [
+              {
+                "x": 220,
+                "y": 282
+              },
+              {
+                "x": 580,
+                "y": 12
+              },
+              {
+                "x": 640,
+                "y": 18
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 590,
+                  "y": 24
+                },
+                "c2": {
+                  "x": 610,
+                  "y": 18
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "advance": 730
+    },
+    "J": {
+      "name": "J",
+      "ductusKind": "native",
+      "codepoints": [
+        "J"
+      ],
+      "strokes": [
+        {
+          "id": "J-1",
+          "tool": "imperial brush",
+          "role": "serif",
+          "move": "top serif",
+          "angleDeg": 0,
+          "spine": {
+            "nodes": [
+              {
+                "x": 218,
+                "y": 710
+              },
+              {
+                "x": 314,
+                "y": 709
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "points": [
+            {
+              "node": 0,
+              "twistDeg": 30
+            },
+            {
+              "node": 1,
+              "twistDeg": 0
+            }
+          ]
+        },
+        {
+          "id": "J-2",
+          "tool": "imperial brush",
+          "role": "stem",
+          "move": "pull the stem down",
+          "angleDeg": 0,
+          "spine": {
+            "nodes": [
+              {
+                "x": 268,
+                "y": 720
+              },
+              {
+                "x": 268,
+                "y": 150
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          }
+        },
+        {
+          "id": "J-3",
+          "tool": "imperial brush",
+          "role": "tail",
+          "move": "tail sweeping out to the left",
+          "angleDeg": 0,
+          "spine": {
+            "nodes": [
+              {
+                "x": 268,
+                "y": 150
+              },
+              {
+                "x": 144,
+                "y": -14
+              }
+            ],
+            "segments": [
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 264,
+                  "y": -24
+                },
+                "c2": {
+                  "x": 188,
+                  "y": -44
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "advance": 340
+    },
+    "S": {
+      "name": "S",
+      "ductusKind": "native",
+      "codepoints": [
+        "S"
+      ],
+      "strokes": [
+        {
+          "id": "S-1",
+          "tool": "imperial brush",
+          "role": "spine",
+          "move": "top curve of the S",
+          "angleDeg": 0,
+          "spine": {
+            "nodes": [
+              {
+                "x": 427,
+                "y": 628
+              },
+              {
+                "x": 300,
+                "y": 716
+              },
+              {
+                "x": 183,
+                "y": 548
+              }
+            ],
+            "segments": [
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 375,
+                  "y": 700
+                },
+                "c2": {
+                  "x": 332,
+                  "y": 716
+                }
+              },
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 245,
+                  "y": 690
+                },
+                "c2": {
+                  "x": 208,
+                  "y": 620
+                }
+              }
+            ]
+          },
+          "points": [
+            {
+              "node": 2,
+              "twistDeg": 40
+            }
+          ]
+        },
+        {
+          "id": "S-2",
+          "tool": "imperial brush",
+          "role": "serif",
+          "move": "tail serif, drawn second, while the hand remembers (tip first)",
+          "angleDeg": 0,
+          "spine": {
+            "nodes": [
+              {
+                "x": 200,
+                "y": 148
+              },
+              {
+                "x": 134,
+                "y": 66
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "points": [
+            {
+              "node": 0,
+              "twistDeg": 60
+            },
+            {
+              "node": 1,
+              "twistDeg": 0
+            }
+          ]
+        },
+        {
+          "id": "S-3",
+          "tool": "imperial brush",
+          "role": "spine",
+          "move": "main curve into the tail",
+          "angleDeg": 0,
+          "spine": {
+            "nodes": [
+              {
+                "x": 183,
+                "y": 548
+              },
+              {
+                "x": 324,
+                "y": 316
+              },
+              {
+                "x": 412,
+                "y": 148
+              },
+              {
+                "x": 208,
+                "y": 140
+              }
+            ],
+            "segments": [
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 252,
+                  "y": 420
+                },
+                "c2": {
+                  "x": 317,
+                  "y": 360
+                }
+              },
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 404,
+                  "y": 260
+                },
+                "c2": {
+                  "x": 412,
+                  "y": 190
+                }
+              },
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 360,
+                  "y": 128
+                },
+                "c2": {
+                  "x": 274,
+                  "y": 138
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "advance": 430
+    },
+    "T": {
+      "name": "T",
+      "ductusKind": "native",
+      "codepoints": [
+        "T"
+      ],
+      "strokes": [
+        {
+          "id": "T-1",
+          "tool": "imperial brush",
+          "role": "arm",
+          "move": "cross stroke first: edge twisting back to 30, finishing at 90 degrees",
+          "angleDeg": 0,
+          "spine": {
+            "nodes": [
+              {
+                "x": 58,
+                "y": 700
+              },
+              {
+                "x": 330,
+                "y": 712
+              },
+              {
+                "x": 602,
+                "y": 700
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "points": [
+            {
+              "node": 0,
+              "twistDeg": 62
+            },
+            {
+              "node": 1,
+              "twistDeg": 30
+            },
+            {
+              "node": 2,
+              "twistDeg": 90
+            }
+          ]
+        },
+        {
+          "id": "T-2",
+          "tool": "imperial brush",
+          "role": "stem",
+          "move": "pull the stem down",
+          "angleDeg": 0,
+          "spine": {
+            "nodes": [
+              {
+                "x": 330,
+                "y": 700
+              },
+              {
+                "x": 330,
+                "y": 0
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          }
+        },
+        {
+          "id": "T-3",
+          "tool": "imperial brush",
+          "role": "serif",
+          "move": "foot serif",
+          "angleDeg": 0,
+          "spine": {
+            "nodes": [
+              {
+                "x": 278,
+                "y": 10
+              },
+              {
+                "x": 382,
+                "y": 11
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "points": [
+            {
+              "node": 0,
+              "twistDeg": -30
+            },
+            {
+              "node": 1,
+              "twistDeg": 0
+            }
+          ]
+        }
+      ],
+      "advance": 660
+    },
+    "U": {
+      "name": "U",
+      "ductusKind": "native",
+      "codepoints": [
+        "U"
+      ],
+      "strokes": [
+        {
+          "id": "U-1",
+          "tool": "imperial brush",
+          "role": "stem",
+          "move": "pull the stem down",
+          "angleDeg": 0,
+          "spine": {
+            "nodes": [
+              {
+                "x": 84,
+                "y": 720
+              },
+              {
+                "x": 84,
+                "y": 190
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          }
+        },
+        {
+          "id": "U-2",
+          "tool": "imperial brush",
+          "role": "bowl",
+          "move": "bottom curve sweeping up to meet the right stem",
+          "angleDeg": 0,
+          "spine": {
+            "nodes": [
+              {
+                "x": 84,
+                "y": 190
+              },
+              {
+                "x": 468,
+                "y": 118
+              }
+            ],
+            "segments": [
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 96,
+                  "y": -8
+                },
+                "c2": {
+                  "x": 330,
+                  "y": -12
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "U-3",
+          "tool": "imperial brush",
+          "role": "stem",
+          "move": "right stem",
+          "angleDeg": 0,
+          "spine": {
+            "nodes": [
+              {
+                "x": 556,
+                "y": 720
+              },
+              {
+                "x": 500,
+                "y": 100
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          }
+        },
+        {
+          "id": "U-4",
+          "tool": "imperial brush",
+          "role": "serif",
+          "move": "top serif, left stem",
+          "angleDeg": 0,
+          "spine": {
+            "nodes": [
+              {
+                "x": 32,
+                "y": 710
+              },
+              {
+                "x": 136,
+                "y": 709
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "points": [
+            {
+              "node": 0,
+              "twistDeg": 30
+            },
+            {
+              "node": 1,
+              "twistDeg": 0
+            }
+          ]
+        },
+        {
+          "id": "U-5",
+          "tool": "imperial brush",
+          "role": "serif",
+          "move": "top serif, right stem",
+          "angleDeg": 0,
+          "spine": {
+            "nodes": [
+              {
+                "x": 504,
+                "y": 710
+              },
+              {
+                "x": 608,
+                "y": 709
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "points": [
+            {
+              "node": 0,
+              "twistDeg": 30
+            },
+            {
+              "node": 1,
+              "twistDeg": 0
+            }
+          ]
+        }
+      ],
+      "advance": 660
+    },
+    "V": {
+      "name": "V",
+      "ductusKind": "native",
+      "codepoints": [
+        "V"
+      ],
+      "strokes": [
+        {
+          "id": "V-1",
+          "tool": "imperial brush",
+          "role": "stem",
+          "move": "first stroke: begins as a vertical, finishes at the apex",
+          "angleDeg": 8,
+          "spine": {
+            "nodes": [
+              {
+                "x": 40,
+                "y": 720
+              },
+              {
+                "x": 400,
+                "y": 4
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "points": [
+            {
+              "node": 0,
+              "twistDeg": 0
+            },
+            {
+              "node": 1,
+              "twistDeg": 22
+            }
+          ]
+        },
+        {
+          "id": "V-2",
+          "tool": "imperial brush",
+          "role": "stem",
+          "move": "second stroke: slightly twist the brush to finish at its angle",
+          "angleDeg": 8,
+          "spine": {
+            "nodes": [
+              {
+                "x": 760,
+                "y": 720
+              },
+              {
+                "x": 400,
+                "y": 4
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          }
+        }
+      ],
+      "advance": 840
+    },
+    "W": {
+      "name": "W",
+      "ductusKind": "native",
+      "codepoints": [
+        "W"
+      ],
+      "strokes": [
+        {
+          "id": "W-1",
+          "tool": "imperial brush",
+          "role": "stem",
+          "move": "first V, down",
+          "angleDeg": 8,
+          "spine": {
+            "nodes": [
+              {
+                "x": 36,
+                "y": 720
+              },
+              {
+                "x": 196,
+                "y": 4
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          }
+        },
+        {
+          "id": "W-2",
+          "tool": "imperial brush",
+          "role": "stem",
+          "move": "first V, up",
+          "angleDeg": 8,
+          "spine": {
+            "nodes": [
+              {
+                "x": 356,
+                "y": 720
+              },
+              {
+                "x": 196,
+                "y": 4
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          }
+        },
+        {
+          "id": "W-3",
+          "tool": "imperial brush",
+          "role": "stem",
+          "move": "second V, down (crossing)",
+          "angleDeg": 8,
+          "spine": {
+            "nodes": [
+              {
+                "x": 356,
+                "y": 4
+              },
+              {
+                "x": 516,
+                "y": 720
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          }
+        },
+        {
+          "id": "W-4",
+          "tool": "imperial brush",
+          "role": "stem",
+          "move": "second V, up",
+          "angleDeg": 8,
+          "spine": {
+            "nodes": [
+              {
+                "x": 676,
+                "y": 720
+              },
+              {
+                "x": 516,
+                "y": 4
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          }
+        }
+      ],
+      "advance": 720
+    },
+    "X": {
+      "name": "X",
+      "ductusKind": "native",
+      "codepoints": [
+        "X"
+      ],
+      "strokes": [
+        {
+          "id": "X-1",
+          "tool": "imperial brush",
+          "role": "stem",
+          "move": "down diagonal (top v smaller than the bottom)",
+          "angleDeg": 12,
+          "spine": {
+            "nodes": [
+              {
+                "x": 84,
+                "y": 720
+              },
+              {
+                "x": 556,
+                "y": 0
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          }
+        },
+        {
+          "id": "X-2",
+          "tool": "imperial brush",
+          "role": "stem",
+          "move": "cross diagonal; no serif on the right inner leg",
+          "angleDeg": 12,
+          "spine": {
+            "nodes": [
+              {
+                "x": 84,
+                "y": 0
+              },
+              {
+                "x": 556,
+                "y": 720
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          }
+        }
+      ],
+      "advance": 640
+    },
+    "Y": {
+      "name": "Y",
+      "ductusKind": "native",
+      "codepoints": [
+        "Y"
+      ],
+      "strokes": [
+        {
+          "id": "Y-1",
+          "tool": "imperial brush",
+          "role": "stem",
+          "move": "left arm",
+          "angleDeg": 10,
+          "spine": {
+            "nodes": [
+              {
+                "x": 60,
+                "y": 720
+              },
+              {
+                "x": 320,
+                "y": 330
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          }
+        },
+        {
+          "id": "Y-2",
+          "tool": "imperial brush",
+          "role": "stem",
+          "move": "right arm",
+          "angleDeg": 10,
+          "spine": {
+            "nodes": [
+              {
+                "x": 580,
+                "y": 720
+              },
+              {
+                "x": 320,
+                "y": 330
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          }
+        },
+        {
+          "id": "Y-3",
+          "tool": "imperial brush",
+          "role": "stem",
+          "move": "pull the stem down",
+          "angleDeg": 0,
+          "spine": {
+            "nodes": [
+              {
+                "x": 320,
+                "y": 330
+              },
+              {
+                "x": 320,
+                "y": 0
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          }
+        }
+      ],
+      "advance": 640
+    },
+    "Z": {
+      "name": "Z",
+      "ductusKind": "native",
+      "codepoints": [
+        "Z"
+      ],
+      "strokes": [
+        {
+          "id": "Z-1",
+          "tool": "imperial brush",
+          "role": "arm",
+          "move": "top arm: twist the brush to 30 degrees and move horizontally",
+          "angleDeg": 0,
+          "spine": {
+            "nodes": [
+              {
+                "x": 92,
+                "y": 706
+              },
+              {
+                "x": 560,
+                "y": 706
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "points": [
+            {
+              "node": 0,
+              "twistDeg": 30
+            },
+            {
+              "node": 1,
+              "twistDeg": 30
+            }
+          ]
+        },
+        {
+          "id": "Z-2",
+          "tool": "imperial brush",
+          "role": "stem",
+          "move": "diagonal: brush held near the horizontal to create a thick diagonal",
+          "angleDeg": 84,
+          "spine": {
+            "nodes": [
+              {
+                "x": 556,
+                "y": 700
+              },
+              {
+                "x": 96,
+                "y": 22
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          }
+        },
+        {
+          "id": "Z-3",
+          "tool": "imperial brush",
+          "role": "arm",
+          "move": "bottom arm: turn the brush over and twist from 150 to 90 degrees",
+          "angleDeg": 0,
+          "spine": {
+            "nodes": [
+              {
+                "x": 92,
+                "y": 14
+              },
+              {
+                "x": 560,
+                "y": 14
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "points": [
+            {
+              "node": 0,
+              "twistDeg": 150
+            },
+            {
+              "node": 1,
+              "twistDeg": 90
+            }
+          ]
+        }
+      ],
+      "advance": 640
+    }
+  },
+  "encoding": {
+    "I": "I",
+    "E": "E",
+    "F": "F",
+    "L": "L",
+    "H": "H",
+    "P": "P",
+    "R": "R",
+    "C": "C",
+    "G": "G",
+    "O": "O",
+    "Q": "Q",
+    "D": "D",
+    "B": "B",
+    "A": "A",
+    "M": "M",
+    "N": "N",
+    "K": "K",
+    "J": "J",
+    "S": "S",
+    "T": "T",
+    "U": "U",
+    "V": "V",
+    "W": "W",
+    "X": "X",
+    "Y": "Y",
+    "Z": "Z"
+  },
+  "bearings": {
+    "defaultLeft": 26,
+    "defaultRight": 26
+  }
+}
