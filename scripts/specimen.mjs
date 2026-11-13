@@ -7,6 +7,8 @@ import { guidesSVG, layoutText, loadStrokeFont, toSVGPath } from "../dist/index.
 import { foundationalFont } from "../dist/fonts/foundational.js";
 import { imperialFont } from "../dist/fonts/imperial.js";
 import { frakturFont } from "../dist/fonts/fraktur.js";
+import { gothicFont } from "../dist/fonts/gothic.js";
+import { durerFont } from "../dist/fonts/durer.js";
 
 mkdirSync(new URL("../demo/shots", import.meta.url), { recursive: true });
 
@@ -58,3 +60,11 @@ sheet("specimen-imperial", imperialFont(),
 sheet("specimen-fraktur", frakturFont(),
   ["abcdefg", "hijklmn", "opqrstu", "vwxyzſ", "fraktur"],
   "Fraktur — minuscules (ladder 5/2/2, nib at 40°)");
+
+sheet("specimen-durer", durerFont(),
+  ["abcdefgh", "ijklmnop", "qrstuvwx", "yz"],
+  "Dürer Textura — the module square (stacks of 5 and 7, oblique squares)");
+
+sheet("specimen-gothic", gothicFont(),
+  ["ABCDEFG", "HIJKLMN", "OPQRSTU", "VWXYZ", "0123456789"],
+  "Monoline Gothic — drafting lettering (6-unit grid, circle tip d = h/10)");

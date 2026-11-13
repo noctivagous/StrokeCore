@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 636 650" width="636" height="650">
+<rect x="0" y="0" width="636" height="650" fill="white"/>
+<text x="70" y="30" font-family="Georgia, serif" font-size="19" fill="#1a1a1a">Dürer Textura — the module square (stacks of 5 and 7, oblique squares)</text>
+<line x1="70" y1="46" x2="451" y2="46" stroke="#bbb" stroke-width="0.8"/>
+<text x="465" y="49.5" font-family="Georgia, serif" font-size="11" fill="#555">Ascender Line</text>
+<line x1="70" y1="46" x2="451" y2="46" stroke="#bbb" stroke-width="0.8"/>
+<text x="465" y="49.5" font-family="Georgia, serif" font-size="11" fill="#555">Capital Line</text>
+<line x1="70" y1="72" x2="451" y2="72" stroke="#bbb" stroke-width="0.8"/>
+<text x="465" y="75.5" font-family="Georgia, serif" font-size="11" fill="#555">Waist Line</text>
+<line x1="70" y1="137" x2="451" y2="137" stroke="#444" stroke-width="1.2"/>
+<text x="465" y="140.5" font-family="Georgia, serif" font-size="11" fill="#555">Base Line</text>
+<line x1="70" y1="163" x2="451" y2="163" stroke="#bbb" stroke-width="0.8"/>
+<text x="465" y="166.5" font-family="Georgia, serif" font-size="11" fill="#555">Descender Line</text>
+<rect x="26" y="124" width="13" height="13" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="0.8"/>
+<rect x="39" y="111" width="13" height="13" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="0.8"/>
+<rect x="26" y="98" width="13" height="13" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="0.8"/>
+<rect x="39" y="85" width="13" height="13" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="0.8"/>
+<rect x="26" y="72" width="13" height="13" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="0.8"/>
+<rect x="39" y="59" width="13" height="13" fill="#999999" stroke="#1a1a1a" stroke-width="0.8"/>
+<rect x="26" y="46" width="13" height="13" fill="#999999" stroke="#1a1a1a" stroke-width="0.8"/>
+<rect x="39" y="137" width="13" height="13" fill="#999999" stroke="#1a1a1a" stroke-width="0.8"/>
+<rect x="26" y="150" width="13" height="13" fill="#999999" stroke="#1a1a1a" stroke-width="0.8"/>
+<line x1="16" y1="72" x2="16" y2="137" stroke="#888" stroke-width="0.8"/>
+<line x1="13" y1="72" x2="19" y2="72" stroke="#888" stroke-width="0.8"/>
+<line x1="13" y1="137" x2="19" y2="137" stroke="#888" stroke-width="0.8"/>
+<text x="11" y="104.5" font-family="Georgia, serif" font-size="11" fill="#555" text-anchor="middle" transform="rotate(-90 11 104.5)">X-height</text>
+<path d="M-37.38 -499L0 -461.62L0 -5.04L-4.04 -1L-4.04 1L66.67 71.71L137.38 1L137.38 -1L100 -38.38L100 -451L196.67 -451L201.72 -468.3L203.52 -463.53L209.38 -444.41L212.63 -430L166.67 -430L166.67 -5.04L162.62 -1L162.62 1L233.33 71.71L304.04 1L304.04 -1L266.67 -38.38L266.67 -421L314.67 -421L314.67 -439L309.38 -462.41L303.52 -481.53L296.04 -500.07L288.3 -514.07L281.05 -523.64L278.29 -526.51L272.38 -531.9L265.52 -535.98L261.92 -537.65L254.14 -539.5L154.14 -539.5L146.15 -538.98L138.59 -536.45L135.07 -534.62L128.46 -530.11L120.17 -521.46L113.28 -511.64L107.68 -501.02L101.68 -486.2L100 -480.44L100 -494.96L104.04 -499L104.04 -501L33.33 -571.71L-37.38 -501L-37.38 -499Z" transform="translate(78 137) scale(0.13)" fill="#1a1a1a" fill-rule="evenodd"/>
+<path d="M-4.04 1L66.67 71.71L137.38 1L137.38 -1L100 -38.38L100 -631L106.05 -645.43L110.14 -659.82L112.32 -673.8L112.72 -686.99L99.99 -699.72L62.27 -662L52.33 -655.36L41.82 -651.01L31.74 -649L0 -649L0 -5.04L-4.04 -1L-4.04 1Z M129.29 -499L166.67 -461.62L166.67 -5.04L162.62 -1L162.62 1L233.33 71.71L304.04 1L304.04 -1L266.67 -38.38L266.67 -494.96L270.71 -499L270.71 -501L200 -571.71L129.29 -501L129.29 -499Z" transform="translate(127.92 137) scale(0.13)" fill="#1a1a1a" fill-rule="evenodd"/>
+<path d="M-7.8 -488.79L1.2 -473.21L73.48 -473.21L62.27 -462L52.33 -455.36L41.82 -451.01L31.74 -449L0 -449L0 -5.04L-4.04 -1L-4.04 1L66.67 71.71L137.38 1L137.38 -1L100 -38.38L100 -431L106.05 -445.43L110.14 -459.82L112.23 -473.21L118.2 -473.21L204.8 -523.21L195.8 -538.79L78.8 -538.79L-7.8 -488.79Z" transform="translate(172.38 137) scale(0.13)" fill="#1a1a1a" fill-rule="evenodd"/>
+<path d="M-13.8 -598.79L-4.8 -583.21L0 -583.21L0 -5.04L-4.04 -1L-4.04 1L66.67 71.71L137.38 1L137.38 -1L100 -38.38L100 -583.21L193.87 -583.21L280.47 -633.21L271.47 -648.79L107 -648.79L110.14 -659.82L112.32 -673.8L112.72 -686.99L99.99 -699.72L62.27 -662L52.33 -655.36L41.82 -651.01L31.74 -649L0 -649L0 -606.76L-13.8 -598.79Z M129.29 -499L166.67 -461.62L166.67 -5.04L162.62 -1L162.62 1L233.33 71.71L304.04 1L304.04 -1L266.67 -38.38L266.67 -494.96L270.71 -499L270.71 -501L200 -571.71L129.29 -501L129.29 -499Z" transform="translate(210.34 137) scale(0.13)" fill="#1a1a1a" fill-rule="evenodd"/>
+<path d="M-7.8 -488.79L1.2 -473.21L73.48 -473.21L62.27 -462L52.33 -455.36L41.82 -451.01L31.74 -449L0 -449L0 -5.04L-4.04 -1L-4.04 1L66.67 71.71L137.38 1L137.38 -1L100 -38.38L100 -431L106.05 -445.43L110.14 -459.82L110.46 -461.88L155.01 -422.28L225.72 -492.99L212.99 -505.72L197.84 -519.19L204.8 -523.21L195.8 -538.79L175.78 -538.79L140.99 -569.72L110.07 -538.79L78.8 -538.79L-7.8 -488.79Z" transform="translate(256.1 137) scale(0.13)" fill="#1a1a1a" fill-rule="evenodd"/>
+<path d="M-21.8 -482.79L-15.86 -472.5L-18.86 -466.5L0 -447.64L0 -5.04L-4.04 -1L-4.04 1L66.67 71.71L137.38 1L137.38 -1L100 -38.38L100 -467.21L189.2 -467.21L275.8 -517.21L266.8 -532.79L100.75 -532.79L106.05 -545.43L110.14 -559.82L112.32 -573.8L112.72 -586.99L99.99 -599.72L62.27 -562L52.33 -555.36L41.82 -551.01L31.74 -549L0 -549L0 -504.21L-6.21 -491.8L-21.8 -482.79Z" transform="translate(294.06 137) scale(0.13)" fill="#1a1a1a" fill-rule="evenodd"/>
+<path d="M-37.38 -499L0 -461.62L0 -5.04L-4.04 -1L-4.04 1L65.67 70.71L-4.04 140.42L-4.04 142.42L66.67 213.13L119.47 160.33L221.63 160.08L225.57 159.48L233.31 157.48L244.09 152.27L250.78 147.88L259.94 140.13L270.62 128.25L277.72 118.57L283.94 108.31L291.2 94.06L298.63 75.5L303.43 60.24L307.21 44.7L310.67 25L310.67 7L298.04 7L304.04 1L304.04 -1L266.67 -38.38L266.67 -494.96L270.71 -499L270.71 -501L200 -571.71L129.29 -501L129.29 -499L166.67 -461.62L166.67 -5.04L162.62 -1L162.62 1L203.52 41.89L203.43 42.24L197.28 61.27L191.2 76.06L183.94 90.31L177.72 100.57L168.1 113.35L159.94 122.13L149.08 131L127.96 131L67.67 70.71L137.38 1L137.38 -1L100 -38.38L100 -494.96L104.04 -499L104.04 -501L33.33 -571.71L-37.38 -501L-37.38 -499Z" transform="translate(337.22 137) scale(0.13)" fill="#1a1a1a" fill-rule="evenodd"/>
+<path d="M-4.04 1L66.67 71.71L137.38 1L137.38 -1L100 -38.38L100 -631L106.05 -645.43L110.14 -659.82L112.32 -673.8L112.72 -686.99L99.99 -699.72L62.27 -662L52.33 -655.36L41.82 -651.01L31.74 -649L0 -649L0 -5.04L-4.04 -1L-4.04 1Z M129.29 -499L166.67 -461.62L166.67 -92.15L147.68 -105.72L134.95 -92.99L166.67 -61.27L166.67 0L236.85 0L289.66 37.72L302.39 24.99L266.67 -10.73L266.67 -494.96L270.71 -499L270.71 -501L200 -571.71L129.29 -501L129.29 -499Z" transform="translate(386.62 137) scale(0.13)" fill="#1a1a1a" fill-rule="evenodd"/>
+<line x1="70" y1="197" x2="451" y2="197" stroke="#bbb" stroke-width="0.8"/>
+<text x="465" y="200.5" font-family="Georgia, serif" font-size="11" fill="#555">Ascender Line</text>
+<line x1="70" y1="197" x2="451" y2="197" stroke="#bbb" stroke-width="0.8"/>
+<text x="465" y="200.5" font-family="Georgia, serif" font-size="11" fill="#555">Capital Line</text>
+<line x1="70" y1="223" x2="451" y2="223" stroke="#bbb" stroke-width="0.8"/>
+<text x="465" y="226.5" font-family="Georgia, serif" font-size="11" fill="#555">Waist Line</text>
+<line x1="70" y1="288" x2="451" y2="288" stroke="#444" stroke-width="1.2"/>
+<text x="465" y="291.5" font-family="Georgia, serif" font-size="11" fill="#555">Base Line</text>
+<line x1="70" y1="314" x2="451" y2="314" stroke="#bbb" stroke-width="0.8"/>
+<text x="465" y="317.5" font-family="Georgia, serif" font-size="11" fill="#555">Descender Line</text>
+<rect x="26" y="275" width="13" height="13" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="0.8"/>
+<rect x="39" y="262" width="13" height="13" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="0.8"/>
+<rect x="26" y="249" width="13" height="13" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="0.8"/>
+<rect x="39" y="236" width="13" height="13" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="0.8"/>
+<rect x="26" y="223" width="13" height="13" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="0.8"/>
+<rect x="39" y="210" width="13" height="13" fill="#999999" stroke="#1a1a1a" stroke-width="0.8"/>
+<rect x="26" y="197" width="13" height="13" fill="#999999" stroke="#1a1a1a" stroke-width="0.8"/>
+<rect x="39" y="288" width="13" height="13" fill="#999999" stroke="#1a1a1a" stroke-width="0.8"/>
+<rect x="26" y="301" width="13" height="13" fill="#999999" stroke="#1a1a1a" stroke-width="0.8"/>
+<line x1="16" y1="223" x2="16" y2="288" stroke="#888" stroke-width="0.8"/>
+<line x1="13" y1="223" x2="19" y2="223" stroke="#888" stroke-width="0.8"/>
+<line x1="13" y1="288" x2="19" y2="288" stroke="#888" stroke-width="0.8"/>
+<text x="11" y="255.5" font-family="Georgia, serif" font-size="11" fill="#555" text-anchor="middle" transform="rotate(-90 11 255.5)">X-height</text>
+<path d="M-37.38 -499L0 -461.62L0 -5.04L-4.04 -1L-4.04 1L66.67 71.71L137.38 1L137.38 -1L100 -38.38L100 -494.96L104.04 -499L104.04 -501L33.33 -571.71L-37.38 -501L-37.38 -499Z M11 -595.45L25 -595.45L31.99 -601.71L38.7 -606.14L45.3 -608.84L47.4 -609.18L51.21 -608.75L57.7 -606.7L64.3 -603.4L70.79 -598.95L77 -593.45L91 -593.45L91 -595.97L84.79 -601.47L78.3 -605.92L71.7 -609.22L65.21 -611.27L52.01 -612.43L38.01 -612.43L31.3 -611.36L24.7 -608.66L17.99 -604.23L11 -597.97L11 -595.45Z" transform="translate(78 288) scale(0.13)" fill="#1a1a1a" fill-rule="evenodd"/>
+<path d="M-37.38 -499L0 -461.62L0 194.96L-4.04 199L-4.04 201L66.67 271.71L137.38 201L137.38 199L100 161.62L100 -494.96L104.04 -499L104.04 -501L33.33 -571.71L-37.38 -501L-37.38 -499Z M11 -595.45L25 -595.45L31.99 -601.71L38.7 -606.14L45.3 -608.84L47.4 -609.18L51.21 -608.75L57.7 -606.7L64.3 -603.4L70.79 -598.95L77 -593.45L91 -593.45L91 -595.97L84.79 -601.47L78.3 -605.92L71.7 -609.22L65.21 -611.27L52.01 -612.43L38.01 -612.43L31.3 -611.36L24.7 -608.66L17.99 -604.23L11 -597.97L11 -595.45Z" transform="translate(105.17 288) scale(0.13)" fill="#1a1a1a" fill-rule="evenodd"/>
+<path d="M-4.04 1L66.67 71.71L137.38 1L137.38 -1L100 -38.38L100 -631L106.05 -645.43L110.14 -659.82L112.32 -673.8L112.72 -686.99L99.99 -699.72L62.27 -662L52.33 -655.36L41.82 -651.01L31.74 -649L0 -649L0 -5.04L-4.04 -1L-4.04 1Z M104.04 -637L138.9 -602.14L133.04 -596.28L261.04 -358.99L331.75 -288.28L344.47 -301.01L216.47 -538.3L181.62 -573.15L245.47 -637L245.47 -639L174.75 -709.71L104.04 -639L104.04 -637Z" transform="translate(132.34 288) scale(0.13)" fill="#1a1a1a" fill-rule="evenodd"/>
+<path d="M-4.04 1L66.67 71.71L137.38 1L137.38 -1L100 -38.38L100 -631L106.05 -645.43L110.14 -659.82L112.32 -673.8L112.72 -686.99L99.99 -699.72L62.27 -662L52.33 -655.36L41.82 -651.01L31.74 -649L0 -649L0 -5.04L-4.04 -1L-4.04 1Z" transform="translate(182.52 288) scale(0.13)" fill="#1a1a1a" fill-rule="evenodd"/>
+<path d="M-37.38 -499L0 -461.62L0 -5.04L-4.04 -1L-4.04 1L66.67 71.71L137.38 1L137.38 -1L100 -38.38L100 -494.96L104.04 -499L104.04 -501L33.33 -571.71L-37.38 -501L-37.38 -499Z M129.29 -499L166.67 -461.62L166.67 -5.04L162.62 -1L162.62 1L233.33 71.71L304.04 1L304.04 -1L266.67 -38.38L266.67 -494.96L270.71 -499L270.71 -501L200 -571.71L129.29 -501L129.29 -499Z M295.96 -499L333.33 -461.62L333.33 -5.04L329.29 -1L329.29 1L400 71.71L470.71 1L470.71 -1L433.33 -38.38L433.33 -494.96L437.38 -499L437.38 -501L366.67 -571.71L295.96 -501L295.96 -499Z" transform="translate(205.27 288) scale(0.13)" fill="#1a1a1a" fill-rule="evenodd"/>
+<path d="M-37.38 -499L0 -461.62L0 -5.04L-4.04 -1L-4.04 1L66.67 71.71L137.38 1L137.38 -1L100 -38.38L100 -494.96L104.04 -499L104.04 -501L33.33 -571.71L-37.38 -501L-37.38 -499Z M129.29 -499L166.67 -461.62L166.67 -5.04L162.62 -1L162.62 1L233.33 71.71L304.04 1L304.04 -1L266.67 -38.38L266.67 -494.96L270.71 -499L270.71 -501L200 -571.71L129.29 -501L129.29 -499Z" transform="translate(275.73 288) scale(0.13)" fill="#1a1a1a" fill-rule="evenodd"/>
+<path d="M-37.38 -499L0 -461.62L0 -5.04L-4.04 -1L-4.04 1L22.02 27.06L-19.8 51.21L-10.8 66.79L61.75 66.79L66.67 71.71L71.58 66.79L199.87 66.79L217.97 56.34L233.33 71.71L304.04 1L304.04 -1L266.67 -38.38L266.67 -494.96L270.71 -499L270.71 -501L244.65 -527.06L286.47 -551.21L277.47 -566.79L204.92 -566.79L200 -571.71L195.08 -566.79L66.8 -566.79L48.7 -556.34L33.33 -571.71L-37.38 -501L-37.38 -499Z M100 -38.38L100 -494.96L104.04 -499L104.04 -501L103.84 -501.21L129.5 -501.21L129.29 -501L129.29 -499L166.67 -461.62L166.67 -5.04L162.62 -1L162.62 1L162.83 1.21L137.17 1.21L137.38 1L137.38 -1L100 -38.38Z" transform="translate(324.48 288) scale(0.13)" fill="#1a1a1a" fill-rule="evenodd"/>
+<path d="M-37.38 -499L0 -461.62L0 200L100 200L100 -494.96L104.04 -499L104.04 -501L33.33 -571.71L-37.38 -501L-37.38 -499Z M116.87 1.21L125.87 16.79L252.87 16.79L339.47 -33.21L330.47 -48.79L266.67 -48.79L266.67 -494.96L270.71 -499L270.71 -501L200 -571.71L129.29 -501L129.29 -499L166.67 -461.62L166.67 -27.55L116.87 1.21Z" transform="translate(373.23 288) scale(0.13)" fill="#1a1a1a" fill-rule="evenodd"/>
+<line x1="70" y1="348" x2="451" y2="348" stroke="#bbb" stroke-width="0.8"/>
+<text x="465" y="351.5" font-family="Georgia, serif" font-size="11" fill="#555">Ascender Line</text>
+<line x1="70" y1="348" x2="451" y2="348" stroke="#bbb" stroke-width="0.8"/>
+<text x="465" y="351.5" font-family="Georgia, serif" font-size="11" fill="#555">Capital Line</text>
+<line x1="70" y1="374" x2="451" y2="374" stroke="#bbb" stroke-width="0.8"/>
+<text x="465" y="377.5" font-family="Georgia, serif" font-size="11" fill="#555">Waist Line</text>
+<line x1="70" y1="439" x2="451" y2="439" stroke="#444" stroke-width="1.2"/>
+<text x="465" y="442.5" font-family="Georgia, serif" font-size="11" fill="#555">Base Line</text>
+<line x1="70" y1="465" x2="451" y2="465" stroke="#bbb" stroke-width="0.8"/>
+<text x="465" y="468.5" font-family="Georgia, serif" font-size="11" fill="#555">Descender Line</text>
+<rect x="26" y="426" width="13" height="13" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="0.8"/>
+<rect x="39" y="413" width="13" height="13" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="0.8"/>
+<rect x="26" y="400" width="13" height="13" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="0.8"/>
+<rect x="39" y="387" width="13" height="13" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="0.8"/>
+<rect x="26" y="374" width="13" height="13" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="0.8"/>
+<rect x="39" y="361" width="13" height="13" fill="#999999" stroke="#1a1a1a" stroke-width="0.8"/>
+<rect x="26" y="348" width="13" height="13" fill="#999999" stroke="#1a1a1a" stroke-width="0.8"/>
+<rect x="39" y="439" width="13" height="13" fill="#999999" stroke="#1a1a1a" stroke-width="0.8"/>
+<rect x="26" y="452" width="13" height="13" fill="#999999" stroke="#1a1a1a" stroke-width="0.8"/>
+<line x1="16" y1="374" x2="16" y2="439" stroke="#888" stroke-width="0.8"/>
+<line x1="13" y1="374" x2="19" y2="374" stroke="#888" stroke-width="0.8"/>
+<line x1="13" y1="439" x2="19" y2="439" stroke="#888" stroke-width="0.8"/>
+<text x="11" y="406.5" font-family="Georgia, serif" font-size="11" fill="#555" text-anchor="middle" transform="rotate(-90 11 406.5)">X-height</text>
+<path d="M-37.38 -499L0 -461.62L0 0L31.61 0L12.2 11.21L21.2 26.79L166.67 26.79L166.67 194.96L162.62 199L162.62 201L233.33 271.71L304.04 201L304.04 199L266.67 161.62L266.67 -494.96L270.71 -499L270.71 -501L200 -571.71L129.29 -501L129.29 -499L166.67 -461.62L166.67 -38.79L100 -38.79L100 -494.96L104.04 -499L104.04 -501L33.33 -571.71L-37.38 -501L-37.38 -499Z" transform="translate(78 439) scale(0.13)" fill="#1a1a1a" fill-rule="evenodd"/>
+<path d="M-37.38 -499L0 -461.62L0 -5.04L-4.04 -1L-4.04 1L66.67 71.71L137.38 1L137.38 -1L100 -38.38L100 -494.96L104.04 -499L104.04 -499L148.75 -454.29L118.75 -454.29L118.75 -436.29L131.7 -426.89L146.18 -413.13L156.14 -400.61L164.39 -386.9L172.33 -368.56L176.96 -353.25L180.77 -333.62L182.75 -312.29L282.75 -312.29L282.75 -330.29L280.77 -351.62L276.96 -371.25L270.89 -390.29L264.39 -404.9L256.14 -418.61L246.18 -431.13L231.7 -444.89L218.75 -454.29L200.75 -454.29L245.47 -499L245.47 -501L174.75 -571.71L104.04 -501L104.04 -501L33.33 -571.71L-37.38 -501L-37.38 -499Z" transform="translate(126.75 439) scale(0.13)" fill="#1a1a1a" fill-rule="evenodd"/>
+<path d="M-4.04 1L66.67 71.71L137.38 1L137.38 -1L100 -38.38L100 -431L101.76 -435.21L145.2 -435.21L231.8 -485.21L222.8 -500.79L96.8 -500.79L10.2 -450.79L11.23 -449L0 -449L0 -5.04L-4.04 -1L-4.04 1Z" transform="translate(172.25 439) scale(0.13)" fill="#1a1a1a" fill-rule="evenodd"/>
+<path d="M-55.8 -488.79L-46.8 -473.21L-21.31 -473.21L-43.72 -449.01L-30.99 -436.28L0 -467.27L0 -5.04L-4.04 -1L-4.04 1L66.67 71.71L137.38 1L137.38 -1L100 -38.38L100 -473.21L153.2 -473.21L239.8 -523.21L230.8 -538.79L69.17 -538.79L89.72 -560.99L76.99 -573.72L42.07 -538.79L30.8 -538.79L-55.8 -488.79Z" transform="translate(207.35 439) scale(0.13)" fill="#1a1a1a" fill-rule="evenodd"/>
+<path d="M-37.38 -499L0 -461.62L0 -5.04L-4.04 -1L-4.04 1L66.67 71.71L137.38 1L137.38 -1L100 -38.38L100 -494.96L104.04 -499L104.04 -501L33.33 -571.71L-37.38 -501L-37.38 -499Z M145.96 -499L166.67 -478.29L166.67 -5.04L162.62 -1L162.62 1L233.33 71.71L304.04 1L304.04 -1L266.67 -38.38L266.67 -478.29L287.38 -499L287.38 -501L216.67 -571.71L145.96 -501L145.96 -499Z" transform="translate(246.87 439) scale(0.13)" fill="#1a1a1a" fill-rule="evenodd"/>
+<path d="M-37.38 -499L0 -461.62L0 -5.04L-4.04 -1L-4.04 1L66.67 71.71L137.38 1L137.38 -1L100 -38.38L100 -494.96L104.04 -499L104.04 -501L33.33 -571.71L-37.38 -501L-37.38 -499Z M145.96 -499L166.67 -478.29L166.67 -5.04L162.62 -1L162.62 1L233.33 71.71L304.04 1L304.04 -1L266.67 -38.38L266.67 -478.29L287.38 -499L287.38 -501L216.67 -571.71L145.96 -501L145.96 -499Z" transform="translate(295.62 439) scale(0.13)" fill="#1a1a1a" fill-rule="evenodd"/>
+<path d="M-37.38 -499L0 -461.62L0 -5.04L-4.04 -1L-4.04 1L66.67 71.71L137.38 1L137.38 -1L100 -38.38L100 -494.96L104.04 -499L104.04 -501L33.33 -571.71L-37.38 -501L-37.38 -499Z M129.29 -499L166.67 -461.62L166.67 -5.04L162.62 -1L162.62 1L233.33 71.71L304.04 1L304.04 -1L266.67 -38.38L266.67 -494.96L270.71 -499L270.71 -501L200 -571.71L129.29 -501L129.29 -499Z M312.62 -499L333.33 -478.29L333.33 -5.04L329.29 -1L329.29 1L400 71.71L470.71 1L470.71 -1L433.33 -38.38L433.33 -478.29L454.04 -499L454.04 -501L383.33 -571.71L312.62 -501L312.62 -499Z" transform="translate(344.37 439) scale(0.13)" fill="#1a1a1a" fill-rule="evenodd"/>
+<path d="M-54.52 37.3L-33.3 58.52L11.1 16.14L66.67 71.71L137.38 1L137.38 -1L100 -38.38L100 -210.78L211.7 -322.05L172.81 -360.95L100 -288.41L100 -494.96L104.04 -499L104.04 -499L174.75 -428.29L245.47 -499L245.47 -501L174.75 -571.71L104.04 -501L104.04 -501L33.33 -571.71L-37.38 -501L-37.38 -499L0 -461.62L0 -188.8L-24.95 -163.95L0 -139L0 -14.73L-54.52 37.3Z" transform="translate(414.83 439) scale(0.13)" fill="#1a1a1a" fill-rule="evenodd"/>
+<line x1="70" y1="499" x2="451" y2="499" stroke="#bbb" stroke-width="0.8"/>
+<text x="465" y="502.5" font-family="Georgia, serif" font-size="11" fill="#555">Ascender Line</text>
+<line x1="70" y1="499" x2="451" y2="499" stroke="#bbb" stroke-width="0.8"/>
+<text x="465" y="502.5" font-family="Georgia, serif" font-size="11" fill="#555">Capital Line</text>
+<line x1="70" y1="525" x2="451" y2="525" stroke="#bbb" stroke-width="0.8"/>
+<text x="465" y="528.5" font-family="Georgia, serif" font-size="11" fill="#555">Waist Line</text>
+<line x1="70" y1="590" x2="451" y2="590" stroke="#444" stroke-width="1.2"/>
+<text x="465" y="593.5" font-family="Georgia, serif" font-size="11" fill="#555">Base Line</text>
+<line x1="70" y1="616" x2="451" y2="616" stroke="#bbb" stroke-width="0.8"/>
+<text x="465" y="619.5" font-family="Georgia, serif" font-size="11" fill="#555">Descender Line</text>
+<rect x="26" y="577" width="13" height="13" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="0.8"/>
+<rect x="39" y="564" width="13" height="13" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="0.8"/>
+<rect x="26" y="551" width="13" height="13" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="0.8"/>
+<rect x="39" y="538" width="13" height="13" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="0.8"/>
+<rect x="26" y="525" width="13" height="13" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="0.8"/>
+<rect x="39" y="512" width="13" height="13" fill="#999999" stroke="#1a1a1a" stroke-width="0.8"/>
+<rect x="26" y="499" width="13" height="13" fill="#999999" stroke="#1a1a1a" stroke-width="0.8"/>
+<rect x="39" y="590" width="13" height="13" fill="#999999" stroke="#1a1a1a" stroke-width="0.8"/>
+<rect x="26" y="603" width="13" height="13" fill="#999999" stroke="#1a1a1a" stroke-width="0.8"/>
+<line x1="16" y1="525" x2="16" y2="590" stroke="#888" stroke-width="0.8"/>
+<line x1="13" y1="525" x2="19" y2="525" stroke="#888" stroke-width="0.8"/>
+<line x1="13" y1="590" x2="19" y2="590" stroke="#888" stroke-width="0.8"/>
+<text x="11" y="557.5" font-family="Georgia, serif" font-size="11" fill="#555" text-anchor="middle" transform="rotate(-90 11 557.5)">X-height</text>
+<path d="M-37.38 -499L0 -461.62L0 -5.04L-4.04 -1L-4.04 1L66.67 71.71L137.38 1L137.38 -1L100 -38.38L100 -494.96L104.04 -499L104.04 -501L33.33 -571.71L-37.38 -501L-37.38 -499Z M129.29 -499L166.67 -461.62L166.67 13.19L145.68 -3.72L132.95 9.01L166.67 42.73L166.67 100L232.15 100L281.86 135.38L345.61 195.95L352.61 188.95L292.04 125.19L266.67 99.82L266.67 -494.96L270.71 -499L270.71 -501L200 -571.71L129.29 -501L129.29 -499Z" transform="translate(78 590) scale(0.13)" fill="#1a1a1a" fill-rule="evenodd"/>
+<path d="M-32 101L68 101L79.66 93.11L85.85 88.03L88.9 85.46L100.03 73.97L107.62 64.69L114.54 54.88L120.74 44.61L126.24 33.95L132.64 19.29L137.77 4.14L140.92 -7.44L143.9 -23.16L145.38 -35.06L146.03 -47.05L146.01 -69.04L145.6 -81.03L144.29 -92.96L142 -104.74L80 -104.74L120.71 -145.45L120.71 -147.45L51 -217.16L120.71 -286.87L120.71 -288.87L51 -358.58L120.71 -428.29L120.71 -430.29L50 -501L-20.71 -430.29L-20.71 -428.29L49 -358.58L-20.71 -288.87L-20.71 -286.87L49 -217.16L-20.71 -147.45L-20.71 -145.45L42.97 -81.77L44.29 -74.96L45.6 -63.03L45.38 -53.06L43.27 -37.21L40.92 -25.44L37.77 -13.86L32.64 1.29L27.95 12.34L20.74 26.61L14.54 36.88L5.19 49.86L-2.58 59L-11.1 67.46L-20.34 75.11L-32 83L-32 101Z" transform="translate(131.82 590) scale(0.13)" fill="#1a1a1a" fill-rule="evenodd"/>
+</svg>

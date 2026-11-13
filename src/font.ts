@@ -37,6 +37,18 @@ export interface FontGlyph {
   advance?: number;
 }
 
+/** The square-lattice construction convention (SPEC §5): a font whose
+ *  letters are built from one module square. The module's side IS the
+ *  stem width, which is the reference tool's nib width — the loader
+ *  enforces that identity. Oblique squares are the module square at
+ *  45°, centred on a stack edge at the declared fraction of the module. */
+export interface SquareLattice {
+  kind: "square-lattice";
+  module: number;
+  stack: { short: number; tall?: number };
+  diamondCentre?: { top: number; bottom: number };
+}
+
 export interface StrokeFontFile {
   format: "strokefont";
   version: 1;
@@ -55,6 +67,8 @@ export interface StrokeFontFile {
   primitives?: Record<string, import("./primitives.js").PrimitiveConfig>;
   /** Named, reusable primitive configurations for this hand. */
   patterns?: Record<string, import("./primitives.js").PrimitivePattern>;
+  /** Declared construction scaffold, when the hand has one (§5). */
+  construction?: { grid?: SquareLattice };
   glyphs: Record<string, FontGlyph>;
   encoding: Record<string, string>;
   bearings: { defaultLeft: number; defaultRight: number };
@@ -95,6 +109,17 @@ export function loadStrokeFont(input: string | unknown): StrokeFont {
   }
   const referenceTool = toolsByName.get(file.referenceTool);
   if (!referenceTool) throw new Error(`referenceTool '${file.referenceTool}' not in the tool table`);
+  // The squares convention (§5): the lattice module is the stem width,
+  // which is the reference nib width — a declaration that disagrees
+  // with the tool table is a broken file, not a style choice.
+  const grid = file.construction?.grid;
+  if (grid !== undefined) {
+    if (grid.kind !== "square-lattice") throw new Error(`construction grid: unknown kind '${(grid as { kind: string }).kind}'`);
+    if (!(grid.module > 0)) throw new Error("construction grid: module must be positive");
+    if (Math.abs(grid.module - tipWidth(referenceTool)) > 1e-6)
+      throw new Error(`construction grid: module ${grid.module} != reference nib width ${tipWidth(referenceTool)} (the module IS the stem width)`);
+    if (!(grid.stack.short > 0)) throw new Error("construction grid: stack.short must be positive");
+  }
   // The primitives table configures base primitives only, with
   // parameters from their signatures; patterns likewise (§7).
   for (const [name, config] of Object.entries(file.primitives ?? {})) {

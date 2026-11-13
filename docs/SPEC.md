@@ -244,6 +244,19 @@ Two proportion systems, both first-class, because history has both:
   attachment points may reference them, so a serif lands on the same
   declared point every time. The scaffold *describes*; per Feliciano's
   own distortions, tooling must warn, not silently bend a glyph to fit.
+- **The square lattice (Dürer's Textura convention).** A font built
+  from one module square declares `construction.grid`:
+  `{ kind: "square-lattice", module, stack: { short, tall? },
+  diamondCentre?: { top, bottom } }`. The module's side *is* the stem
+  width, which is the reference tool's nib width — the loader rejects
+  a declaration that disagrees with the tool table. Two element kinds
+  live on the lattice: right squares (stacked to the declared heights,
+  repeated at the letter's pitch) and oblique squares — the module
+  square at 45°, centred on a stack edge at the declared fraction of
+  the module (Dürer: ⅓ along the top edge, ⅔ along the bottom). A
+  glyph's construction is then a recipe over these elements and the
+  shared standards built from them, which is how the Dürer font is
+  authored (see `docs/sources/durer-1525-notes.md`).
 
 ## 6. The bake: sweep and fuse
 
@@ -270,6 +283,17 @@ bake on change, not per frame), and simplification tolerance is a quality
 knob that must be stored with the bake so output is reproducible.
 Analytic envelopes (the MetaFog problem) are a later optimisation, not
 a v1 requirement; the file format does not depend on the algorithm.
+
+**Verification (2026-11-10).** The bake is checked against MetaPost
+as an independent exact-envelope oracle (`scripts/oracle.mjs`,
+`docs/ORACLE.md`): for constant-state strokes our sweep agrees with
+`draw withpen` to IoU ≥ 0.997 across all five fonts. MetaPost's
+`penstroke` is a *different semantics* — an envelope through the
+pen's diameter endpoints at declared nodes — and under-covers
+fast-varying (twist/taper) strokes by up to a quarter of their area;
+our full-footprint sweep is the model's definition, and any future
+MetaPost export must emit varying strokes as segmented
+`draw withpen`, not `penstroke`.
 
 **Fuse policy.** Within a glyph, strokes in the same `fuseGroup` (default:
 all ink strokes) union into one outline — required for a C-nib sans in

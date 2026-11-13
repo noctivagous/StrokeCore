@@ -25,6 +25,28 @@ export interface Tool {
   name: string;
   tip: TipShape;
   direction?: DirectionBehaviour;
+  /**
+   * The ROLL law (flat-brush flexion, §3.3): a hand ROLLS a flat brush as
+   * it works — pressure rotates the held angle, which is what makes flat-
+   * brush strokes breathe (a pressed stroke presents the face, a lifted
+   * one the edge). Two modes:
+   * - "fixed": rotation in the held frame — offset(p) = degPerPressure ×
+   *   (restPressure − p). The sign-painter's grip roll.
+   * - "travel": rotation relative to the direction of travel — above
+   *   restPressure the face turns SQUARE to the travel (broad ink),
+   *   below rest it turns toward the EDGE (thin ink), by up to maxDeg.
+   *   This is the calligraphic roll: it serves the stroke being made, so
+   *   one law broadens a pressed 横 (héng) and a pressed 捺 (nà) alike,
+   *   where a fixed-frame roll must favour one and thin the other.
+   * Recorded per-point twistDeg adds on top — the law is the tool's
+   * default behaviour, twist stays the authored override.
+   */
+  roll?: {
+    degPerPressure: number;
+    restPressure: number;
+    mode?: "fixed" | "travel";
+    maxDeg?: number;
+  };
 }
 
 /** A spine is nodes joined by segments; segment i joins node i to node i+1. */

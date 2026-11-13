@@ -2,3 +2,11 @@ node_modules/
 dist/
 demo/strokecore.js
 demo/shots/*.png
+
+# Generated rasters and test results stay local — they regenerate via
+# scripts/exemplars.py, scripts/diffenv.mjs, scripts/specimen.mjs and
+# scripts/ductus-sheet.mjs, and do not belong in the repo.
+demo/**/*.png
+demo/diffs/
+
+demo/oracle/

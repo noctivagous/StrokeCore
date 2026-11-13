@@ -1,0 +1,1217 @@
+[
+  {
+    "char": "永",
+    "styleId": "maobi",
+    "iou": 0.742,
+    "grid": {
+      "centroidDistance": 27.613013997643307,
+      "quadrantShareDelta": 0.04249877781858655,
+      "areaRatio": 1.0529426312965775
+    },
+    "boundaryMean": 4.2,
+    "boundaryP95": 21,
+    "strokes": [
+      {
+        "form": "dian",
+        "iou": 0.623,
+        "widthRmse": 0.245,
+        "entryTaperDelta": 0.512,
+        "exitTaperDelta": -0.054,
+        "cornerInkRatios": [],
+        "spineOvershoot": 0,
+        "verdict": "warn"
+      },
+      {
+        "form": "hengzhegou",
+        "iou": 0.787,
+        "widthRmse": 0.116,
+        "entryTaperDelta": 0.231,
+        "exitTaperDelta": -0.224,
+        "cornerInkRatios": [
+          1.16,
+          0.83
+        ],
+        "spineOvershoot": 0.3,
+        "verdict": "ok"
+      },
+      {
+        "form": "hengpie",
+        "iou": 0.746,
+        "widthRmse": 0.22,
+        "entryTaperDelta": 0.052,
+        "exitTaperDelta": -0.023,
+        "cornerInkRatios": [
+          0.95
+        ],
+        "spineOvershoot": 0,
+        "verdict": "ok"
+      },
+      {
+        "form": "pie",
+        "iou": 0.709,
+        "widthRmse": 0.206,
+        "entryTaperDelta": 0.074,
+        "exitTaperDelta": 0.364,
+        "cornerInkRatios": [
+          0.95
+        ],
+        "spineOvershoot": 47.4,
+        "verdict": "ok"
+      },
+      {
+        "form": "na",
+        "iou": 0.7,
+        "widthRmse": 0.282,
+        "entryTaperDelta": 0.33,
+        "exitTaperDelta": 0.631,
+        "cornerInkRatios": [],
+        "spineOvershoot": 0,
+        "verdict": "warn"
+      }
+    ],
+    "verdict": "warn"
+  },
+  {
+    "char": "木",
+    "styleId": "maobi",
+    "iou": 0.751,
+    "grid": {
+      "centroidDistance": 26.344671079754324,
+      "quadrantShareDelta": 0.05352295657130629,
+      "areaRatio": 1.0268638680566096
+    },
+    "boundaryMean": 4.3,
+    "boundaryP95": 23.4,
+    "strokes": [
+      {
+        "form": "heng",
+        "iou": 0.739,
+        "widthRmse": 0.211,
+        "entryTaperDelta": 0.25,
+        "exitTaperDelta": 0.527,
+        "cornerInkRatios": [],
+        "spineOvershoot": 0,
+        "verdict": "ok"
+      },
+      {
+        "form": "shu",
+        "iou": 0.795,
+        "widthRmse": 0.179,
+        "entryTaperDelta": -0.271,
+        "exitTaperDelta": -0.613,
+        "cornerInkRatios": [],
+        "spineOvershoot": 0,
+        "verdict": "ok"
+      },
+      {
+        "form": "pie",
+        "iou": 0.7,
+        "widthRmse": 0.267,
+        "entryTaperDelta": 0.516,
+        "exitTaperDelta": -0.011,
+        "cornerInkRatios": [],
+        "spineOvershoot": 0,
+        "verdict": "warn"
+      },
+      {
+        "form": "na",
+        "iou": 0.692,
+        "widthRmse": 0.312,
+        "entryTaperDelta": 0.32,
+        "exitTaperDelta": 0.71,
+        "cornerInkRatios": [],
+        "spineOvershoot": 0,
+        "verdict": "warn"
+      }
+    ],
+    "verdict": "warn"
+  },
+  {
+    "char": "人",
+    "styleId": "maobi",
+    "iou": 0.677,
+    "grid": {
+      "centroidDistance": 43.189343837040276,
+      "quadrantShareDelta": 0.05584918836321162,
+      "areaRatio": 0.8470566251057029
+    },
+    "boundaryMean": 6.1,
+    "boundaryP95": 21.3,
+    "strokes": [
+      {
+        "form": "shupie",
+        "iou": 0.646,
+        "widthRmse": 0.369,
+        "entryTaperDelta": -0.099,
+        "exitTaperDelta": 0.019,
+        "cornerInkRatios": [],
+        "spineOvershoot": 0,
+        "verdict": "fail"
+      },
+      {
+        "form": "na",
+        "iou": 0.699,
+        "widthRmse": 0.317,
+        "entryTaperDelta": 0.43,
+        "exitTaperDelta": 0.609,
+        "cornerInkRatios": [],
+        "spineOvershoot": 0,
+        "verdict": "warn"
+      }
+    ],
+    "verdict": "fail"
+  },
+  {
+    "char": "大",
+    "styleId": "maobi",
+    "iou": 0.713,
+    "grid": {
+      "centroidDistance": 20.505199147416334,
+      "quadrantShareDelta": 0.012562468086954937,
+      "areaRatio": 0.9083141129852482
+    },
+    "boundaryMean": 5.3,
+    "boundaryP95": 21.8,
+    "strokes": [
+      {
+        "form": "heng",
+        "iou": 0.76,
+        "widthRmse": 0.19,
+        "entryTaperDelta": 0.04,
+        "exitTaperDelta": -0.243,
+        "cornerInkRatios": [],
+        "spineOvershoot": 0,
+        "verdict": "ok"
+      },
+      {
+        "form": "shupie",
+        "iou": 0.691,
+        "widthRmse": 0.299,
+        "entryTaperDelta": 0.091,
+        "exitTaperDelta": -0.075,
+        "cornerInkRatios": [
+          0.82
+        ],
+        "spineOvershoot": 137.1,
+        "verdict": "warn"
+      },
+      {
+        "form": "na",
+        "iou": 0.679,
+        "widthRmse": 0.337,
+        "entryTaperDelta": 0.351,
+        "exitTaperDelta": 0.633,
+        "cornerInkRatios": [],
+        "spineOvershoot": 0,
+        "verdict": "warn"
+      }
+    ],
+    "verdict": "warn"
+  },
+  {
+    "char": "天",
+    "styleId": "maobi",
+    "iou": 0.736,
+    "grid": {
+      "centroidDistance": 23.517325565689077,
+      "quadrantShareDelta": 0.02672779846071005,
+      "areaRatio": 1.0217828973766436
+    },
+    "boundaryMean": 4.5,
+    "boundaryP95": 22.6,
+    "strokes": [
+      {
+        "form": "heng",
+        "iou": 0.755,
+        "widthRmse": 0.129,
+        "entryTaperDelta": 0.328,
+        "exitTaperDelta": 0.101,
+        "cornerInkRatios": [],
+        "spineOvershoot": 0,
+        "verdict": "ok"
+      },
+      {
+        "form": "heng",
+        "iou": 0.735,
+        "widthRmse": 0.259,
+        "entryTaperDelta": 0.405,
+        "exitTaperDelta": -0.328,
+        "cornerInkRatios": [],
+        "spineOvershoot": 0,
+        "verdict": "warn"
+      },
+      {
+        "form": "shupie",
+        "iou": 0.715,
+        "widthRmse": 0.262,
+        "entryTaperDelta": 0.527,
+        "exitTaperDelta": -0.042,
+        "cornerInkRatios": [
+          1.03
+        ],
+        "spineOvershoot": 95.6,
+        "verdict": "warn"
+      },
+      {
+        "form": "na",
+        "iou": 0.705,
+        "widthRmse": 0.299,
+        "entryTaperDelta": 0.323,
+        "exitTaperDelta": 0.636,
+        "cornerInkRatios": [],
+        "spineOvershoot": 0,
+        "verdict": "warn"
+      }
+    ],
+    "verdict": "warn"
+  },
+  {
+    "char": "土",
+    "styleId": "maobi",
+    "iou": 0.802,
+    "grid": {
+      "centroidDistance": 8.8074096277614,
+      "quadrantShareDelta": 0.03303969301560905,
+      "areaRatio": 1.091286528877253
+    },
+    "boundaryMean": 3.5,
+    "boundaryP95": 22.1,
+    "strokes": [
+      {
+        "form": "heng",
+        "iou": 0.792,
+        "widthRmse": 0.112,
+        "entryTaperDelta": 0.245,
+        "exitTaperDelta": -0.005,
+        "cornerInkRatios": [],
+        "spineOvershoot": 0,
+        "verdict": "ok"
+      },
+      {
+        "form": "shu",
+        "iou": 0.792,
+        "widthRmse": 0.167,
+        "entryTaperDelta": 0.15,
+        "exitTaperDelta": 0.378,
+        "cornerInkRatios": [],
+        "spineOvershoot": 0,
+        "verdict": "ok"
+      },
+      {
+        "form": "heng",
+        "iou": 0.791,
+        "widthRmse": 0.243,
+        "entryTaperDelta": -0.249,
+        "exitTaperDelta": 0.294,
+        "cornerInkRatios": [],
+        "spineOvershoot": 0,
+        "verdict": "warn"
+      }
+    ],
+    "verdict": "warn"
+  },
+  {
+    "char": "士",
+    "styleId": "maobi",
+    "iou": 0.796,
+    "grid": {
+      "centroidDistance": 5.21136192626489,
+      "quadrantShareDelta": 0.01468555053338827,
+      "areaRatio": 1.088825518582165
+    },
+    "boundaryMean": 3.8,
+    "boundaryP95": 21.1,
+    "strokes": [
+      {
+        "form": "heng",
+        "iou": 0.814,
+        "widthRmse": 0.14,
+        "entryTaperDelta": -0.252,
+        "exitTaperDelta": -0.233,
+        "cornerInkRatios": [],
+        "spineOvershoot": 0,
+        "verdict": "ok"
+      },
+      {
+        "form": "shu",
+        "iou": 0.785,
+        "widthRmse": 0.116,
+        "entryTaperDelta": 0.192,
+        "exitTaperDelta": 0.182,
+        "cornerInkRatios": [],
+        "spineOvershoot": 0,
+        "verdict": "ok"
+      },
+      {
+        "form": "heng",
+        "iou": 0.732,
+        "widthRmse": 0.176,
+        "entryTaperDelta": 0.346,
+        "exitTaperDelta": 0.106,
+        "cornerInkRatios": [],
+        "spineOvershoot": 0,
+        "verdict": "ok"
+      }
+    ],
+    "verdict": "ok"
+  },
+  {
+    "char": "日",
+    "styleId": "maobi",
+    "iou": 0.77,
+    "grid": {
+      "centroidDistance": 26.669868797880625,
+      "quadrantShareDelta": 0.04612410489351304,
+      "areaRatio": 1.1171435148679296
+    },
+    "boundaryMean": 2.4,
+    "boundaryP95": 14,
+    "strokes": [
+      {
+        "form": "shu",
+        "iou": 0.775,
+        "widthRmse": 0.183,
+        "entryTaperDelta": -0.292,
+        "exitTaperDelta": -0.502,
+        "cornerInkRatios": [],
+        "spineOvershoot": 0,
+        "verdict": "ok"
+      },
+      {
+        "form": "hengzhe",
+        "iou": 0.744,
+        "widthRmse": 0.303,
+        "entryTaperDelta": 0.261,
+        "exitTaperDelta": -0.914,
+        "cornerInkRatios": [
+          1
+        ],
+        "spineOvershoot": 5.8,
+        "verdict": "warn"
+      },
+      {
+        "form": "heng",
+        "iou": 0.651,
+        "widthRmse": 0.217,
+        "entryTaperDelta": 0.111,
+        "exitTaperDelta": 0.26,
+        "cornerInkRatios": [],
+        "spineOvershoot": 0,
+        "verdict": "warn"
+      },
+      {
+        "form": "heng",
+        "iou": 0.676,
+        "widthRmse": 0.223,
+        "entryTaperDelta": 0.025,
+        "exitTaperDelta": 0.003,
+        "cornerInkRatios": [],
+        "spineOvershoot": 0,
+        "verdict": "warn"
+      }
+    ],
+    "verdict": "warn"
+  },
+  {
+    "char": "月",
+    "styleId": "maobi",
+    "iou": 0.711,
+    "grid": {
+      "centroidDistance": 64.13603569665167,
+      "quadrantShareDelta": 0.07379354227310836,
+      "areaRatio": 1.0200194436477847
+    },
+    "boundaryMean": 4.6,
+    "boundaryP95": 23.7,
+    "strokes": [
+      {
+        "form": "shupie",
+        "iou": 0.793,
+        "widthRmse": 0.18,
+        "entryTaperDelta": 0.038,
+        "exitTaperDelta": -0.168,
+        "cornerInkRatios": [],
+        "spineOvershoot": 0,
+        "verdict": "ok"
+      },
+      {
+        "form": "hengzhegou",
+        "iou": 0.697,
+        "widthRmse": 0.378,
+        "entryTaperDelta": 0.526,
+        "exitTaperDelta": -0.743,
+        "cornerInkRatios": [
+          1.08,
+          0.61
+        ],
+        "spineOvershoot": 36.9,
+        "verdict": "fail"
+      },
+      {
+        "form": "heng",
+        "iou": 0.528,
+        "widthRmse": 0.415,
+        "entryTaperDelta": 0.406,
+        "exitTaperDelta": 0.253,
+        "cornerInkRatios": [],
+        "spineOvershoot": 0,
+        "verdict": "fail"
+      },
+      {
+        "form": "heng",
+        "iou": 0.53,
+        "widthRmse": 0.485,
+        "entryTaperDelta": 0.772,
+        "exitTaperDelta": 0.224,
+        "cornerInkRatios": [],
+        "spineOvershoot": 0,
+        "verdict": "fail"
+      }
+    ],
+    "verdict": "fail"
+  },
+  {
+    "char": "明",
+    "styleId": "maobi",
+    "iou": 0.75,
+    "grid": {
+      "centroidDistance": 47.31617367620007,
+      "quadrantShareDelta": 0.04628328560606215,
+      "areaRatio": 1.1266959848214597
+    },
+    "boundaryMean": 3.1,
+    "boundaryP95": 20.2,
+    "strokes": [
+      {
+        "form": "shu",
+        "iou": 0.759,
+        "widthRmse": 0.15,
+        "entryTaperDelta": 0.027,
+        "exitTaperDelta": -0.134,
+        "cornerInkRatios": [],
+        "spineOvershoot": 0,
+        "verdict": "ok"
+      },
+      {
+        "form": "hengzhewan",
+        "iou": 0.733,
+        "widthRmse": 0.434,
+        "entryTaperDelta": 0.353,
+        "exitTaperDelta": -0.288,
+        "cornerInkRatios": [
+          1.37
+        ],
+        "spineOvershoot": 0,
+        "verdict": "fail"
+      },
+      {
+        "form": "ti",
+        "iou": 0.616,
+        "widthRmse": 0.26,
+        "entryTaperDelta": 0.394,
+        "exitTaperDelta": -0.142,
+        "cornerInkRatios": [],
+        "spineOvershoot": 0,
+        "verdict": "warn"
+      },
+      {
+        "form": "ti",
+        "iou": 0.56,
+        "widthRmse": 0.336,
+        "entryTaperDelta": 0.551,
+        "exitTaperDelta": -0.32,
+        "cornerInkRatios": [],
+        "spineOvershoot": 0,
+        "verdict": "fail"
+      },
+      {
+        "form": "shupie",
+        "iou": 0.836,
+        "widthRmse": 0.154,
+        "entryTaperDelta": -0.313,
+        "exitTaperDelta": -0.169,
+        "cornerInkRatios": [],
+        "spineOvershoot": 0,
+        "verdict": "ok"
+      },
+      {
+        "form": "hengzhegou",
+        "iou": 0.739,
+        "widthRmse": 0.349,
+        "entryTaperDelta": 0.527,
+        "exitTaperDelta": -0.632,
+        "cornerInkRatios": [
+          1.39,
+          0.56
+        ],
+        "spineOvershoot": 25.4,
+        "verdict": "fail"
+      },
+      {
+        "form": "heng",
+        "iou": 0.524,
+        "widthRmse": 0.383,
+        "entryTaperDelta": 0.143,
+        "exitTaperDelta": 0.287,
+        "cornerInkRatios": [],
+        "spineOvershoot": 0,
+        "verdict": "fail"
+      },
+      {
+        "form": "heng",
+        "iou": 0.472,
+        "widthRmse": 0.593,
+        "entryTaperDelta": 0.695,
+        "exitTaperDelta": 0.215,
+        "cornerInkRatios": [],
+        "spineOvershoot": 0,
+        "verdict": "fail"
+      }
+    ],
+    "verdict": "fail"
+  },
+  {
+    "char": "水",
+    "styleId": "maobi",
+    "iou": 0.738,
+    "grid": {
+      "centroidDistance": 19.686426967046078,
+      "quadrantShareDelta": 0.015444569172858746,
+      "areaRatio": 0.9658997398213569
+    },
+    "boundaryMean": 5.6,
+    "boundaryP95": 28.7,
+    "strokes": [
+      {
+        "form": "shugou",
+        "iou": 0.819,
+        "widthRmse": 0.113,
+        "entryTaperDelta": -0.066,
+        "exitTaperDelta": -0.062,
+        "cornerInkRatios": [
+          0.68
+        ],
+        "spineOvershoot": 0.2,
+        "verdict": "warn"
+      },
+      {
+        "form": "hengpie",
+        "iou": 0.709,
+        "widthRmse": 0.289,
+        "entryTaperDelta": 0.074,
+        "exitTaperDelta": -0.027,
+        "cornerInkRatios": [
+          0.85
+        ],
+        "spineOvershoot": 0,
+        "verdict": "warn"
+      },
+      {
+        "form": "pie",
+        "iou": 0.622,
+        "widthRmse": 0.359,
+        "entryTaperDelta": 0.734,
+        "exitTaperDelta": 0.423,
+        "cornerInkRatios": [
+          0.79
+        ],
+        "spineOvershoot": 21,
+        "verdict": "fail"
+      },
+      {
+        "form": "na",
+        "iou": 0.687,
+        "widthRmse": 0.298,
+        "entryTaperDelta": 0.43,
+        "exitTaperDelta": 0.678,
+        "cornerInkRatios": [],
+        "spineOvershoot": 0,
+        "verdict": "warn"
+      }
+    ],
+    "verdict": "fail"
+  },
+  {
+    "char": "火",
+    "styleId": "maobi",
+    "iou": 0.663,
+    "grid": {
+      "centroidDistance": 23.558981567798813,
+      "quadrantShareDelta": 0.08886039627857828,
+      "areaRatio": 0.9387552057578579
+    },
+    "boundaryMean": 5.6,
+    "boundaryP95": 24.9,
+    "strokes": [
+      {
+        "form": "dian",
+        "iou": 0.642,
+        "widthRmse": 0.237,
+        "entryTaperDelta": 0.516,
+        "exitTaperDelta": -0.032,
+        "cornerInkRatios": [],
+        "spineOvershoot": 0,
+        "verdict": "warn"
+      },
+      {
+        "form": "na",
+        "iou": 0.604,
+        "widthRmse": 0.348,
+        "entryTaperDelta": -0.183,
+        "exitTaperDelta": 0.715,
+        "cornerInkRatios": [
+          0.79
+        ],
+        "spineOvershoot": 15.5,
+        "verdict": "warn"
+      },
+      {
+        "form": "shupie",
+        "iou": 0.653,
+        "widthRmse": 0.361,
+        "entryTaperDelta": 0.708,
+        "exitTaperDelta": -0.063,
+        "cornerInkRatios": [
+          0.88
+        ],
+        "spineOvershoot": 0,
+        "verdict": "fail"
+      },
+      {
+        "form": "na",
+        "iou": 0.699,
+        "widthRmse": 0.276,
+        "entryTaperDelta": 0.409,
+        "exitTaperDelta": 0.705,
+        "cornerInkRatios": [],
+        "spineOvershoot": 0,
+        "verdict": "warn"
+      }
+    ],
+    "verdict": "fail"
+  },
+  {
+    "char": "山",
+    "styleId": "maobi",
+    "iou": 0.779,
+    "grid": {
+      "centroidDistance": 1.8984777024308113,
+      "quadrantShareDelta": 0.007825893468511036,
+      "areaRatio": 1.107187157873783
+    },
+    "boundaryMean": 5,
+    "boundaryP95": 22.6,
+    "strokes": [
+      {
+        "form": "shu",
+        "iou": 0.763,
+        "widthRmse": 0.216,
+        "entryTaperDelta": -0.305,
+        "exitTaperDelta": 0.367,
+        "cornerInkRatios": [],
+        "spineOvershoot": 0,
+        "verdict": "ok"
+      },
+      {
+        "form": "shuwan",
+        "iou": 0.761,
+        "widthRmse": 0.276,
+        "entryTaperDelta": -0.233,
+        "exitTaperDelta": 0.236,
+        "cornerInkRatios": [
+          0.86
+        ],
+        "spineOvershoot": 0,
+        "verdict": "warn"
+      },
+      {
+        "form": "shu",
+        "iou": 0.747,
+        "widthRmse": 0.19,
+        "entryTaperDelta": 0.461,
+        "exitTaperDelta": -0.052,
+        "cornerInkRatios": [],
+        "spineOvershoot": 0,
+        "verdict": "ok"
+      }
+    ],
+    "verdict": "warn"
+  },
+  {
+    "char": "四",
+    "styleId": "maobi",
+    "iou": 0.78,
+    "grid": {
+      "centroidDistance": 10.96297348166545,
+      "quadrantShareDelta": 0.02273908078526446,
+      "areaRatio": 1.1875295914137167
+    },
+    "boundaryMean": 1.4,
+    "boundaryP95": 8.8,
+    "strokes": [
+      {
+        "form": "shu",
+        "iou": 0.802,
+        "widthRmse": 0.109,
+        "entryTaperDelta": 0.165,
+        "exitTaperDelta": -0.086,
+        "cornerInkRatios": [],
+        "spineOvershoot": 0,
+        "verdict": "ok"
+      },
+      {
+        "form": "hengzhe",
+        "iou": 0.775,
+        "widthRmse": 0.221,
+        "entryTaperDelta": -0.1,
+        "exitTaperDelta": -0.614,
+        "cornerInkRatios": [
+          1.03
+        ],
+        "spineOvershoot": 29.9,
+        "verdict": "warn"
+      },
+      {
+        "form": "shupie",
+        "iou": 0.764,
+        "widthRmse": 0.234,
+        "entryTaperDelta": 0.281,
+        "exitTaperDelta": -0.034,
+        "cornerInkRatios": [],
+        "spineOvershoot": 0,
+        "verdict": "warn"
+      },
+      {
+        "form": "shuwan",
+        "iou": 0.668,
+        "widthRmse": 0.313,
+        "entryTaperDelta": -0.236,
+        "exitTaperDelta": -0.021,
+        "cornerInkRatios": [
+          1.32
+        ],
+        "spineOvershoot": 0,
+        "verdict": "warn"
+      },
+      {
+        "form": "heng",
+        "iou": 0.665,
+        "widthRmse": 0.444,
+        "entryTaperDelta": 0.707,
+        "exitTaperDelta": 0.436,
+        "cornerInkRatios": [],
+        "spineOvershoot": 0,
+        "verdict": "fail"
+      }
+    ],
+    "verdict": "fail"
+  },
+  {
+    "char": "女",
+    "styleId": "maobi",
+    "iou": 0.767,
+    "grid": {
+      "centroidDistance": 8.837400791860157,
+      "quadrantShareDelta": 0.02538754964667167,
+      "areaRatio": 0.9684011706147825
+    },
+    "boundaryMean": 3.9,
+    "boundaryP95": 17.8,
+    "strokes": [
+      {
+        "form": "na",
+        "iou": 0.778,
+        "widthRmse": 0.267,
+        "entryTaperDelta": -0.865,
+        "exitTaperDelta": -0.291,
+        "cornerInkRatios": [
+          0.64,
+          1.18
+        ],
+        "spineOvershoot": 100.6,
+        "verdict": "warn"
+      },
+      {
+        "form": "pie",
+        "iou": 0.681,
+        "widthRmse": 0.316,
+        "entryTaperDelta": -0.07,
+        "exitTaperDelta": -0.082,
+        "cornerInkRatios": [],
+        "spineOvershoot": 0,
+        "verdict": "warn"
+      },
+      {
+        "form": "heng",
+        "iou": 0.799,
+        "widthRmse": 0.193,
+        "entryTaperDelta": -0.381,
+        "exitTaperDelta": 0.271,
+        "cornerInkRatios": [],
+        "spineOvershoot": 0,
+        "verdict": "ok"
+      }
+    ],
+    "verdict": "warn"
+  },
+  {
+    "char": "好",
+    "styleId": "maobi",
+    "iou": 0.723,
+    "grid": {
+      "centroidDistance": 19.191425887868,
+      "quadrantShareDelta": 0.04357889889980421,
+      "areaRatio": 1.0721027845206947
+    },
+    "boundaryMean": 4.2,
+    "boundaryP95": 23.6,
+    "strokes": [
+      {
+        "form": "na",
+        "iou": 0.742,
+        "widthRmse": 0.282,
+        "entryTaperDelta": -0.784,
+        "exitTaperDelta": -0.282,
+        "cornerInkRatios": [
+          0.73,
+          1.64
+        ],
+        "spineOvershoot": 167.5,
+        "verdict": "fail"
+      },
+      {
+        "form": "shupie",
+        "iou": 0.743,
+        "widthRmse": 0.209,
+        "entryTaperDelta": 0.029,
+        "exitTaperDelta": -0.099,
+        "cornerInkRatios": [],
+        "spineOvershoot": 0,
+        "verdict": "ok"
+      },
+      {
+        "form": "heng",
+        "iou": 0.577,
+        "widthRmse": 0.482,
+        "entryTaperDelta": -0.07,
+        "exitTaperDelta": 0.734,
+        "cornerInkRatios": [],
+        "spineOvershoot": 0,
+        "verdict": "fail"
+      },
+      {
+        "form": "hengpie",
+        "iou": 0.745,
+        "widthRmse": 0.128,
+        "entryTaperDelta": 0.052,
+        "exitTaperDelta": 0.068,
+        "cornerInkRatios": [
+          0.96
+        ],
+        "spineOvershoot": 0,
+        "verdict": "ok"
+      },
+      {
+        "form": "shugou",
+        "iou": 0.697,
+        "widthRmse": 0.508,
+        "entryTaperDelta": 0.368,
+        "exitTaperDelta": -0.156,
+        "cornerInkRatios": [
+          0.5
+        ],
+        "spineOvershoot": 0.2,
+        "verdict": "fail"
+      },
+      {
+        "form": "heng",
+        "iou": 0.675,
+        "widthRmse": 0.296,
+        "entryTaperDelta": 0.22,
+        "exitTaperDelta": -0.008,
+        "cornerInkRatios": [],
+        "spineOvershoot": 0,
+        "verdict": "warn"
+      }
+    ],
+    "verdict": "fail"
+  },
+  {
+    "char": "心",
+    "styleId": "maobi",
+    "iou": 0.626,
+    "grid": {
+      "centroidDistance": 66.46053277101444,
+      "quadrantShareDelta": 0.12446445824463859,
+      "areaRatio": 0.9355797201139286
+    },
+    "boundaryMean": 6.9,
+    "boundaryP95": 36.7,
+    "strokes": [
+      {
+        "form": "zuodian",
+        "iou": 0.598,
+        "widthRmse": 0.339,
+        "entryTaperDelta": 0.649,
+        "exitTaperDelta": -0.044,
+        "cornerInkRatios": [],
+        "spineOvershoot": 0,
+        "verdict": "fail"
+      },
+      {
+        "form": "wogou",
+        "iou": 0.624,
+        "widthRmse": 0.352,
+        "entryTaperDelta": 0.503,
+        "exitTaperDelta": 0.063,
+        "cornerInkRatios": [
+          0.44
+        ],
+        "spineOvershoot": 0,
+        "verdict": "fail"
+      },
+      {
+        "form": "dian",
+        "iou": 0.645,
+        "widthRmse": 0.244,
+        "entryTaperDelta": 0.522,
+        "exitTaperDelta": -0.046,
+        "cornerInkRatios": [],
+        "spineOvershoot": 0,
+        "verdict": "warn"
+      },
+      {
+        "form": "changdian",
+        "iou": 0.648,
+        "widthRmse": 0.285,
+        "entryTaperDelta": 0.541,
+        "exitTaperDelta": 0.072,
+        "cornerInkRatios": [],
+        "spineOvershoot": 0,
+        "verdict": "warn"
+      }
+    ],
+    "verdict": "fail"
+  },
+  {
+    "char": "我",
+    "styleId": "maobi",
+    "iou": 0.707,
+    "grid": {
+      "centroidDistance": 45.76779360580392,
+      "quadrantShareDelta": 0.05038964676115423,
+      "areaRatio": 0.9739239223822032
+    },
+    "boundaryMean": 5,
+    "boundaryP95": 21.4,
+    "strokes": [
+      {
+        "form": "pingpie",
+        "iou": 0.615,
+        "widthRmse": 0.535,
+        "entryTaperDelta": 0.231,
+        "exitTaperDelta": 0.576,
+        "cornerInkRatios": [],
+        "spineOvershoot": 0,
+        "verdict": "fail"
+      },
+      {
+        "form": "ti",
+        "iou": 0.687,
+        "widthRmse": 0.337,
+        "entryTaperDelta": 0.998,
+        "exitTaperDelta": -0.447,
+        "cornerInkRatios": [],
+        "spineOvershoot": 0,
+        "verdict": "warn"
+      },
+      {
+        "form": "shugou",
+        "iou": 0.751,
+        "widthRmse": 0.211,
+        "entryTaperDelta": 0.627,
+        "exitTaperDelta": -0.429,
+        "cornerInkRatios": [
+          0.65
+        ],
+        "spineOvershoot": 1.8,
+        "verdict": "warn"
+      },
+      {
+        "form": "ti",
+        "iou": 0.574,
+        "widthRmse": 0.44,
+        "entryTaperDelta": 0.84,
+        "exitTaperDelta": 0.199,
+        "cornerInkRatios": [],
+        "spineOvershoot": 0,
+        "verdict": "fail"
+      },
+      {
+        "form": "xiegou",
+        "iou": 0.741,
+        "widthRmse": 0.238,
+        "entryTaperDelta": -0.699,
+        "exitTaperDelta": -0.541,
+        "cornerInkRatios": [
+          0.53
+        ],
+        "spineOvershoot": 0,
+        "verdict": "fail"
+      },
+      {
+        "form": "pie",
+        "iou": 0.725,
+        "widthRmse": 0.222,
+        "entryTaperDelta": 0.079,
+        "exitTaperDelta": 0.155,
+        "cornerInkRatios": [],
+        "spineOvershoot": 0,
+        "verdict": "warn"
+      },
+      {
+        "form": "dian",
+        "iou": 0.618,
+        "widthRmse": 0.234,
+        "entryTaperDelta": 0.523,
+        "exitTaperDelta": -0.014,
+        "cornerInkRatios": [],
+        "spineOvershoot": 0,
+        "verdict": "warn"
+      }
+    ],
+    "verdict": "fail"
+  },
+  {
+    "char": "國",
+    "styleId": "maobi",
+    "iou": 0.715,
+    "grid": {
+      "centroidDistance": 33.35176227734476,
+      "quadrantShareDelta": 0.07765131995945468,
+      "areaRatio": 1.2632049015109386
+    },
+    "boundaryMean": 0.9,
+    "boundaryP95": 6.6,
+    "strokes": [
+      {
+        "form": "shu",
+        "iou": 0.78,
+        "widthRmse": 0.207,
+        "entryTaperDelta": -0.606,
+        "exitTaperDelta": -0.675,
+        "cornerInkRatios": [],
+        "spineOvershoot": 0,
+        "verdict": "ok"
+      },
+      {
+        "form": "hengzhe",
+        "iou": 0.769,
+        "widthRmse": 0.308,
+        "entryTaperDelta": 0.425,
+        "exitTaperDelta": -0.345,
+        "cornerInkRatios": [
+          1.08
+        ],
+        "spineOvershoot": 10.3,
+        "verdict": "warn"
+      },
+      {
+        "form": "heng",
+        "iou": 0.53,
+        "widthRmse": 0.631,
+        "entryTaperDelta": 0.417,
+        "exitTaperDelta": 0.851,
+        "cornerInkRatios": [],
+        "spineOvershoot": 0,
+        "verdict": "fail"
+      },
+      {
+        "form": "dian",
+        "iou": 0.481,
+        "widthRmse": 0.473,
+        "entryTaperDelta": 0.45,
+        "exitTaperDelta": 0.205,
+        "cornerInkRatios": [],
+        "spineOvershoot": 0,
+        "verdict": "fail"
+      },
+      {
+        "form": "hengzhegou",
+        "iou": 0.62,
+        "widthRmse": 0.595,
+        "entryTaperDelta": 0.351,
+        "exitTaperDelta": -0.32,
+        "cornerInkRatios": [
+          1.23,
+          0.99
+        ],
+        "spineOvershoot": 11.5,
+        "verdict": "fail"
+      },
+      {
+        "form": "ti",
+        "iou": 0.595,
+        "widthRmse": 0.433,
+        "entryTaperDelta": 0.226,
+        "exitTaperDelta": -0.108,
+        "cornerInkRatios": [],
+        "spineOvershoot": 0,
+        "verdict": "fail"
+      },
+      {
+        "form": "changdian",
+        "iou": 0.44,
+        "widthRmse": 1.008,
+        "entryTaperDelta": -0.033,
+        "exitTaperDelta": 0.576,
+        "cornerInkRatios": [],
+        "spineOvershoot": 0,
+        "verdict": "fail"
+      },
+      {
+        "form": "xiegou",
+        "iou": 0.741,
+        "widthRmse": 0.159,
+        "entryTaperDelta": -0.259,
+        "exitTaperDelta": -0.307,
+        "cornerInkRatios": [
+          0.71
+        ],
+        "spineOvershoot": 0,
+        "verdict": "warn"
+      },
+      {
+        "form": "shupie",
+        "iou": 0.779,
+        "widthRmse": 0.117,
+        "entryTaperDelta": -0.137,
+        "exitTaperDelta": 0.027,
+        "cornerInkRatios": [],
+        "spineOvershoot": 0,
+        "verdict": "ok"
+      },
+      {
+        "form": "dian",
+        "iou": 0.514,
+        "widthRmse": 0.366,
+        "entryTaperDelta": 0.481,
+        "exitTaperDelta": 0.021,
+        "cornerInkRatios": [],
+        "spineOvershoot": 0,
+        "verdict": "fail"
+      },
+      {
+        "form": "heng",
+        "iou": 0.682,
+        "widthRmse": 0.32,
+        "entryTaperDelta": 0.306,
+        "exitTaperDelta": -0.129,
+        "cornerInkRatios": [],
+        "spineOvershoot": 0,
+        "verdict": "warn"
+      }
+    ],
+    "verdict": "fail"
+  }
+]

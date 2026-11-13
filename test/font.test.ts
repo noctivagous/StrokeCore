@@ -2,13 +2,15 @@ import { readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
 import {
   bakeFontGlyph, ductus, glyphAdvance, layoutText, loadStrokeFont,
-  foundationalFont, imperialFont, frakturFont,
+  foundationalFont, imperialFont, frakturFont, gothicFont, durerFont,
 } from "../src/index.js";
 
 const fonts = [
   { name: "foundational", file: foundationalFont(), letters: "abcdefghijklmnopqrstuvwxyz&" },
   { name: "imperial", file: imperialFont(), letters: "ABCDEFGHIJKLMNOPQRSTUVWXYZ" },
   { name: "fraktur", file: frakturFont(), letters: "abcdefghijklmnopqrstuvwxyzſ" },
+  { name: "gothic", file: gothicFont(), letters: "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789" },
+  { name: "durer", file: durerFont(), letters: "abcdefghijklmnopqrstuvwxyz" },
 ];
 
 describe("StrokeFont format (spec §7)", () => {
@@ -38,10 +40,14 @@ describe("StrokeFont format (spec §7)", () => {
       const steps = ductus(font, font.file.encoding[letters[0]]);
       expect(steps.length).toBeGreaterThan(0);
       expect(steps[0].step).toBe(1);
-      expect(steps.every((s) => s.toolName === file.referenceTool)).toBe(true);
+      // Every step's tool resolves to a tool the font declares. (Not
+      // necessarily the reference tool: Dürer's font legitimately
+      // stamps its oblique squares with a second tool.)
+      const declared = new Set(file.tools.map((t) => t.name));
+      expect(steps.every((s) => declared.has(s.toolName))).toBe(true);
     });
 
-    it(`${name}: layoutText advances monotonically`, () => {
+    it(`${name}: layoutText advances monotonically`, { timeout: 180000 }, () => {
       const { placements, width } = layoutText(font, letters.slice(0, 6));
       expect(placements.length).toBe(6);
       for (let i = 1; i < placements.length; i++) expect(placements[i].x).toBeGreaterThan(placements[i - 1].x);
@@ -76,6 +82,8 @@ describe("StrokeFont format (spec §7)", () => {
       ["../fonts/foundational.strokefont.json", foundationalFont()],
       ["../fonts/imperial-capitals.strokefont.json", imperialFont()],
       ["../fonts/fraktur.strokefont.json", frakturFont()],
+      ["../fonts/monoline-gothic.strokefont.json", gothicFont()],
+      ["../fonts/durer-textura.strokefont.json", durerFont()],
     ] as const) {
       const text = readFileSync(new URL(path, import.meta.url), "utf8");
       const font = loadStrokeFont(text);

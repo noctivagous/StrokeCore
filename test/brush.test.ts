@@ -6,6 +6,7 @@ import {
   effectiveTip,
   flatBrush,
   pointedBrush,
+  rollOffsetDeg,
   speedballBrush,
   speedballNib,
 } from "../src/tool.js";
@@ -86,5 +87,82 @@ describe("brush physics (Phase 2)", () => {
     const ink = baked.groups.get("ink")!;
     expect(ink.length).toBe(1);
     expect(multiPolygonArea(ink)).toBeGreaterThan(1500);
+  });
+
+  it("roll law: pressure rotates the held angle around the rest point", () => {
+    const rigid = flatBrush("rigid", 18, 3.5);
+    expect(rollOffsetDeg(rigid, 0)).toBe(0);
+    expect(rollOffsetDeg(rigid, 1)).toBe(0);
+    const rolled = flatBrush("rolled", 18, 3.5, 55, 0.45);
+    expect(rollOffsetDeg(rolled, 0.45)).toBeCloseTo(0);
+    expect(rollOffsetDeg(rolled, 1)).toBeCloseTo(-30.25);
+    expect(rollOffsetDeg(rolled, 0)).toBeCloseTo(24.75);
+    // Pressure clamps: beyond the range the roll saturates.
+    expect(rollOffsetDeg(rolled, 2)).toBeCloseTo(-30.25);
+  });
+
+  it("roll reaches the bake: a lifted horizontal thins to the edge, a pressed one presents the face", () => {
+    const mkStroke = (tool: ReturnType<typeof flatBrush>, pressure: number) => ({
+      id: "horiz",
+      tool,
+      spine: {
+        nodes: [
+          { x: 100, y: 500 },
+          { x: 700, y: 500 },
+        ],
+        segments: [{ kind: "line" as const }],
+      },
+      angleDeg: -18,
+      angleMode: "fixed" as const,
+      points: [
+        { node: 0, pressure },
+        { node: 1, pressure },
+      ],
+    });
+    const rolled = flatBrush("rolled", 92, 20, 55, 0.45);
+    const lifted = bakeStroke(mkStroke(rolled, 0.08), { step: 6 });
+    const pressed = bakeStroke(mkStroke(rolled, 0.95), { step: 6 });
+    const aLift = multiPolygonArea(lifted.outline);
+    const aPress = multiPolygonArea(pressed.outline);
+    // Same spine, same tool: the roll alone makes the pressed diagonal
+    // carry substantially more ink than the lifted one.
+    expect(aPress).toBeGreaterThan(aLift * 1.35);
+    // And resolveTipState shows the angle itself moving with pressure.
+    const sLow = sampleSpine(mkStroke(rolled, 0.08).spine, 40)[0];
+    const sHigh = sampleSpine(mkStroke(rolled, 0.95).spine, 40)[0];
+    const aLow = resolveTipState(mkStroke(rolled, 0.08), sLow).angleDeg;
+    const aHigh = resolveTipState(mkStroke(rolled, 0.95), sHigh).angleDeg;
+    expect(Math.abs(aHigh - aLow)).toBeGreaterThan(40);
+  });
+
+  it("travel roll: one law broadens pressed strokes in EVERY direction", () => {
+    const tool = flatBrush("travel", 92, 20, 90, 0.45, { mode: "travel", maxDeg: 40 });
+    const mk = (x2: number, y2: number, pressure: number) => ({
+      id: "s",
+      tool,
+      spine: {
+        nodes: [
+          { x: 200, y: 500 },
+          { x: x2, y: y2 },
+        ],
+        segments: [{ kind: "line" as const }],
+      },
+      angleDeg: -18,
+      angleMode: "fixed" as const,
+      points: [
+        { node: 0, pressure },
+        { node: 1, pressure },
+      ],
+    });
+    // Horizontal (travel 0°) and down-right diagonal (travel −45°, a 捺's
+    // direction): pressed must carry much more ink than lifted in both.
+    for (const [x2, y2] of [
+      [800, 500],
+      [650, 150],
+    ]) {
+      const lifted = multiPolygonArea(bakeStroke(mk(x2, y2, 0.08), { step: 6 }).outline);
+      const pressed = multiPolygonArea(bakeStroke(mk(x2, y2, 0.95), { step: 6 }).outline);
+      expect(pressed).toBeGreaterThan(lifted * 1.3);
+    }
   });
 });

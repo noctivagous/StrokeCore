@@ -9,7 +9,7 @@ import {
   simplifyRing,
   type SpineSample,
 } from "./geometry.js";
-import { effectiveTip, tipMinDimension, tipPolygon } from "./tool.js";
+import { effectiveTip, rollOffsetForSample, tipMinDimension, tipPolygon } from "./tool.js";
 import type {
   BakeOptions,
   MultiPolygon,
@@ -72,6 +72,7 @@ export interface ResolvedTipState {
 export function resolveTipState(
   stroke: Stroke,
   sample: SpineSample,
+  rollTangentDeg?: number,
 ): ResolvedTipState {
   const segCount = stroke.spine.nodes.length - 1;
   const widthFrames = keyframes(stroke.points, segCount, (p) => p.widthFactor, 1);
@@ -88,7 +89,14 @@ export function resolveTipState(
   const mode = stroke.angleMode ?? "fixed";
   const base = mode === "tangentRelative" ? sample.tangentDeg + declared : declared;
   return {
-    angleDeg: base + twistDeg, // twist rotates the tip beyond its declared angle
+    // twist rotates the tip beyond its declared angle; the tool's ROLL
+    // law adds its pressure-driven rotation on top (flat-brush flexion).
+    // The roll reads a possibly inertia-smoothed tangent (rollTangentDeg)
+    // — a hand cannot roll instantly through a hook's direction flip.
+    angleDeg:
+      base +
+      twistDeg +
+      rollOffsetForSample(stroke.tool, pressure, base, rollTangentDeg ?? sample.tangentDeg),
     widthFactor,
     pressure,
     twistDeg,
@@ -115,35 +123,82 @@ export function bakeStroke(stroke: Stroke, options: BakeOptions = {}): StrokeBak
   const step = options.step ?? Math.max(0.5, tipMinDimension(tip) / 2);
   const tolerance = options.simplifyTolerance ?? 0.25;
   const ellipseSegments = options.ellipseSegments ?? 28;
-  const samples = sampleSpine(stroke.spine, step);
-  if (samples.length === 0) return { outline: [], tips: [], samples };
 
-  const tips = samples.map((s) => {
-    const state = resolveTipState(stroke, s);
-    return tipPolygon(state.tip, s.point, state.angleDeg, state.widthFactor, ellipseSegments);
-  });
-
-  const pieces: Polygon[] = [];
-  const asPolygon = (pts: Pt[]): Polygon => [
-    pts.map((p): [number, number] => [p.x, p.y]),
-  ];
-  pieces.push(asPolygon(tips[0]));
-  pieces.push(asPolygon(tips[tips.length - 1]));
-  for (let i = 1; i < tips.length; i++) {
-    const A = tips[i - 1];
-    const B = tips[i];
-    const L = Math.min(A.length, B.length);
-    for (let k = 0; k < L; k++) {
-      const k2 = (k + 1) % L;
-      pieces.push(asPolygon([A[k], A[k2], B[k2], B[k]]));
+  const attempt = (stepW: number, segs: number): StrokeBake => {
+    const samples = sampleSpine(stroke.spine, stepW);
+    if (samples.length === 0) return { outline: [], tips: [], samples };
+    // Roll inertia: a travel-roll tool reads tangents smoothed over a
+    // ±4-sample window (vector-averaged), so the roll swings through
+    // corners instead of snapping at a hook's direction flip. Through
+    // the flip itself the averaged vector collapses toward zero — its
+    // direction is meaningless there — so where the resultant is weak
+    // the roll HOLDS the last confident tangent instead (a hand does
+    // the same: it cannot roll 160° inside a hook).
+    let rollTangents: number[] | undefined;
+    if (stroke.tool.roll?.mode === "travel") {
+      rollTangents = [];
+      let lastConfident = samples[0].tangentDeg;
+      for (let i = 0; i < samples.length; i++) {
+        let sx = 0;
+        let sy = 0;
+        for (let j = Math.max(0, i - 4); j <= Math.min(samples.length - 1, i + 4); j++) {
+          const r = (samples[j].tangentDeg * Math.PI) / 180;
+          sx += Math.cos(r);
+          sy += Math.sin(r);
+        }
+        const n = Math.min(samples.length - 1, i + 4) - Math.max(0, i - 4) + 1;
+        if (Math.hypot(sx, sy) / n >= 0.45) {
+          lastConfident = (Math.atan2(sy, sx) * 180) / Math.PI;
+        }
+        rollTangents.push(lastConfident);
+      }
     }
-  }
+    const tips = samples.map((s, i) => {
+      const state = resolveTipState(stroke, s, rollTangents?.[i]);
+      return tipPolygon(state.tip, s.point, state.angleDeg, state.widthFactor, segs);
+    });
+    const pieces: Polygon[] = [];
+    const asPolygon = (pts: Pt[]): Polygon => [
+      pts.map((p): [number, number] => [p.x, p.y]),
+    ];
+    pieces.push(asPolygon(tips[0]));
+    pieces.push(asPolygon(tips[tips.length - 1]));
+    for (let i = 1; i < tips.length; i++) {
+      const A = tips[i - 1];
+      const B = tips[i];
+      const L = Math.min(A.length, B.length);
+      for (let k = 0; k < L; k++) {
+        const k2 = (k + 1) % L;
+        pieces.push(asPolygon([A[k], A[k2], B[k2], B[k]]));
+      }
+    }
+    const fused = union(pieces[0], ...pieces.slice(1)) as MultiPolygon;
+    const outline = fused.map((poly) =>
+      poly.map((ring) => simplifyRing(ring, tolerance)),
+    ) as MultiPolygon;
+    return { outline, tips, samples };
+  };
 
-  const fused = union(pieces[0], ...pieces.slice(1)) as MultiPolygon;
-  const outline = fused.map((poly) =>
-    poly.map((ring) => simplifyRing(ring, tolerance)),
-  ) as MultiPolygon;
-  return { outline, tips, samples };
+  try {
+    return attempt(step, ellipseSegments);
+  } catch (firstError) {
+    // polygon-clipping's sweep line can choke on near-coincident tip
+    // pieces (thin edge-aligned ribbons, pinned corners). The geometry
+    // is sound; a different sampling moves the coincidences. Retry at
+    // two alternate samplings before giving up — the same discipline
+    // the bihua render layer used, now in the core bake itself.
+    for (const [s, g] of [
+      [step * 0.7, 22],
+      [step * 1.6, 36],
+    ] as const) {
+      try {
+        return attempt(s, g);
+      } catch {
+        /* fall through to the next sampling */
+      }
+    }
+    throw firstError;
+  }
 }
 
 /** Union several baked outlines into one (glyph-level fusing, SPEC §6). */

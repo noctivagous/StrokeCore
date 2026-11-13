@@ -1,0 +1,5575 @@
+{
+  "format": "strokefont",
+  "version": 1,
+  "name": "Dürer Textura",
+  "designer": "StrokeCore",
+  "sourceNote": "The Text or Quadrate letters of Albrecht Dürer, Of the Just Shaping of Letters (1525), Book III: a module square whose side is the stem width; short letters five squares stacked, tall letters seven; oblique (diagonal) squares centred on the stack edges at the third-points; standards at a pitch of s + 2s/3. Stack count and diamond placement follow Dürer's skeleton plate where the translated prose differs (see docs/sources/durer-1525-notes.md). Versals are not included: Dürer gives them only as a plate in the elegant variant. The j is an editorial completion in his manner.",
+  "unitsPerEm": 1000,
+  "referenceTool": "dürer pen",
+  "construction": {
+    "grid": {
+      "kind": "square-lattice",
+      "module": 100,
+      "stack": {
+        "short": 5,
+        "tall": 7
+      },
+      "diamondCentre": {
+        "top": 0.3333333333333333,
+        "bottom": 0.6666666666666666
+      }
+    }
+  },
+  "ladder": {
+    "xHeight": 5,
+    "ascender": 2,
+    "descender": 2,
+    "capHeight": 7
+  },
+  "slant": 0,
+  "tools": [
+    {
+      "name": "dürer pen",
+      "tip": {
+        "kind": "rect",
+        "width": 100,
+        "thickness": 18
+      },
+      "direction": "manner"
+    },
+    {
+      "name": "oblique square",
+      "tip": {
+        "kind": "rect",
+        "width": 100,
+        "thickness": 100
+      },
+      "direction": "any"
+    }
+  ],
+  "moves": [
+    "pull the stem down",
+    "set the oblique square on the first point",
+    "set the oblique square on the second point",
+    "the tiny in-crescent, with a fine pen",
+    "the top cut obliquely, making two angles",
+    "an equal square diagonally to the right, angle to angle",
+    "the shoulder sweeping down from the square",
+    "a diagonally set square appended to the right",
+    "the transverse across the middle",
+    "an acute tail to the left from the diagonal",
+    "pull the stem down, its top cut by a diagonal",
+    "the broad transverse at top",
+    "a broad limb descending to the right",
+    "the top converging to a fine point",
+    "a broad limb to the right at top",
+    "a transverse limb at the height of the shorter letters",
+    "its point projecting below on the hither side",
+    "the joining limb at the bottom",
+    "the fifth square cut off on the far side by its diagonal",
+    "the broken limb across the top",
+    "the joining limb at top",
+    "the joining limb at bottom",
+    "a broad transverse limb at the bottom",
+    "a diagonal square appended to the right",
+    "a broad limb obliquely drawn",
+    "a circle sweeping downwards to the left",
+    "another diagonal square at the bottom, angle to angle",
+    "the tail curving down from the far limb",
+    "the fifth square split by a diagonal, its tip in front, and a diagonal line produced of one side's length",
+    "the first diagonal square, touching the height",
+    "the second diagonal square",
+    "the third diagonal square",
+    "a rounded extension, its tip verging to the left",
+    "a broad vertical limb to the height",
+    "the near oblique square at the middle height",
+    "the farther oblique square, angles touching",
+    "a broad limb falling downwards",
+    "a diagonal downwards, cutting off both oblique limbs"
+  ],
+  "primitives": {
+    "dab": {
+      "size": 100,
+      "angle": 45
+    }
+  },
+  "glyphs": {
+    "_std": {
+      "name": "_std",
+      "ductusKind": "native",
+      "strokes": [
+        {
+          "id": "_std-1",
+          "tool": "dürer pen",
+          "role": "stem",
+          "move": "pull the stem down",
+          "angleDeg": 0,
+          "spine": {
+            "nodes": [
+              {
+                "x": 50,
+                "y": 9
+              },
+              {
+                "x": 50,
+                "y": 491
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "pull"
+          }
+        },
+        {
+          "id": "_std-2",
+          "tool": "oblique square",
+          "role": "head",
+          "move": "set the oblique square on the first point",
+          "angleDeg": 45,
+          "spine": {
+            "nodes": [
+              {
+                "x": 33.333333333333336,
+                "y": 499
+              },
+              {
+                "x": 33.333333333333336,
+                "y": 501
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "dab",
+            "config": {
+              "size": 100,
+              "angle": 45
+            }
+          }
+        },
+        {
+          "id": "_std-3",
+          "tool": "oblique square",
+          "role": "foot",
+          "move": "set the oblique square on the second point",
+          "angleDeg": 45,
+          "spine": {
+            "nodes": [
+              {
+                "x": 66.66666666666667,
+                "y": -1
+              },
+              {
+                "x": 66.66666666666667,
+                "y": 1
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "dab",
+            "config": {
+              "size": 100,
+              "angle": 45
+            }
+          }
+        }
+      ]
+    },
+    "i": {
+      "name": "i",
+      "ductusKind": "native",
+      "codepoints": [
+        "i"
+      ],
+      "components": [
+        {
+          "glyph": "_std"
+        }
+      ],
+      "strokes": [
+        {
+          "id": "i-1",
+          "tool": "dürer pen",
+          "role": "head",
+          "move": "the tiny in-crescent, with a fine pen",
+          "angleDeg": 0,
+          "spine": {
+            "nodes": [
+              {
+                "x": 18,
+                "y": 596.7106781186548
+              },
+              {
+                "x": 52,
+                "y": 610.7106781186548
+              },
+              {
+                "x": 84,
+                "y": 594.7106781186548
+              }
+            ],
+            "segments": [
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 30,
+                  "y": 608.7106781186548
+                },
+                "c2": {
+                  "x": 40,
+                  "y": 612.7106781186548
+                }
+              },
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 62,
+                  "y": 610.7106781186548
+                },
+                "c2": {
+                  "x": 74,
+                  "y": 604.7106781186548
+                }
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "flick"
+          },
+          "points": [
+            {
+              "node": 0,
+              "widthFactor": 0.14
+            },
+            {
+              "node": 1,
+              "widthFactor": 0.14
+            },
+            {
+              "node": 2,
+              "widthFactor": 0.14
+            }
+          ]
+        }
+      ],
+      "advance": 209
+    },
+    "n": {
+      "name": "n",
+      "ductusKind": "native",
+      "codepoints": [
+        "n"
+      ],
+      "components": [
+        {
+          "glyph": "_std"
+        },
+        {
+          "glyph": "_std",
+          "dx": 166.66666666666669
+        }
+      ],
+      "strokes": [],
+      "advance": 375
+    },
+    "m": {
+      "name": "m",
+      "ductusKind": "native",
+      "codepoints": [
+        "m"
+      ],
+      "components": [
+        {
+          "glyph": "_std"
+        },
+        {
+          "glyph": "_std",
+          "dx": 166.66666666666669
+        },
+        {
+          "glyph": "_std",
+          "dx": 333.33333333333337
+        }
+      ],
+      "strokes": [],
+      "advance": 542
+    },
+    "u": {
+      "name": "u",
+      "ductusKind": "native",
+      "codepoints": [
+        "u"
+      ],
+      "strokes": [
+        {
+          "id": "u-1",
+          "tool": "dürer pen",
+          "role": "stem",
+          "move": "pull the stem down",
+          "angleDeg": 0,
+          "spine": {
+            "nodes": [
+              {
+                "x": 50,
+                "y": 9
+              },
+              {
+                "x": 50,
+                "y": 491
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "pull"
+          }
+        },
+        {
+          "id": "u-2",
+          "tool": "oblique square",
+          "role": "head",
+          "move": "set the oblique square on the first point",
+          "angleDeg": 45,
+          "spine": {
+            "nodes": [
+              {
+                "x": 33.333333333333336,
+                "y": 499
+              },
+              {
+                "x": 33.333333333333336,
+                "y": 501
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "dab",
+            "config": {
+              "size": 100,
+              "angle": 45
+            }
+          }
+        },
+        {
+          "id": "u-3",
+          "tool": "oblique square",
+          "role": "foot",
+          "move": "set the oblique square on the second point",
+          "angleDeg": 45,
+          "spine": {
+            "nodes": [
+              {
+                "x": 66.66666666666667,
+                "y": -1
+              },
+              {
+                "x": 66.66666666666667,
+                "y": 1
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "dab",
+            "config": {
+              "size": 100,
+              "angle": 45
+            }
+          }
+        },
+        {
+          "id": "u-4",
+          "tool": "dürer pen",
+          "role": "stem",
+          "move": "pull the stem down",
+          "angleDeg": 0,
+          "spine": {
+            "nodes": [
+              {
+                "x": 216.66666666666669,
+                "y": 9
+              },
+              {
+                "x": 216.66666666666669,
+                "y": 491
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "pull"
+          }
+        },
+        {
+          "id": "u-5",
+          "tool": "oblique square",
+          "role": "head",
+          "move": "the top cut obliquely, making two angles",
+          "angleDeg": 45,
+          "spine": {
+            "nodes": [
+              {
+                "x": 216.66666666666669,
+                "y": 499
+              },
+              {
+                "x": 216.66666666666669,
+                "y": 501
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "dab",
+            "config": {
+              "size": 100,
+              "angle": 45
+            }
+          }
+        },
+        {
+          "id": "u-6",
+          "tool": "oblique square",
+          "role": "foot",
+          "move": "set the oblique square on the second point",
+          "angleDeg": 45,
+          "spine": {
+            "nodes": [
+              {
+                "x": 233.33333333333337,
+                "y": -1
+              },
+              {
+                "x": 233.33333333333337,
+                "y": 1
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "dab",
+            "config": {
+              "size": 100,
+              "angle": 45
+            }
+          }
+        }
+      ],
+      "advance": 375
+    },
+    "v": {
+      "name": "v",
+      "ductusKind": "native",
+      "codepoints": [
+        "v"
+      ],
+      "strokes": [
+        {
+          "id": "v-1",
+          "tool": "dürer pen",
+          "role": "stem",
+          "move": "pull the stem down",
+          "angleDeg": 0,
+          "spine": {
+            "nodes": [
+              {
+                "x": 50,
+                "y": 9
+              },
+              {
+                "x": 50,
+                "y": 491
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "pull"
+          }
+        },
+        {
+          "id": "v-2",
+          "tool": "oblique square",
+          "role": "head",
+          "move": "set the oblique square on the first point",
+          "angleDeg": 45,
+          "spine": {
+            "nodes": [
+              {
+                "x": 33.333333333333336,
+                "y": 499
+              },
+              {
+                "x": 33.333333333333336,
+                "y": 501
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "dab",
+            "config": {
+              "size": 100,
+              "angle": 45
+            }
+          }
+        },
+        {
+          "id": "v-3",
+          "tool": "oblique square",
+          "role": "foot",
+          "move": "set the oblique square on the second point",
+          "angleDeg": 45,
+          "spine": {
+            "nodes": [
+              {
+                "x": 66.66666666666667,
+                "y": -1
+              },
+              {
+                "x": 66.66666666666667,
+                "y": 1
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "dab",
+            "config": {
+              "size": 100,
+              "angle": 45
+            }
+          }
+        },
+        {
+          "id": "v-4",
+          "tool": "dürer pen",
+          "role": "stem",
+          "move": "pull the stem down",
+          "angleDeg": 0,
+          "spine": {
+            "nodes": [
+              {
+                "x": 216.66666666666669,
+                "y": 9
+              },
+              {
+                "x": 216.66666666666669,
+                "y": 491
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "pull"
+          }
+        },
+        {
+          "id": "v-5",
+          "tool": "oblique square",
+          "role": "head",
+          "move": "the top cut obliquely, making two angles",
+          "angleDeg": 45,
+          "spine": {
+            "nodes": [
+              {
+                "x": 216.66666666666669,
+                "y": 499
+              },
+              {
+                "x": 216.66666666666669,
+                "y": 501
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "dab",
+            "config": {
+              "size": 100,
+              "angle": 45
+            }
+          }
+        },
+        {
+          "id": "v-6",
+          "tool": "oblique square",
+          "role": "foot",
+          "move": "set the oblique square on the second point",
+          "angleDeg": 45,
+          "spine": {
+            "nodes": [
+              {
+                "x": 233.33333333333337,
+                "y": -1
+              },
+              {
+                "x": 233.33333333333337,
+                "y": 1
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "dab",
+            "config": {
+              "size": 100,
+              "angle": 45
+            }
+          }
+        }
+      ],
+      "advance": 375
+    },
+    "w": {
+      "name": "w",
+      "ductusKind": "native",
+      "codepoints": [
+        "w"
+      ],
+      "strokes": [
+        {
+          "id": "w-1",
+          "tool": "dürer pen",
+          "role": "stem",
+          "move": "pull the stem down",
+          "angleDeg": 0,
+          "spine": {
+            "nodes": [
+              {
+                "x": 50,
+                "y": 9
+              },
+              {
+                "x": 50,
+                "y": 491
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "pull"
+          }
+        },
+        {
+          "id": "w-2",
+          "tool": "oblique square",
+          "role": "head",
+          "move": "set the oblique square on the first point",
+          "angleDeg": 45,
+          "spine": {
+            "nodes": [
+              {
+                "x": 33.333333333333336,
+                "y": 499
+              },
+              {
+                "x": 33.333333333333336,
+                "y": 501
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "dab",
+            "config": {
+              "size": 100,
+              "angle": 45
+            }
+          }
+        },
+        {
+          "id": "w-3",
+          "tool": "oblique square",
+          "role": "foot",
+          "move": "set the oblique square on the second point",
+          "angleDeg": 45,
+          "spine": {
+            "nodes": [
+              {
+                "x": 66.66666666666667,
+                "y": -1
+              },
+              {
+                "x": 66.66666666666667,
+                "y": 1
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "dab",
+            "config": {
+              "size": 100,
+              "angle": 45
+            }
+          }
+        },
+        {
+          "id": "w-4",
+          "tool": "dürer pen",
+          "role": "stem",
+          "move": "pull the stem down",
+          "angleDeg": 0,
+          "spine": {
+            "nodes": [
+              {
+                "x": 216.66666666666669,
+                "y": 9
+              },
+              {
+                "x": 216.66666666666669,
+                "y": 491
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "pull"
+          }
+        },
+        {
+          "id": "w-5",
+          "tool": "oblique square",
+          "role": "head",
+          "move": "set the oblique square on the first point",
+          "angleDeg": 45,
+          "spine": {
+            "nodes": [
+              {
+                "x": 200.00000000000003,
+                "y": 499
+              },
+              {
+                "x": 200.00000000000003,
+                "y": 501
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "dab",
+            "config": {
+              "size": 100,
+              "angle": 45
+            }
+          }
+        },
+        {
+          "id": "w-6",
+          "tool": "oblique square",
+          "role": "foot",
+          "move": "set the oblique square on the second point",
+          "angleDeg": 45,
+          "spine": {
+            "nodes": [
+              {
+                "x": 233.33333333333337,
+                "y": -1
+              },
+              {
+                "x": 233.33333333333337,
+                "y": 1
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "dab",
+            "config": {
+              "size": 100,
+              "angle": 45
+            }
+          }
+        },
+        {
+          "id": "w-7",
+          "tool": "dürer pen",
+          "role": "stem",
+          "move": "pull the stem down",
+          "angleDeg": 0,
+          "spine": {
+            "nodes": [
+              {
+                "x": 383.33333333333337,
+                "y": 9
+              },
+              {
+                "x": 383.33333333333337,
+                "y": 491
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "pull"
+          }
+        },
+        {
+          "id": "w-8",
+          "tool": "oblique square",
+          "role": "head",
+          "move": "the top cut obliquely, making two angles",
+          "angleDeg": 45,
+          "spine": {
+            "nodes": [
+              {
+                "x": 383.33333333333337,
+                "y": 499
+              },
+              {
+                "x": 383.33333333333337,
+                "y": 501
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "dab",
+            "config": {
+              "size": 100,
+              "angle": 45
+            }
+          }
+        },
+        {
+          "id": "w-9",
+          "tool": "oblique square",
+          "role": "foot",
+          "move": "set the oblique square on the second point",
+          "angleDeg": 45,
+          "spine": {
+            "nodes": [
+              {
+                "x": 400.00000000000006,
+                "y": -1
+              },
+              {
+                "x": 400.00000000000006,
+                "y": 1
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "dab",
+            "config": {
+              "size": 100,
+              "angle": 45
+            }
+          }
+        }
+      ],
+      "advance": 542
+    },
+    "r": {
+      "name": "r",
+      "ductusKind": "native",
+      "codepoints": [
+        "r"
+      ],
+      "components": [
+        {
+          "glyph": "_std"
+        }
+      ],
+      "strokes": [
+        {
+          "id": "r-1",
+          "tool": "oblique square",
+          "role": "head",
+          "move": "an equal square diagonally to the right, angle to angle",
+          "angleDeg": 45,
+          "spine": {
+            "nodes": [
+              {
+                "x": 174.75468957064282,
+                "y": 499
+              },
+              {
+                "x": 174.75468957064282,
+                "y": 501
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "dab",
+            "config": {
+              "size": 100,
+              "angle": 45
+            }
+          }
+        },
+        {
+          "id": "r-2",
+          "tool": "dürer pen",
+          "role": "shoulder",
+          "move": "the shoulder sweeping down from the square",
+          "angleDeg": 0,
+          "spine": {
+            "nodes": [
+              {
+                "x": 168.75468957064282,
+                "y": 445.28932188134524
+              },
+              {
+                "x": 171.99210992890713,
+                "y": 442.94004339127736
+              },
+              {
+                "x": 175.22953028717146,
+                "y": 440.5907649012094
+              },
+              {
+                "x": 178.46695064543576,
+                "y": 438.2414864111415
+              },
+              {
+                "x": 181.7043710037001,
+                "y": 435.8922079210736
+              },
+              {
+                "x": 184.7273331170416,
+                "y": 433.28499366557264
+              },
+              {
+                "x": 187.62806229399146,
+                "y": 430.53076596220615
+              },
+              {
+                "x": 190.52879147094134,
+                "y": 427.7765382588396
+              },
+              {
+                "x": 193.4295206478912,
+                "y": 425.02231055547304
+              },
+              {
+                "x": 196.18254191134972,
+                "y": 422.1322354329343
+              },
+              {
+                "x": 198.6849106499528,
+                "y": 419.01163441773514
+              },
+              {
+                "x": 201.1872793885559,
+                "y": 415.891033402536
+              },
+              {
+                "x": 203.689648127159,
+                "y": 412.7704323873368
+              },
+              {
+                "x": 206.13708483401172,
+                "y": 409.61153820419696
+              },
+              {
+                "x": 208.1993377033067,
+                "y": 406.1841320270588
+              },
+              {
+                "x": 210.26159057260168,
+                "y": 402.75672584992066
+              },
+              {
+                "x": 212.32384344189666,
+                "y": 399.32931967278256
+              },
+              {
+                "x": 214.38609631119164,
+                "y": 395.9019134956444
+              },
+              {
+                "x": 216.07383389334007,
+                "y": 392.28074711028137
+              },
+              {
+                "x": 217.68006524507402,
+                "y": 388.617412448432
+              },
+              {
+                "x": 219.28629659680797,
+                "y": 384.9540777865826
+              },
+              {
+                "x": 220.89252794854193,
+                "y": 381.2907431247333
+              },
+              {
+                "x": 222.32649691232643,
+                "y": 377.5638185669482
+              },
+              {
+                "x": 223.4857782114178,
+                "y": 373.7354942769256
+              },
+              {
+                "x": 224.64505951050913,
+                "y": 369.907169986903
+              },
+              {
+                "x": 225.8043408096005,
+                "y": 366.07884569688036
+              },
+              {
+                "x": 226.96362210869185,
+                "y": 362.2505214068578
+              },
+              {
+                "x": 227.80907040418222,
+                "y": 358.34536848944634
+              },
+              {
+                "x": 228.54930662872076,
+                "y": 354.41445888327615
+              },
+              {
+                "x": 229.2895428532593,
+                "y": 350.483549277106
+              },
+              {
+                "x": 230.02977907779785,
+                "y": 346.55263967093583
+              },
+              {
+                "x": 230.7700153023364,
+                "y": 342.62173006476564
+              },
+              {
+                "x": 231.18633376303796,
+                "y": 338.64579281883897
+              },
+              {
+                "x": 231.54631288485436,
+                "y": 334.66202387073764
+              },
+              {
+                "x": 231.90629200667072,
+                "y": 330.6782549226363
+              },
+              {
+                "x": 232.26627112848712,
+                "y": 326.694485974535
+              },
+              {
+                "x": 232.6262502503035,
+                "y": 322.7107170264337
+              },
+              {
+                "x": 232.75468957064282,
+                "y": 321.28932188134524
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "composite": {
+            "closed": false,
+            "points": [
+              {
+                "x": 168.75468957064282,
+                "y": 445.28932188134524
+              },
+              {
+                "x": 228.75468957064282,
+                "y": 407.28932188134524
+              },
+              {
+                "x": 232.75468957064282,
+                "y": 321.28932188134524
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "bow"
+          }
+        }
+      ],
+      "advance": 350
+    },
+    "x": {
+      "name": "x",
+      "ductusKind": "native",
+      "codepoints": [
+        "x"
+      ],
+      "components": [
+        {
+          "glyph": "_std"
+        }
+      ],
+      "strokes": [
+        {
+          "id": "x-1",
+          "tool": "oblique square",
+          "role": "head",
+          "move": "a diagonally set square appended to the right",
+          "angleDeg": 45,
+          "spine": {
+            "nodes": [
+              {
+                "x": 174.75468957064282,
+                "y": 499
+              },
+              {
+                "x": 174.75468957064282,
+                "y": 501
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "dab",
+            "config": {
+              "size": 100,
+              "angle": 45
+            }
+          }
+        },
+        {
+          "id": "x-2",
+          "tool": "dürer pen",
+          "role": "leg",
+          "move": "the transverse across the middle",
+          "angleDeg": -45,
+          "spine": {
+            "nodes": [
+              {
+                "x": 188.75468957064282,
+                "y": 338
+              },
+              {
+                "x": -2,
+                "y": 148
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "pull"
+          },
+          "points": [
+            {
+              "node": 0,
+              "widthFactor": 0.55
+            },
+            {
+              "node": 1,
+              "widthFactor": 0.55
+            }
+          ]
+        },
+        {
+          "id": "x-3",
+          "tool": "dürer pen",
+          "role": "tail",
+          "move": "an acute tail to the left from the diagonal",
+          "angleDeg": -45,
+          "spine": {
+            "nodes": [
+              {
+                "x": 42,
+                "y": 34
+              },
+              {
+                "x": -42,
+                "y": -46
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "pull"
+          },
+          "points": [
+            {
+              "node": 0,
+              "widthFactor": 0.3
+            },
+            {
+              "node": 1,
+              "widthFactor": 0.3
+            }
+          ]
+        }
+      ],
+      "advance": 336
+    },
+    "c": {
+      "name": "c",
+      "ductusKind": "native",
+      "codepoints": [
+        "c"
+      ],
+      "strokes": [
+        {
+          "id": "c-1",
+          "tool": "dürer pen",
+          "role": "stem",
+          "move": "pull the stem down, its top cut by a diagonal",
+          "angleDeg": 0,
+          "spine": {
+            "nodes": [
+              {
+                "x": 50,
+                "y": 9
+              },
+              {
+                "x": 50,
+                "y": 440
+              },
+              {
+                "x": 71,
+                "y": 458
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "pull"
+          },
+          "points": [
+            {
+              "node": 0,
+              "angleDeg": 0
+            },
+            {
+              "node": 1,
+              "angleDeg": 0
+            },
+            {
+              "node": 2,
+              "angleDeg": 45
+            }
+          ]
+        },
+        {
+          "id": "c-2",
+          "tool": "oblique square",
+          "role": "foot",
+          "move": "set the oblique square on the second point",
+          "angleDeg": 45,
+          "spine": {
+            "nodes": [
+              {
+                "x": 66.66666666666667,
+                "y": -1
+              },
+              {
+                "x": 66.66666666666667,
+                "y": 1
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "dab",
+            "config": {
+              "size": 100,
+              "angle": 45
+            }
+          }
+        },
+        {
+          "id": "c-3",
+          "tool": "dürer pen",
+          "role": "arm",
+          "move": "the broad transverse at top",
+          "angleDeg": 30,
+          "spine": {
+            "nodes": [
+              {
+                "x": 40,
+                "y": 506
+              },
+              {
+                "x": 157,
+                "y": 506
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "drive"
+          }
+        }
+      ],
+      "advance": 292
+    },
+    "e": {
+      "name": "e",
+      "ductusKind": "native",
+      "codepoints": [
+        "e"
+      ],
+      "strokes": [
+        {
+          "id": "e-1",
+          "tool": "dürer pen",
+          "role": "stem",
+          "move": "pull the stem down, its top cut by a diagonal",
+          "angleDeg": 0,
+          "spine": {
+            "nodes": [
+              {
+                "x": 50,
+                "y": 9
+              },
+              {
+                "x": 50,
+                "y": 440
+              },
+              {
+                "x": 71,
+                "y": 458
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "pull"
+          },
+          "points": [
+            {
+              "node": 0,
+              "angleDeg": 0
+            },
+            {
+              "node": 1,
+              "angleDeg": 0
+            },
+            {
+              "node": 2,
+              "angleDeg": 45
+            }
+          ]
+        },
+        {
+          "id": "e-2",
+          "tool": "oblique square",
+          "role": "foot",
+          "move": "set the oblique square on the second point",
+          "angleDeg": 45,
+          "spine": {
+            "nodes": [
+              {
+                "x": 66.66666666666667,
+                "y": -1
+              },
+              {
+                "x": 66.66666666666667,
+                "y": 1
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "dab",
+            "config": {
+              "size": 100,
+              "angle": 45
+            }
+          }
+        },
+        {
+          "id": "e-3",
+          "tool": "dürer pen",
+          "role": "arm",
+          "move": "the broad transverse at top",
+          "angleDeg": 30,
+          "spine": {
+            "nodes": [
+              {
+                "x": 40,
+                "y": 506
+              },
+              {
+                "x": 157,
+                "y": 506
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "drive"
+          }
+        },
+        {
+          "id": "e-4",
+          "tool": "dürer pen",
+          "role": "eye",
+          "move": "a broad limb descending to the right",
+          "angleDeg": 45,
+          "spine": {
+            "nodes": [
+              {
+                "x": 112,
+                "y": 528
+              },
+              {
+                "x": 184,
+                "y": 464
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "pull"
+          }
+        }
+      ],
+      "advance": 292
+    },
+    "t": {
+      "name": "t",
+      "ductusKind": "native",
+      "codepoints": [
+        "t"
+      ],
+      "strokes": [
+        {
+          "id": "t-1",
+          "tool": "dürer pen",
+          "role": "stem",
+          "move": "pull the stem down",
+          "angleDeg": 0,
+          "spine": {
+            "nodes": [
+              {
+                "x": 50,
+                "y": 9
+              },
+              {
+                "x": 50,
+                "y": 491
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "pull"
+          }
+        },
+        {
+          "id": "t-2",
+          "tool": "oblique square",
+          "role": "foot",
+          "move": "set the oblique square on the second point",
+          "angleDeg": 45,
+          "spine": {
+            "nodes": [
+              {
+                "x": 66.66666666666667,
+                "y": -1
+              },
+              {
+                "x": 66.66666666666667,
+                "y": 1
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "dab",
+            "config": {
+              "size": 100,
+              "angle": 45
+            }
+          }
+        },
+        {
+          "id": "t-3",
+          "tool": "dürer pen",
+          "role": "head",
+          "move": "the top converging to a fine point",
+          "angleDeg": 45,
+          "spine": {
+            "nodes": [
+              {
+                "x": -2,
+                "y": 478
+              },
+              {
+                "x": 48,
+                "y": 532
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "pull"
+          }
+        },
+        {
+          "id": "t-4",
+          "tool": "dürer pen",
+          "role": "arm",
+          "move": "the broad transverse at top",
+          "angleDeg": 30,
+          "spine": {
+            "nodes": [
+              {
+                "x": -8,
+                "y": 506
+              },
+              {
+                "x": 192,
+                "y": 506
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "drive"
+          }
+        }
+      ],
+      "advance": 304
+    },
+    "s": {
+      "name": "s",
+      "ductusKind": "native",
+      "codepoints": [
+        "s",
+        "ſ"
+      ],
+      "strokes": [
+        {
+          "id": "s-1",
+          "tool": "dürer pen",
+          "role": "stem",
+          "move": "pull the stem down, its top cut by a diagonal",
+          "angleDeg": 0,
+          "spine": {
+            "nodes": [
+              {
+                "x": 50,
+                "y": 9
+              },
+              {
+                "x": 50,
+                "y": 440
+              },
+              {
+                "x": 71,
+                "y": 458
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "pull"
+          },
+          "points": [
+            {
+              "node": 0,
+              "angleDeg": 0
+            },
+            {
+              "node": 1,
+              "angleDeg": 0
+            },
+            {
+              "node": 2,
+              "angleDeg": 45
+            }
+          ]
+        },
+        {
+          "id": "s-2",
+          "tool": "oblique square",
+          "role": "foot",
+          "move": "set the oblique square on the second point",
+          "angleDeg": 45,
+          "spine": {
+            "nodes": [
+              {
+                "x": 66.66666666666667,
+                "y": -1
+              },
+              {
+                "x": 66.66666666666667,
+                "y": 1
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "dab",
+            "config": {
+              "size": 100,
+              "angle": 45
+            }
+          }
+        },
+        {
+          "id": "s-3",
+          "tool": "dürer pen",
+          "role": "arm",
+          "move": "a broad limb to the right at top",
+          "angleDeg": 30,
+          "spine": {
+            "nodes": [
+              {
+                "x": 58,
+                "y": 468
+              },
+              {
+                "x": 184,
+                "y": 468
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "drive"
+          }
+        }
+      ],
+      "advance": 270
+    },
+    "f": {
+      "name": "f",
+      "ductusKind": "native",
+      "codepoints": [
+        "f"
+      ],
+      "strokes": [
+        {
+          "id": "f-1",
+          "tool": "dürer pen",
+          "role": "stem",
+          "move": "pull the stem down, its top cut by a diagonal",
+          "angleDeg": 0,
+          "spine": {
+            "nodes": [
+              {
+                "x": 50,
+                "y": 9
+              },
+              {
+                "x": 50,
+                "y": 540
+              },
+              {
+                "x": 71,
+                "y": 558
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "pull"
+          },
+          "points": [
+            {
+              "node": 0,
+              "angleDeg": 0
+            },
+            {
+              "node": 1,
+              "angleDeg": 0
+            },
+            {
+              "node": 2,
+              "angleDeg": 45
+            }
+          ]
+        },
+        {
+          "id": "f-2",
+          "tool": "oblique square",
+          "role": "foot",
+          "move": "set the oblique square on the second point",
+          "angleDeg": 45,
+          "spine": {
+            "nodes": [
+              {
+                "x": 66.66666666666667,
+                "y": -1
+              },
+              {
+                "x": 66.66666666666667,
+                "y": 1
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "dab",
+            "config": {
+              "size": 100,
+              "angle": 45
+            }
+          }
+        },
+        {
+          "id": "f-3",
+          "tool": "dürer pen",
+          "role": "bar",
+          "move": "a transverse limb at the height of the shorter letters",
+          "angleDeg": 30,
+          "spine": {
+            "nodes": [
+              {
+                "x": 26,
+                "y": 500
+              },
+              {
+                "x": 228,
+                "y": 500
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "drive"
+          }
+        },
+        {
+          "id": "f-4",
+          "tool": "dürer pen",
+          "role": "bar",
+          "move": "its point projecting below on the hither side",
+          "angleDeg": -45,
+          "spine": {
+            "nodes": [
+              {
+                "x": 26,
+                "y": 500
+              },
+              {
+                "x": 2,
+                "y": 452
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "pull"
+          },
+          "points": [
+            {
+              "node": 0,
+              "widthFactor": 0.5
+            },
+            {
+              "node": 1,
+              "widthFactor": 0.5
+            }
+          ]
+        }
+      ],
+      "advance": 332
+    },
+    "l": {
+      "name": "l",
+      "ductusKind": "native",
+      "codepoints": [
+        "l"
+      ],
+      "strokes": [
+        {
+          "id": "l-1",
+          "tool": "dürer pen",
+          "role": "stem",
+          "move": "pull the stem down, its top cut by a diagonal",
+          "angleDeg": 0,
+          "spine": {
+            "nodes": [
+              {
+                "x": 50,
+                "y": 9
+              },
+              {
+                "x": 50,
+                "y": 640
+              },
+              {
+                "x": 71,
+                "y": 658
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "pull"
+          },
+          "points": [
+            {
+              "node": 0,
+              "angleDeg": 0
+            },
+            {
+              "node": 1,
+              "angleDeg": 0
+            },
+            {
+              "node": 2,
+              "angleDeg": 45
+            }
+          ]
+        },
+        {
+          "id": "l-2",
+          "tool": "oblique square",
+          "role": "foot",
+          "move": "set the oblique square on the second point",
+          "angleDeg": 45,
+          "spine": {
+            "nodes": [
+              {
+                "x": 66.66666666666667,
+                "y": -1
+              },
+              {
+                "x": 66.66666666666667,
+                "y": 1
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "dab",
+            "config": {
+              "size": 100,
+              "angle": 45
+            }
+          }
+        }
+      ],
+      "advance": 175
+    },
+    "b": {
+      "name": "b",
+      "ductusKind": "native",
+      "codepoints": [
+        "b"
+      ],
+      "strokes": [
+        {
+          "id": "b-1",
+          "tool": "dürer pen",
+          "role": "stem",
+          "move": "pull the stem down, its top cut by a diagonal",
+          "angleDeg": 0,
+          "spine": {
+            "nodes": [
+              {
+                "x": 50,
+                "y": 9
+              },
+              {
+                "x": 50,
+                "y": 640
+              },
+              {
+                "x": 71,
+                "y": 658
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "pull"
+          },
+          "points": [
+            {
+              "node": 0,
+              "angleDeg": 0
+            },
+            {
+              "node": 1,
+              "angleDeg": 0
+            },
+            {
+              "node": 2,
+              "angleDeg": 45
+            }
+          ]
+        },
+        {
+          "id": "b-2",
+          "tool": "oblique square",
+          "role": "foot",
+          "move": "set the oblique square on the second point",
+          "angleDeg": 45,
+          "spine": {
+            "nodes": [
+              {
+                "x": 66.66666666666667,
+                "y": -1
+              },
+              {
+                "x": 66.66666666666667,
+                "y": 1
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "dab",
+            "config": {
+              "size": 100,
+              "angle": 45
+            }
+          }
+        },
+        {
+          "id": "b-3",
+          "tool": "dürer pen",
+          "role": "stem",
+          "move": "pull the stem down",
+          "angleDeg": 0,
+          "spine": {
+            "nodes": [
+              {
+                "x": 216.66666666666669,
+                "y": 9
+              },
+              {
+                "x": 216.66666666666669,
+                "y": 491
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "pull"
+          }
+        },
+        {
+          "id": "b-4",
+          "tool": "oblique square",
+          "role": "head",
+          "move": "set the oblique square on the first point",
+          "angleDeg": 45,
+          "spine": {
+            "nodes": [
+              {
+                "x": 200.00000000000003,
+                "y": 499
+              },
+              {
+                "x": 200.00000000000003,
+                "y": 501
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "dab",
+            "config": {
+              "size": 100,
+              "angle": 45
+            }
+          }
+        },
+        {
+          "id": "b-5",
+          "tool": "oblique square",
+          "role": "foot",
+          "move": "set the oblique square on the second point",
+          "angleDeg": 45,
+          "spine": {
+            "nodes": [
+              {
+                "x": 233.33333333333337,
+                "y": -1
+              },
+              {
+                "x": 233.33333333333337,
+                "y": 1
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "dab",
+            "config": {
+              "size": 100,
+              "angle": 45
+            }
+          }
+        }
+      ],
+      "advance": 342
+    },
+    "q": {
+      "name": "q",
+      "ductusKind": "native",
+      "codepoints": [
+        "q"
+      ],
+      "strokes": [
+        {
+          "id": "q-1",
+          "tool": "dürer pen",
+          "role": "stem",
+          "move": "pull the stem down",
+          "angleDeg": 0,
+          "spine": {
+            "nodes": [
+              {
+                "x": 50,
+                "y": 9
+              },
+              {
+                "x": 50,
+                "y": 491
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "pull"
+          }
+        },
+        {
+          "id": "q-2",
+          "tool": "oblique square",
+          "role": "head",
+          "move": "set the oblique square on the first point",
+          "angleDeg": 45,
+          "spine": {
+            "nodes": [
+              {
+                "x": 33.333333333333336,
+                "y": 499
+              },
+              {
+                "x": 33.333333333333336,
+                "y": 501
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "dab",
+            "config": {
+              "size": 100,
+              "angle": 45
+            }
+          }
+        },
+        {
+          "id": "q-3",
+          "tool": "dürer pen",
+          "role": "stem",
+          "move": "pull the stem down",
+          "angleDeg": 0,
+          "spine": {
+            "nodes": [
+              {
+                "x": 216.66666666666669,
+                "y": -191
+              },
+              {
+                "x": 216.66666666666669,
+                "y": 491
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "pull"
+          }
+        },
+        {
+          "id": "q-4",
+          "tool": "oblique square",
+          "role": "head",
+          "move": "set the oblique square on the first point",
+          "angleDeg": 45,
+          "spine": {
+            "nodes": [
+              {
+                "x": 200.00000000000003,
+                "y": 499
+              },
+              {
+                "x": 200.00000000000003,
+                "y": 501
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "dab",
+            "config": {
+              "size": 100,
+              "angle": 45
+            }
+          }
+        },
+        {
+          "id": "q-5",
+          "tool": "oblique square",
+          "role": "foot",
+          "move": "set the oblique square on the second point",
+          "angleDeg": 45,
+          "spine": {
+            "nodes": [
+              {
+                "x": 233.33333333333337,
+                "y": -201
+              },
+              {
+                "x": 233.33333333333337,
+                "y": -199
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "dab",
+            "config": {
+              "size": 100,
+              "angle": 45
+            }
+          }
+        },
+        {
+          "id": "q-6",
+          "tool": "dürer pen",
+          "role": "arm",
+          "move": "the joining limb at the bottom",
+          "angleDeg": 30,
+          "spine": {
+            "nodes": [
+              {
+                "x": 60,
+                "y": 6
+              },
+              {
+                "x": 206.66666666666669,
+                "y": 6
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "drive"
+          }
+        }
+      ],
+      "advance": 375
+    },
+    "h": {
+      "name": "h",
+      "ductusKind": "native",
+      "codepoints": [
+        "h"
+      ],
+      "strokes": [
+        {
+          "id": "h-1",
+          "tool": "dürer pen",
+          "role": "stem",
+          "move": "pull the stem down, its top cut by a diagonal",
+          "angleDeg": 0,
+          "spine": {
+            "nodes": [
+              {
+                "x": 50,
+                "y": 9
+              },
+              {
+                "x": 50,
+                "y": 640
+              },
+              {
+                "x": 71,
+                "y": 658
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "pull"
+          },
+          "points": [
+            {
+              "node": 0,
+              "angleDeg": 0
+            },
+            {
+              "node": 1,
+              "angleDeg": 0
+            },
+            {
+              "node": 2,
+              "angleDeg": 45
+            }
+          ]
+        },
+        {
+          "id": "h-2",
+          "tool": "oblique square",
+          "role": "foot",
+          "move": "set the oblique square on the second point",
+          "angleDeg": 45,
+          "spine": {
+            "nodes": [
+              {
+                "x": 66.66666666666667,
+                "y": -1
+              },
+              {
+                "x": 66.66666666666667,
+                "y": 1
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "dab",
+            "config": {
+              "size": 100,
+              "angle": 45
+            }
+          }
+        },
+        {
+          "id": "h-3",
+          "tool": "dürer pen",
+          "role": "stem",
+          "move": "pull the stem down",
+          "angleDeg": 0,
+          "spine": {
+            "nodes": [
+              {
+                "x": 216.66666666666669,
+                "y": 9
+              },
+              {
+                "x": 216.66666666666669,
+                "y": 491
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "pull"
+          }
+        },
+        {
+          "id": "h-4",
+          "tool": "oblique square",
+          "role": "head",
+          "move": "set the oblique square on the first point",
+          "angleDeg": 45,
+          "spine": {
+            "nodes": [
+              {
+                "x": 200.00000000000003,
+                "y": 499
+              },
+              {
+                "x": 200.00000000000003,
+                "y": 501
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "dab",
+            "config": {
+              "size": 100,
+              "angle": 45
+            }
+          }
+        },
+        {
+          "id": "h-5",
+          "tool": "dürer pen",
+          "role": "foot",
+          "move": "the fifth square cut off on the far side by its diagonal",
+          "angleDeg": -45,
+          "spine": {
+            "nodes": [
+              {
+                "x": 176.66666666666669,
+                "y": 64
+              },
+              {
+                "x": 260.6666666666667,
+                "y": 4
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "pull"
+          }
+        }
+      ],
+      "advance": 340
+    },
+    "d": {
+      "name": "d",
+      "ductusKind": "native",
+      "codepoints": [
+        "d"
+      ],
+      "strokes": [
+        {
+          "id": "d-1",
+          "tool": "dürer pen",
+          "role": "stem",
+          "move": "pull the stem down, its top cut by a diagonal",
+          "angleDeg": 0,
+          "spine": {
+            "nodes": [
+              {
+                "x": 50,
+                "y": 9
+              },
+              {
+                "x": 50,
+                "y": 640
+              },
+              {
+                "x": 71,
+                "y": 658
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "pull"
+          },
+          "points": [
+            {
+              "node": 0,
+              "angleDeg": 0
+            },
+            {
+              "node": 1,
+              "angleDeg": 0
+            },
+            {
+              "node": 2,
+              "angleDeg": 45
+            }
+          ]
+        },
+        {
+          "id": "d-2",
+          "tool": "oblique square",
+          "role": "foot",
+          "move": "set the oblique square on the second point",
+          "angleDeg": 45,
+          "spine": {
+            "nodes": [
+              {
+                "x": 66.66666666666667,
+                "y": -1
+              },
+              {
+                "x": 66.66666666666667,
+                "y": 1
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "dab",
+            "config": {
+              "size": 100,
+              "angle": 45
+            }
+          }
+        },
+        {
+          "id": "d-3",
+          "tool": "dürer pen",
+          "role": "stem",
+          "move": "pull the stem down",
+          "angleDeg": 0,
+          "spine": {
+            "nodes": [
+              {
+                "x": 216.66666666666669,
+                "y": 9
+              },
+              {
+                "x": 216.66666666666669,
+                "y": 491
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "pull"
+          }
+        },
+        {
+          "id": "d-4",
+          "tool": "oblique square",
+          "role": "head",
+          "move": "set the oblique square on the first point",
+          "angleDeg": 45,
+          "spine": {
+            "nodes": [
+              {
+                "x": 200.00000000000003,
+                "y": 499
+              },
+              {
+                "x": 200.00000000000003,
+                "y": 501
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "dab",
+            "config": {
+              "size": 100,
+              "angle": 45
+            }
+          }
+        },
+        {
+          "id": "d-5",
+          "tool": "oblique square",
+          "role": "foot",
+          "move": "set the oblique square on the second point",
+          "angleDeg": 45,
+          "spine": {
+            "nodes": [
+              {
+                "x": 233.33333333333337,
+                "y": -1
+              },
+              {
+                "x": 233.33333333333337,
+                "y": 1
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "dab",
+            "config": {
+              "size": 100,
+              "angle": 45
+            }
+          }
+        },
+        {
+          "id": "d-6",
+          "tool": "dürer pen",
+          "role": "arm",
+          "move": "the broken limb across the top",
+          "angleDeg": 30,
+          "spine": {
+            "nodes": [
+              {
+                "x": 34,
+                "y": 616
+              },
+              {
+                "x": 232.66666666666669,
+                "y": 616
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "drive"
+          }
+        }
+      ],
+      "advance": 352
+    },
+    "o": {
+      "name": "o",
+      "ductusKind": "native",
+      "codepoints": [
+        "o"
+      ],
+      "components": [
+        {
+          "glyph": "_std"
+        },
+        {
+          "glyph": "_std",
+          "dx": 166.66666666666669
+        }
+      ],
+      "strokes": [
+        {
+          "id": "o-1",
+          "tool": "dürer pen",
+          "role": "arm",
+          "move": "the joining limb at top",
+          "angleDeg": 30,
+          "spine": {
+            "nodes": [
+              {
+                "x": 28,
+                "y": 534
+              },
+              {
+                "x": 238.66666666666669,
+                "y": 534
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "drive"
+          }
+        },
+        {
+          "id": "o-2",
+          "tool": "dürer pen",
+          "role": "arm",
+          "move": "the joining limb at bottom",
+          "angleDeg": 30,
+          "spine": {
+            "nodes": [
+              {
+                "x": 28,
+                "y": -34
+              },
+              {
+                "x": 238.66666666666669,
+                "y": -34
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "drive"
+          }
+        }
+      ],
+      "advance": 375
+    },
+    "p": {
+      "name": "p",
+      "ductusKind": "native",
+      "codepoints": [
+        "p"
+      ],
+      "strokes": [
+        {
+          "id": "p-1",
+          "tool": "dürer pen",
+          "role": "stem",
+          "move": "pull the stem down",
+          "angleDeg": 0,
+          "spine": {
+            "nodes": [
+              {
+                "x": 50,
+                "y": -191
+              },
+              {
+                "x": 50,
+                "y": 491
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "pull"
+          }
+        },
+        {
+          "id": "p-2",
+          "tool": "oblique square",
+          "role": "head",
+          "move": "set the oblique square on the first point",
+          "angleDeg": 45,
+          "spine": {
+            "nodes": [
+              {
+                "x": 33.333333333333336,
+                "y": 499
+              },
+              {
+                "x": 33.333333333333336,
+                "y": 501
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "dab",
+            "config": {
+              "size": 100,
+              "angle": 45
+            }
+          }
+        },
+        {
+          "id": "p-3",
+          "tool": "dürer pen",
+          "role": "stem",
+          "move": "pull the stem down",
+          "angleDeg": 0,
+          "spine": {
+            "nodes": [
+              {
+                "x": 216.66666666666669,
+                "y": 9
+              },
+              {
+                "x": 216.66666666666669,
+                "y": 491
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "pull"
+          }
+        },
+        {
+          "id": "p-4",
+          "tool": "oblique square",
+          "role": "head",
+          "move": "set the oblique square on the first point",
+          "angleDeg": 45,
+          "spine": {
+            "nodes": [
+              {
+                "x": 200.00000000000003,
+                "y": 499
+              },
+              {
+                "x": 200.00000000000003,
+                "y": 501
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "dab",
+            "config": {
+              "size": 100,
+              "angle": 45
+            }
+          }
+        },
+        {
+          "id": "p-5",
+          "tool": "dürer pen",
+          "role": "arm",
+          "move": "a broad transverse limb at the bottom",
+          "angleDeg": 30,
+          "spine": {
+            "nodes": [
+              {
+                "x": 164.66666666666669,
+                "y": 16
+              },
+              {
+                "x": 291.6666666666667,
+                "y": 16
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "drive"
+          }
+        }
+      ],
+      "advance": 411
+    },
+    "k": {
+      "name": "k",
+      "ductusKind": "native",
+      "codepoints": [
+        "k"
+      ],
+      "strokes": [
+        {
+          "id": "k-1",
+          "tool": "dürer pen",
+          "role": "stem",
+          "move": "pull the stem down, its top cut by a diagonal",
+          "angleDeg": 0,
+          "spine": {
+            "nodes": [
+              {
+                "x": 50,
+                "y": 9
+              },
+              {
+                "x": 50,
+                "y": 640
+              },
+              {
+                "x": 71,
+                "y": 658
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "pull"
+          },
+          "points": [
+            {
+              "node": 0,
+              "angleDeg": 0
+            },
+            {
+              "node": 1,
+              "angleDeg": 0
+            },
+            {
+              "node": 2,
+              "angleDeg": 45
+            }
+          ]
+        },
+        {
+          "id": "k-2",
+          "tool": "oblique square",
+          "role": "foot",
+          "move": "set the oblique square on the second point",
+          "angleDeg": 45,
+          "spine": {
+            "nodes": [
+              {
+                "x": 66.66666666666667,
+                "y": -1
+              },
+              {
+                "x": 66.66666666666667,
+                "y": 1
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "dab",
+            "config": {
+              "size": 100,
+              "angle": 45
+            }
+          }
+        },
+        {
+          "id": "k-3",
+          "tool": "oblique square",
+          "role": "head",
+          "move": "a diagonal square appended to the right",
+          "angleDeg": 45,
+          "spine": {
+            "nodes": [
+              {
+                "x": 174.75468957064282,
+                "y": 637
+              },
+              {
+                "x": 174.75468957064282,
+                "y": 639
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "dab",
+            "config": {
+              "size": 100,
+              "angle": 45
+            }
+          }
+        },
+        {
+          "id": "k-4",
+          "tool": "dürer pen",
+          "role": "leg",
+          "move": "a broad limb obliquely drawn",
+          "angleDeg": -45,
+          "spine": {
+            "nodes": [
+              {
+                "x": 174.75468957064282,
+                "y": 567.2893218813452
+              },
+              {
+                "x": 302.7546895706428,
+                "y": 330
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "pull"
+          }
+        }
+      ],
+      "advance": 386
+    },
+    "a": {
+      "name": "a",
+      "ductusKind": "native",
+      "codepoints": [
+        "a"
+      ],
+      "strokes": [
+        {
+          "id": "a-1",
+          "tool": "dürer pen",
+          "role": "stem",
+          "move": "pull the stem down",
+          "angleDeg": 0,
+          "spine": {
+            "nodes": [
+              {
+                "x": 50,
+                "y": 9
+              },
+              {
+                "x": 50,
+                "y": 491
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "pull"
+          }
+        },
+        {
+          "id": "a-2",
+          "tool": "oblique square",
+          "role": "head",
+          "move": "set the oblique square on the first point",
+          "angleDeg": 45,
+          "spine": {
+            "nodes": [
+              {
+                "x": 33.333333333333336,
+                "y": 499
+              },
+              {
+                "x": 33.333333333333336,
+                "y": 501
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "dab",
+            "config": {
+              "size": 100,
+              "angle": 45
+            }
+          }
+        },
+        {
+          "id": "a-3",
+          "tool": "oblique square",
+          "role": "foot",
+          "move": "set the oblique square on the second point",
+          "angleDeg": 45,
+          "spine": {
+            "nodes": [
+              {
+                "x": 66.66666666666667,
+                "y": -1
+              },
+              {
+                "x": 66.66666666666667,
+                "y": 1
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "dab",
+            "config": {
+              "size": 100,
+              "angle": 45
+            }
+          }
+        },
+        {
+          "id": "a-4",
+          "tool": "dürer pen",
+          "role": "stem",
+          "move": "pull the stem down",
+          "angleDeg": 0,
+          "spine": {
+            "nodes": [
+              {
+                "x": 216.66666666666669,
+                "y": 9
+              },
+              {
+                "x": 216.66666666666669,
+                "y": 421
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "pull"
+          }
+        },
+        {
+          "id": "a-5",
+          "tool": "oblique square",
+          "role": "foot",
+          "move": "set the oblique square on the second point",
+          "angleDeg": 45,
+          "spine": {
+            "nodes": [
+              {
+                "x": 233.33333333333337,
+                "y": -1
+              },
+              {
+                "x": 233.33333333333337,
+                "y": 1
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "dab",
+            "config": {
+              "size": 100,
+              "angle": 45
+            }
+          }
+        },
+        {
+          "id": "a-6",
+          "tool": "dürer pen",
+          "role": "bowl",
+          "move": "a circle sweeping downwards to the left",
+          "angleDeg": 0,
+          "spine": {
+            "nodes": [
+              {
+                "x": 264.6666666666667,
+                "y": 430
+              },
+              {
+                "x": 263.7851457473715,
+                "y": 433.9016561699931
+              },
+              {
+                "x": 262.9036248280763,
+                "y": 437.8033123399861
+              },
+              {
+                "x": 262.0221039087811,
+                "y": 441.7049685099792
+              },
+              {
+                "x": 261.14058298948595,
+                "y": 445.60662467997224
+              },
+              {
+                "x": 260.25906207019074,
+                "y": 449.50828084996533
+              },
+              {
+                "x": 259.3775411508956,
+                "y": 453.4099370199584
+              },
+              {
+                "x": 258.22712736801924,
+                "y": 457.2399397747803
+              },
+              {
+                "x": 257.05022963747035,
+                "y": 461.0628852009967
+              },
+              {
+                "x": 255.87333190692144,
+                "y": 464.88583062721307
+              },
+              {
+                "x": 254.69643417637252,
+                "y": 468.7087760534294
+              },
+              {
+                "x": 253.5195364458236,
+                "y": 472.5317214796458
+              },
+              {
+                "x": 252.13850903672824,
+                "y": 476.28134913453033
+              },
+              {
+                "x": 250.6140499851249,
+                "y": 479.97946008472974
+              },
+              {
+                "x": 249.08959093352155,
+                "y": 483.67757103492914
+              },
+              {
+                "x": 247.5651318819182,
+                "y": 487.37568198512855
+              },
+              {
+                "x": 246.0406728303149,
+                "y": 491.0737929353279
+              },
+              {
+                "x": 244.1145287587762,
+                "y": 494.5788677118886
+              },
+              {
+                "x": 242.1794458427146,
+                "y": 498.07964678346207
+              },
+              {
+                "x": 240.24436292665305,
+                "y": 501.5804258550355
+              },
+              {
+                "x": 238.298137356847,
+                "y": 505.07395788288153
+              },
+              {
+                "x": 235.8826898784454,
+                "y": 508.2623138038984
+              },
+              {
+                "x": 233.4672424000438,
+                "y": 511.45066972491526
+              },
+              {
+                "x": 231.0517949216422,
+                "y": 514.6390256459321
+              },
+              {
+                "x": 228.28583417168394,
+                "y": 517.5076044659598
+              },
+              {
+                "x": 225.3319142303565,
+                "y": 520.2047060547452
+              },
+              {
+                "x": 222.37799428902903,
+                "y": 522.9018076435304
+              },
+              {
+                "x": 219.00925882345294,
+                "y": 525.0239583828072
+              },
+              {
+                "x": 215.5183024124258,
+                "y": 526.9767060204472
+              },
+              {
+                "x": 211.91823729775862,
+                "y": 528.6499298460529
+              },
+              {
+                "x": 208.02751720420753,
+                "y": 529.5785294118712
+              },
+              {
+                "x": 204.13602248961473,
+                "y": 530.4980132660082
+              },
+              {
+                "x": 200.1444025483818,
+                "y": 530.2392271675569
+              },
+              {
+                "x": 196.15278260714888,
+                "y": 529.9804410691056
+              },
+              {
+                "x": 192.3512565745987,
+                "y": 528.8183798605917
+              },
+              {
+                "x": 188.59390816548844,
+                "y": 527.4463984713022
+              },
+              {
+                "x": 185.07069654409838,
+                "y": 525.616355845953
+              },
+              {
+                "x": 181.75798484987814,
+                "y": 523.3744947371916
+              },
+              {
+                "x": 178.46081546954227,
+                "y": 521.1139705875095
+              },
+              {
+                "x": 175.6564872076595,
+                "y": 518.2616482004702
+              },
+              {
+                "x": 172.85215894577672,
+                "y": 515.4093258134309
+              },
+              {
+                "x": 170.16713870198876,
+                "y": 512.4571648725151
+              },
+              {
+                "x": 167.85387337450578,
+                "y": 509.1939144186478
+              },
+              {
+                "x": 165.5406080470228,
+                "y": 505.93066396478054
+              },
+              {
+                "x": 163.27963118927372,
+                "y": 502.63528442249856
+              },
+              {
+                "x": 161.41372777790326,
+                "y": 499.0971486903034
+              },
+              {
+                "x": 159.54782436653284,
+                "y": 495.55901295810827
+              },
+              {
+                "x": 157.68192095516238,
+                "y": 492.0208772259131
+              },
+              {
+                "x": 156.06852866475415,
+                "y": 488.36695233669974
+              },
+              {
+                "x": 154.60499656326115,
+                "y": 484.6443089495487
+              },
+              {
+                "x": 153.14146446176815,
+                "y": 480.9216655623976
+              },
+              {
+                "x": 151.67793236027518,
+                "y": 477.19902217524657
+              },
+              {
+                "x": 150.49234253554383,
+                "y": 473.3822574354066
+              },
+              {
+                "x": 149.39288047146215,
+                "y": 469.53632670674733
+              },
+              {
+                "x": 148.29341840738044,
+                "y": 465.69039597808813
+              },
+              {
+                "x": 147.19395634329877,
+                "y": 461.84446524942894
+              },
+              {
+                "x": 146.66666666666669,
+                "y": 460
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "composite": {
+            "closed": false,
+            "points": [
+              {
+                "x": 264.6666666666667,
+                "y": 430
+              },
+              {
+                "x": 238.66666666666669,
+                "y": 566
+              },
+              {
+                "x": 168.66666666666669,
+                "y": 552
+              },
+              {
+                "x": 146.66666666666669,
+                "y": 460
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "bow"
+          }
+        }
+      ],
+      "advance": 384
+    },
+    "g": {
+      "name": "g",
+      "ductusKind": "native",
+      "codepoints": [
+        "g"
+      ],
+      "strokes": [
+        {
+          "id": "g-1",
+          "tool": "dürer pen",
+          "role": "stem",
+          "move": "pull the stem down",
+          "angleDeg": 0,
+          "spine": {
+            "nodes": [
+              {
+                "x": 50,
+                "y": 9
+              },
+              {
+                "x": 50,
+                "y": 491
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "pull"
+          }
+        },
+        {
+          "id": "g-2",
+          "tool": "oblique square",
+          "role": "head",
+          "move": "set the oblique square on the first point",
+          "angleDeg": 45,
+          "spine": {
+            "nodes": [
+              {
+                "x": 33.333333333333336,
+                "y": 499
+              },
+              {
+                "x": 33.333333333333336,
+                "y": 501
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "dab",
+            "config": {
+              "size": 100,
+              "angle": 45
+            }
+          }
+        },
+        {
+          "id": "g-3",
+          "tool": "oblique square",
+          "role": "foot",
+          "move": "set the oblique square on the second point",
+          "angleDeg": 45,
+          "spine": {
+            "nodes": [
+              {
+                "x": 66.66666666666667,
+                "y": -1
+              },
+              {
+                "x": 66.66666666666667,
+                "y": 1
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "dab",
+            "config": {
+              "size": 100,
+              "angle": 45
+            }
+          }
+        },
+        {
+          "id": "g-4",
+          "tool": "dürer pen",
+          "role": "stem",
+          "move": "pull the stem down",
+          "angleDeg": 0,
+          "spine": {
+            "nodes": [
+              {
+                "x": 216.66666666666669,
+                "y": 9
+              },
+              {
+                "x": 216.66666666666669,
+                "y": 491
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "pull"
+          }
+        },
+        {
+          "id": "g-5",
+          "tool": "oblique square",
+          "role": "head",
+          "move": "set the oblique square on the first point",
+          "angleDeg": 45,
+          "spine": {
+            "nodes": [
+              {
+                "x": 200.00000000000003,
+                "y": 499
+              },
+              {
+                "x": 200.00000000000003,
+                "y": 501
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "dab",
+            "config": {
+              "size": 100,
+              "angle": 45
+            }
+          }
+        },
+        {
+          "id": "g-6",
+          "tool": "oblique square",
+          "role": "foot",
+          "move": "set the oblique square on the second point",
+          "angleDeg": 45,
+          "spine": {
+            "nodes": [
+              {
+                "x": 233.33333333333337,
+                "y": -1
+              },
+              {
+                "x": 233.33333333333337,
+                "y": 1
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "dab",
+            "config": {
+              "size": 100,
+              "angle": 45
+            }
+          }
+        },
+        {
+          "id": "g-7",
+          "tool": "oblique square",
+          "role": "foot",
+          "move": "another diagonal square at the bottom, angle to angle",
+          "angleDeg": 45,
+          "spine": {
+            "nodes": [
+              {
+                "x": 66.66666666666667,
+                "y": -142.42135623730948
+              },
+              {
+                "x": 66.66666666666667,
+                "y": -140.42135623730948
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "dab",
+            "config": {
+              "size": 100,
+              "angle": 45
+            }
+          }
+        },
+        {
+          "id": "g-8",
+          "tool": "dürer pen",
+          "role": "tail",
+          "move": "the tail curving down from the far limb",
+          "angleDeg": 0,
+          "spine": {
+            "nodes": [
+              {
+                "x": 260.6666666666667,
+                "y": -16
+              },
+              {
+                "x": 259.99030061974076,
+                "y": -19.942401421794315
+              },
+              {
+                "x": 259.3139345728149,
+                "y": -23.88480284358863
+              },
+              {
+                "x": 258.637568525889,
+                "y": -27.827204265382946
+              },
+              {
+                "x": 257.96120247896306,
+                "y": -31.769605687177258
+              },
+              {
+                "x": 257.2104290832127,
+                "y": -35.696600040055195
+              },
+              {
+                "x": 256.26564631558057,
+                "y": -39.583422073797585
+              },
+              {
+                "x": 255.32086354794842,
+                "y": -43.47024410753997
+              },
+              {
+                "x": 254.37608078031624,
+                "y": -47.35706614128236
+              },
+              {
+                "x": 253.4312980126841,
+                "y": -51.24388817502475
+              },
+              {
+                "x": 252.2793125230857,
+                "y": -55.07251745645352
+              },
+              {
+                "x": 251.06234152989663,
+                "y": -58.88289560064556
+              },
+              {
+                "x": 249.84537053670755,
+                "y": -62.6932737448376
+              },
+              {
+                "x": 248.62839954351844,
+                "y": -66.50365188902964
+              },
+              {
+                "x": 247.28481755849114,
+                "y": -70.2683809622674
+              },
+              {
+                "x": 245.79024292208612,
+                "y": -73.97867025775567
+              },
+              {
+                "x": 244.29566828568113,
+                "y": -77.68895955324393
+              },
+              {
+                "x": 242.8010936492761,
+                "y": -81.3992488487322
+              },
+              {
+                "x": 241.20209337885302,
+                "y": -85.06265469397634
+              },
+              {
+                "x": 239.42253276120215,
+                "y": -88.64499527076494
+              },
+              {
+                "x": 237.64297214355128,
+                "y": -92.22733584755353
+              },
+              {
+                "x": 235.8634115259004,
+                "y": -95.80967642434214
+              },
+              {
+                "x": 233.93749442168698,
+                "y": -99.31147708686356
+              },
+              {
+                "x": 231.86349787672884,
+                "y": -102.73178969414111
+              },
+              {
+                "x": 229.78950133177074,
+                "y": -106.15210230141865
+              },
+              {
+                "x": 227.7155047868126,
+                "y": -109.5724149086962
+              },
+              {
+                "x": 225.38112043588873,
+                "y": -112.8179635647947
+              },
+              {
+                "x": 223.00155642825092,
+                "y": -116.03318908309892
+              },
+              {
+                "x": 220.6219924206131,
+                "y": -119.24841460140314
+              },
+              {
+                "x": 218.1048699310965,
+                "y": -122.35046317324297
+              },
+              {
+                "x": 215.4083220169054,
+                "y": -125.30488855670954
+              },
+              {
+                "x": 212.7117741027143,
+                "y": -128.2593139401761
+              },
+              {
+                "x": 209.936637114728,
+                "y": -131.13313140182268
+              },
+              {
+                "x": 206.91478058043933,
+                "y": -133.75389142253744
+              },
+              {
+                "x": 203.89292404615065,
+                "y": -136.3746514432522
+              },
+              {
+                "x": 200.78408796521526,
+                "y": -138.88035284261358
+              },
+              {
+                "x": 197.43861719889773,
+                "y": -141.07302822937626
+              },
+              {
+                "x": 194.09314643258023,
+                "y": -143.26570361613895
+              },
+              {
+                "x": 190.59751561171652,
+                "y": -145.18501653616732
+              },
+              {
+                "x": 186.95245334727068,
+                "y": -146.83229340673668
+              },
+              {
+                "x": 183.3073910828248,
+                "y": -148.47957027730604
+              },
+              {
+                "x": 179.44726944867705,
+                "y": -149.50843390785366
+              },
+              {
+                "x": 175.5666291411233,
+                "y": -150.4782951367874
+              },
+              {
+                "x": 171.6325432491878,
+                "y": -151.0794532772523
+              },
+              {
+                "x": 167.6362406324172,
+                "y": -151.25139918500426
+              },
+              {
+                "x": 163.64490956825998,
+                "y": -151.34734443742622
+              },
+              {
+                "x": 159.70506184168593,
+                "y": -150.6562584142645
+              },
+              {
+                "x": 155.76521411511192,
+                "y": -149.9651723911028
+              },
+              {
+                "x": 151.99801106879113,
+                "y": -148.67962917515362
+              },
+              {
+                "x": 148.30089568859742,
+                "y": -147.1527572533687
+              },
+              {
+                "x": 144.69641520432185,
+                "y": -145.45393395304802
+              },
+              {
+                "x": 141.38750345498892,
+                "y": -143.20646803892907
+              },
+              {
+                "x": 138.07859170565598,
+                "y": -140.95900212481016
+              },
+              {
+                "x": 136.66666666666669,
+                "y": -140
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "composite": {
+            "closed": false,
+            "points": [
+              {
+                "x": 260.6666666666667,
+                "y": -16
+              },
+              {
+                "x": 246.66666666666669,
+                "y": -118
+              },
+              {
+                "x": 182.66666666666669,
+                "y": -178
+              },
+              {
+                "x": 136.66666666666669,
+                "y": -140
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "bow"
+          }
+        }
+      ],
+      "advance": 380
+    },
+    "y": {
+      "name": "y",
+      "ductusKind": "native",
+      "codepoints": [
+        "y"
+      ],
+      "strokes": [
+        {
+          "id": "y-1",
+          "tool": "dürer pen",
+          "role": "stem",
+          "move": "pull the stem down",
+          "angleDeg": 0,
+          "spine": {
+            "nodes": [
+              {
+                "x": 50,
+                "y": 9
+              },
+              {
+                "x": 50,
+                "y": 491
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "pull"
+          }
+        },
+        {
+          "id": "y-2",
+          "tool": "oblique square",
+          "role": "head",
+          "move": "set the oblique square on the first point",
+          "angleDeg": 45,
+          "spine": {
+            "nodes": [
+              {
+                "x": 33.333333333333336,
+                "y": 499
+              },
+              {
+                "x": 33.333333333333336,
+                "y": 501
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "dab",
+            "config": {
+              "size": 100,
+              "angle": 45
+            }
+          }
+        },
+        {
+          "id": "y-3",
+          "tool": "oblique square",
+          "role": "foot",
+          "move": "set the oblique square on the second point",
+          "angleDeg": 45,
+          "spine": {
+            "nodes": [
+              {
+                "x": 66.66666666666667,
+                "y": -1
+              },
+              {
+                "x": 66.66666666666667,
+                "y": 1
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "dab",
+            "config": {
+              "size": 100,
+              "angle": 45
+            }
+          }
+        },
+        {
+          "id": "y-4",
+          "tool": "dürer pen",
+          "role": "stem",
+          "move": "pull the stem down",
+          "angleDeg": 0,
+          "spine": {
+            "nodes": [
+              {
+                "x": 216.66666666666669,
+                "y": -91
+              },
+              {
+                "x": 216.66666666666669,
+                "y": 491
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "pull"
+          }
+        },
+        {
+          "id": "y-5",
+          "tool": "oblique square",
+          "role": "head",
+          "move": "set the oblique square on the first point",
+          "angleDeg": 45,
+          "spine": {
+            "nodes": [
+              {
+                "x": 200.00000000000003,
+                "y": 499
+              },
+              {
+                "x": 200.00000000000003,
+                "y": 501
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "dab",
+            "config": {
+              "size": 100,
+              "angle": 45
+            }
+          }
+        },
+        {
+          "id": "y-6",
+          "tool": "dürer pen",
+          "role": "tail",
+          "move": "the fifth square split by a diagonal, its tip in front, and a diagonal line produced of one side's length",
+          "angleDeg": -45,
+          "spine": {
+            "nodes": [
+              {
+                "x": 174.66666666666669,
+                "y": -38
+              },
+              {
+                "x": 258.6666666666667,
+                "y": -102
+              },
+              {
+                "x": 329.6666666666667,
+                "y": -173
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "pull"
+          },
+          "points": [
+            {
+              "node": 0,
+              "widthFactor": 1
+            },
+            {
+              "node": 1,
+              "widthFactor": 0.8
+            },
+            {
+              "node": 2,
+              "widthFactor": 0.55
+            }
+          ]
+        }
+      ],
+      "advance": 414
+    },
+    "z": {
+      "name": "z",
+      "ductusKind": "native",
+      "codepoints": [
+        "z"
+      ],
+      "strokes": [
+        {
+          "id": "z-1",
+          "tool": "oblique square",
+          "role": "head",
+          "move": "the first diagonal square, touching the height",
+          "angleDeg": 45,
+          "spine": {
+            "nodes": [
+              {
+                "x": 50,
+                "y": 428.28932188134524
+              },
+              {
+                "x": 50,
+                "y": 430.28932188134524
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "dab",
+            "config": {
+              "size": 100,
+              "angle": 45
+            }
+          }
+        },
+        {
+          "id": "z-2",
+          "tool": "oblique square",
+          "role": "stem",
+          "move": "the second diagonal square",
+          "angleDeg": 45,
+          "spine": {
+            "nodes": [
+              {
+                "x": 50,
+                "y": 286.8679656440358
+              },
+              {
+                "x": 50,
+                "y": 288.8679656440358
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "dab",
+            "config": {
+              "size": 100,
+              "angle": 45
+            }
+          }
+        },
+        {
+          "id": "z-3",
+          "tool": "oblique square",
+          "role": "foot",
+          "move": "the third diagonal square",
+          "angleDeg": 45,
+          "spine": {
+            "nodes": [
+              {
+                "x": 50,
+                "y": 145.44660940672628
+              },
+              {
+                "x": 50,
+                "y": 147.44660940672628
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "dab",
+            "config": {
+              "size": 100,
+              "angle": 45
+            }
+          }
+        },
+        {
+          "id": "z-4",
+          "tool": "dürer pen",
+          "role": "tail",
+          "move": "a rounded extension, its tip verging to the left",
+          "angleDeg": 0,
+          "spine": {
+            "nodes": [
+              {
+                "x": 92,
+                "y": 95.73593128807158
+              },
+              {
+                "x": 92.7632188520219,
+                "y": 91.80941922468526
+              },
+              {
+                "x": 93.52643770404379,
+                "y": 87.88290716129892
+              },
+              {
+                "x": 94.28965655606568,
+                "y": 83.95639509791259
+              },
+              {
+                "x": 94.77367300173928,
+                "y": 79.98830811932348
+              },
+              {
+                "x": 95.1875622915821,
+                "y": 76.00977878604549
+              },
+              {
+                "x": 95.60145158142491,
+                "y": 72.0312494527675
+              },
+              {
+                "x": 95.83982871093649,
+                "y": 68.04169541916812
+              },
+              {
+                "x": 95.92704664025018,
+                "y": 64.04264640311365
+              },
+              {
+                "x": 96.01426456956388,
+                "y": 60.04359738705919
+              },
+              {
+                "x": 96.03486797421613,
+                "y": 56.04564804916334
+              },
+              {
+                "x": 95.81570026720465,
+                "y": 52.051656872883235
+              },
+              {
+                "x": 95.59653256019318,
+                "y": 48.05766569660313
+              },
+              {
+                "x": 95.3773648531817,
+                "y": 44.063674520323026
+              },
+              {
+                "x": 94.91329422029565,
+                "y": 40.09206500376101
+              },
+              {
+                "x": 94.40485684377227,
+                "y": 36.124510160516365
+              },
+              {
+                "x": 93.89641946724889,
+                "y": 32.15695531727172
+              },
+              {
+                "x": 93.26823579154643,
+                "y": 28.20901657223254
+              },
+              {
+                "x": 92.48418855230778,
+                "y": 24.28661043229212
+              },
+              {
+                "x": 91.70014131306915,
+                "y": 20.364204292351708
+              },
+              {
+                "x": 90.91609407383052,
+                "y": 16.441798152411295
+              },
+              {
+                "x": 89.8686641733776,
+                "y": 12.581444302285528
+              },
+              {
+                "x": 88.81922437584423,
+                "y": 8.721563978835963
+              },
+              {
+                "x": 87.76978457831086,
+                "y": 4.861683655386399
+              },
+              {
+                "x": 86.58257946384535,
+                "y": 1.0443104785478678
+              },
+              {
+                "x": 85.27470925505274,
+                "y": -2.735831782922298
+              },
+              {
+                "x": 83.96683904626013,
+                "y": -6.515974044392465
+              },
+              {
+                "x": 82.64126045068357,
+                "y": -10.289305396704004
+              },
+              {
+                "x": 81.07896888906868,
+                "y": -13.97159341864184
+              },
+              {
+                "x": 79.51667732745378,
+                "y": -17.653881440579674
+              },
+              {
+                "x": 77.95438576583886,
+                "y": -21.336169462517514
+              },
+              {
+                "x": 76.23650679264429,
+                "y": -24.94594116939822
+              },
+              {
+                "x": 74.42126017078002,
+                "y": -28.510331678561094
+              },
+              {
+                "x": 72.60601354891575,
+                "y": -32.074722187723964
+              },
+              {
+                "x": 70.74464109825391,
+                "y": -35.61347532606855
+              },
+              {
+                "x": 68.67591898155064,
+                "y": -39.03698066473282
+              },
+              {
+                "x": 66.60719686484737,
+                "y": -42.46048600339709
+              },
+              {
+                "x": 64.5384747481441,
+                "y": -45.88399134206136
+              },
+              {
+                "x": 62.27031570690888,
+                "y": -49.17633433400968
+              },
+              {
+                "x": 59.94639075176221,
+                "y": -52.4320021307676
+              },
+              {
+                "x": 57.622465796615536,
+                "y": -55.68766992752551
+              },
+              {
+                "x": 55.18985677290831,
+                "y": -58.85887724239143
+              },
+              {
+                "x": 52.60891414680366,
+                "y": -61.91481165935068
+              },
+              {
+                "x": 50.02797152069902,
+                "y": -64.97074607630992
+              },
+              {
+                "x": 47.418039779124484,
+                "y": -67.9999381056614
+              },
+              {
+                "x": 44.579777729956376,
+                "y": -70.8184959887378
+              },
+              {
+                "x": 41.741515680788275,
+                "y": -73.63705387181419
+              },
+              {
+                "x": 38.90325363162017,
+                "y": -76.45561175489057
+              },
+              {
+                "x": 35.848215464921275,
+                "y": -79.0341440950955
+              },
+              {
+                "x": 32.75605581704958,
+                "y": -81.57157364329461
+              },
+              {
+                "x": 29.66389616917788,
+                "y": -84.10900319149374
+              },
+              {
+                "x": 26.414515376421285,
+                "y": -86.43341211383391
+              },
+              {
+                "x": 23.078450606864635,
+                "y": -88.64037198055621
+              },
+              {
+                "x": 19.742385837307985,
+                "y": -90.84733184727853
+              },
+              {
+                "x": 18,
+                "y": -92
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              },
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "composite": {
+            "closed": false,
+            "points": [
+              {
+                "x": 92,
+                "y": 95.73593128807158
+              },
+              {
+                "x": 108,
+                "y": 30
+              },
+              {
+                "x": 76,
+                "y": -58
+              },
+              {
+                "x": 18,
+                "y": -92
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "bow"
+          }
+        }
+      ],
+      "advance": 212
+    },
+    "sRound": {
+      "name": "sRound",
+      "ductusKind": "native",
+      "strokes": [
+        {
+          "id": "sRound-1",
+          "tool": "dürer pen",
+          "role": "stem",
+          "move": "a broad vertical limb to the height",
+          "angleDeg": 0,
+          "spine": {
+            "nodes": [
+              {
+                "x": 67,
+                "y": 238.28932188134524
+              },
+              {
+                "x": 67,
+                "y": 491
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "pull"
+          }
+        },
+        {
+          "id": "sRound-2",
+          "tool": "oblique square",
+          "role": "spine",
+          "move": "the near oblique square at the middle height",
+          "angleDeg": 45,
+          "spine": {
+            "nodes": [
+              {
+                "x": 50,
+                "y": 299
+              },
+              {
+                "x": 50,
+                "y": 301
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "dab",
+            "config": {
+              "size": 100,
+              "angle": 45
+            }
+          }
+        },
+        {
+          "id": "sRound-3",
+          "tool": "oblique square",
+          "role": "spine",
+          "move": "the farther oblique square, angles touching",
+          "angleDeg": 45,
+          "spine": {
+            "nodes": [
+              {
+                "x": 191.42135623730948,
+                "y": 299
+              },
+              {
+                "x": 191.42135623730948,
+                "y": 301
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "dab",
+            "config": {
+              "size": 100,
+              "angle": 45
+            }
+          }
+        },
+        {
+          "id": "sRound-4",
+          "tool": "dürer pen",
+          "role": "stem",
+          "move": "a broad limb falling downwards",
+          "angleDeg": 0,
+          "spine": {
+            "nodes": [
+              {
+                "x": 208.42135623730948,
+                "y": 9
+              },
+              {
+                "x": 208.42135623730948,
+                "y": 361.71067811865476
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "pull"
+          }
+        },
+        {
+          "id": "sRound-5",
+          "tool": "dürer pen",
+          "role": "spine",
+          "move": "a diagonal downwards, cutting off both oblique limbs",
+          "angleDeg": -45,
+          "spine": {
+            "nodes": [
+              {
+                "x": 196,
+                "y": 452
+              },
+              {
+                "x": 58,
+                "y": 148
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "pull"
+          }
+        }
+      ],
+      "advance": 317
+    },
+    "j": {
+      "name": "j",
+      "ductusKind": "translated",
+      "codepoints": [
+        "j"
+      ],
+      "strokes": [
+        {
+          "id": "j-1",
+          "tool": "dürer pen",
+          "role": "stem",
+          "move": "pull the stem down",
+          "angleDeg": 0,
+          "spine": {
+            "nodes": [
+              {
+                "x": 50,
+                "y": -191
+              },
+              {
+                "x": 50,
+                "y": 491
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "pull"
+          }
+        },
+        {
+          "id": "j-2",
+          "tool": "oblique square",
+          "role": "head",
+          "move": "set the oblique square on the first point",
+          "angleDeg": 45,
+          "spine": {
+            "nodes": [
+              {
+                "x": 33.333333333333336,
+                "y": 499
+              },
+              {
+                "x": 33.333333333333336,
+                "y": 501
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "dab",
+            "config": {
+              "size": 100,
+              "angle": 45
+            }
+          }
+        },
+        {
+          "id": "j-3",
+          "tool": "oblique square",
+          "role": "foot",
+          "move": "set the oblique square on the second point",
+          "angleDeg": 45,
+          "spine": {
+            "nodes": [
+              {
+                "x": 66.66666666666667,
+                "y": -201
+              },
+              {
+                "x": 66.66666666666667,
+                "y": -199
+              }
+            ],
+            "segments": [
+              {
+                "kind": "line"
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "dab",
+            "config": {
+              "size": 100,
+              "angle": 45
+            }
+          }
+        },
+        {
+          "id": "j-4",
+          "tool": "dürer pen",
+          "role": "head",
+          "move": "the tiny in-crescent, with a fine pen",
+          "angleDeg": 0,
+          "spine": {
+            "nodes": [
+              {
+                "x": 18,
+                "y": 596.7106781186548
+              },
+              {
+                "x": 52,
+                "y": 610.7106781186548
+              },
+              {
+                "x": 84,
+                "y": 594.7106781186548
+              }
+            ],
+            "segments": [
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 30,
+                  "y": 608.7106781186548
+                },
+                "c2": {
+                  "x": 40,
+                  "y": 612.7106781186548
+                }
+              },
+              {
+                "kind": "cubic",
+                "c1": {
+                  "x": 62,
+                  "y": 610.7106781186548
+                },
+                "c2": {
+                  "x": 74,
+                  "y": 604.7106781186548
+                }
+              }
+            ]
+          },
+          "gesture": {
+            "primitive": "flick"
+          },
+          "points": [
+            {
+              "node": 0,
+              "widthFactor": 0.14
+            },
+            {
+              "node": 1,
+              "widthFactor": 0.14
+            },
+            {
+              "node": 2,
+              "widthFactor": 0.14
+            }
+          ]
+        }
+      ],
+      "advance": 209
+    }
+  },
+  "encoding": {
+    "i": "i",
+    "n": "n",
+    "m": "m",
+    "u": "u",
+    "v": "v",
+    "w": "w",
+    "r": "r",
+    "x": "x",
+    "c": "c",
+    "e": "e",
+    "t": "t",
+    "s": "s",
+    "ſ": "s",
+    "f": "f",
+    "l": "l",
+    "b": "b",
+    "q": "q",
+    "h": "h",
+    "d": "d",
+    "o": "o",
+    "p": "p",
+    "k": "k",
+    "a": "a",
+    "g": "g",
+    "y": "y",
+    "z": "z",
+    "j": "j"
+  },
+  "bearings": {
+    "defaultLeft": 17,
+    "defaultRight": 17
+  }
+}

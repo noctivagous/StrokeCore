@@ -22,9 +22,69 @@ export function pointedBrush(name: string, maxWidth: number, length: number): To
   return { name, tip: { kind: "pointed", maxWidth, length }, direction: "any" };
 }
 
-/** Flat brush (sign / Trajan brush): held at an angle, twists at curves. */
-export function flatBrush(name: string, width: number, thickness: number): Tool {
-  return { name, tip: { kind: "flatBrush", width, thickness }, direction: "manner" };
+/**
+ * Flat brush (sign / Trajan brush): held at an angle, ROLLED as it works.
+ * `rollDegPerPressure` declares the tool's roll law (see Tool.roll);
+ * 0 (default) is a rigidly held brush. Catich's Trajan brush work is the
+ * reference behaviour: the roll is what lets one held angle produce both
+ * broad pressed strokes and edge-thin lifted ones.
+ */
+export function flatBrush(
+  name: string,
+  width: number,
+  thickness: number,
+  rollDegPerPressure = 0,
+  restPressure = 0.45,
+  rollOpts: { mode?: "fixed" | "travel"; maxDeg?: number } = {},
+): Tool {
+  const tool: Tool = { name, tip: { kind: "flatBrush", width, thickness }, direction: "manner" };
+  if (rollDegPerPressure !== 0)
+    tool.roll = {
+      degPerPressure: rollDegPerPressure,
+      restPressure,
+      mode: rollOpts.mode ?? "fixed",
+      maxDeg: rollOpts.maxDeg,
+    };
+  return tool;
+}
+
+/** Extra tip rotation (degrees) from a FIXED-frame roll law at a pressure. */
+export function rollOffsetDeg(tool: Tool, pressure: number): number {
+  if (!tool.roll) return 0;
+  return tool.roll.degPerPressure * (tool.roll.restPressure - clamp01(pressure));
+}
+
+/**
+ * The roll offset for one spine sample. Fixed mode ignores direction;
+ * travel mode rotates toward the face orientation (width axis square to
+ * travel) when pressed and toward the edge (axis along travel) when
+ * lifted, capped by maxDeg and by the rotation actually available. The
+ * tip axis is undirected, so all angle differences are taken mod 180°.
+ */
+export function rollOffsetForSample(
+  tool: Tool,
+  pressure: number,
+  baseAngleDeg: number,
+  tangentDeg: number,
+): number {
+  if (!tool.roll) return 0;
+  if (tool.roll.mode !== "travel") return rollOffsetDeg(tool, pressure);
+  const maxDeg = tool.roll.maxDeg ?? 40;
+  const raw = Math.max(
+    -maxDeg,
+    Math.min(maxDeg, tool.roll.degPerPressure * (clamp01(pressure) - tool.roll.restPressure)),
+  );
+  // Signed shortest rotation from the held axis to the face orientation.
+  let delta = (tangentDeg + 90 - baseAngleDeg) % 180;
+  if (delta > 90) delta -= 180;
+  if (delta < -90) delta += 180;
+  // Stop 1.5° short of exact square / exact edge alignment: landing
+  // exactly ON the travel line makes consecutive tip stamps share
+  // collinear edges, which the union's sweep line cannot resolve (and
+  // a real brush never aligns exactly either).
+  const EPS = 1.5;
+  if (raw >= 0) return Math.sign(delta) * Math.min(raw, Math.max(0, Math.abs(delta) - EPS));
+  return -Math.sign(delta) * Math.min(-raw, Math.max(0, 90 - Math.abs(delta) - EPS));
 }
 
 const clamp01 = (v: number): number => Math.min(1, Math.max(0, v));
